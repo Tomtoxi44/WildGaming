@@ -1,12 +1,14 @@
-import Home from "./pages/Home";
-
-import "./App.css";
+import React from "react";
+import NavBar from "./components/navBar/NavBar";
+import "./components/navBar/navBar.scss";
+import HeroImage from "./components/navBar/HeroImage";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <p>coucou</p>
+      <NavBar />
+
+      <HeroImage />
     </div>
   );
 }
