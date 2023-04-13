@@ -1,9 +1,21 @@
 import React from "react";
 import ConsoleButton from "./components/ConsoleButton/ConsoleButton";
+import NavBar from "./components/navBar/NavBar";
+import "./components/navBar/navBar.scss";
+import HeroImage from "./components/navBar/HeroImage";
+import Footer from "@components/footer/Footer";
+import "./App.css";
+import MiniCard from "./components/MiniCard/MiniCard";
 
 function App() {
   return (
-    <div>
+    <div className="App">
+
+      <NavBar />
+      <HeroImage />
+      <MiniCard />
+      
+      <div>
       <h1>CONSOLE : </h1>
       <div>
         <ConsoleButton nom="PlayStation 4" classe="bouton-ps4" />
@@ -21,6 +33,8 @@ function App() {
         <ConsoleButton nom="FPS" classe="bouton-FPS" />
         <ConsoleButton nom="Sport" classe="bouton-sport" />
       </div>
+      
+      <Footer />
     </div>
   );
 }
