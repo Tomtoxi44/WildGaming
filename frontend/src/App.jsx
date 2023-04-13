@@ -1,12 +1,10 @@
-import Home from "./pages/Home";
-
-import "./App.css";
+import React from "react";
+import Footer from "@components/footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <p>coucou</p>
+      <Footer />
     </div>
   );
 }
