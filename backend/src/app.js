@@ -55,6 +55,12 @@ if (fs.existsSync(reactIndexFile)) {
   });
 }
 
+const jeux = require("./services/jeux.json");
+
+app.get("/api/jeux", (req, res) => {
+  res.status(200).send(jeux);
+});
+
 // ready to export
 
 module.exports = app;
