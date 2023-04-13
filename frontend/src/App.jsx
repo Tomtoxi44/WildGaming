@@ -24,7 +24,7 @@ function App() {
       <ConsoleButton nom="Xbox" classe="bouton-xbox" />
       <ConsoleButton nom="PC" classe="bouton-pc" />
       <ConsoleButton nom="Switch" classe="bouton-switch" />
-      <ConsoleButton nom="Game boy" class="bouton-Game-boy" />
+      <ConsoleButton nom="Game boy" classe="bouton-Game-boy" />
       <h2>GENRE :</h2>
       <div>
         <ConsoleButton nom="Aventure" classe="bouton-aventure" />
