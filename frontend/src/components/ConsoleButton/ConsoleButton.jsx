@@ -7,32 +7,7 @@ function ConsoleButton({ nom, classe }) {
     console.info(nom);
   }
 
-  let color = "";
-  switch (nom) {
-    case "Game boy":
-      color = "darkslateblue";
-      break;
-    case "Xbox":
-      color = "green";
-      break;
-    case "PlayStation 4":
-      color = "blue";
-      break;
-    case "PlayStation 5":
-      color = "blue";
-      break;
-    case "Switch":
-      color = "red";
-      break;
-    case "PC":
-      color = "rosybrown";
-      break;
-    default:
-      color = "black";
-  }
-
   const style = {
-    backgroundColor: color,
     color: "white",
     border: "none",
     padding: "10px 20px",
