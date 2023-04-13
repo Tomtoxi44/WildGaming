@@ -31,9 +31,10 @@
     "husky": "^8.0.3"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3",
-    "react-bootstrap": "^2.7.3",
-    "react-icons": "^4.8.0",
+
+
+    "react-router-dom": "^6.10.0",
+
     "sass": "^1.62.0"
   }
 }
