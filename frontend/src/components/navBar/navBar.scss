@@ -5,7 +5,7 @@
 
   .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: #2d2d2d;
     width: 100%;
@@ -14,20 +14,34 @@
   }
 
   .loupe {
-    width: 7%;
+    width: 4%;
     position: absolute;
     left: 10px;
+    cursor: pointer;
   }
 
   .logo {
-    height: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
+    img {
+      width: 40%;
+    }
   }
 
   .hero-image {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .navbar {
+    height: 5vh;
+  }
+
+  .logo {
+    img {
+      width: 50%;
+    }
   }
 }

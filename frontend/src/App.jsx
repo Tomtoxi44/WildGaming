@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import ConsoleButton from "./components/ConsoleButton/ConsoleButton";
 import NavBar from "./components/navBar/NavBar";
 import HeroImage from "./components/navBar/HeroImage";
@@ -8,11 +9,23 @@ import MiniCard from "./components/MiniCard/MiniCard";
 import "./index.scss";
 
 function App() {
+  const [cards, setCards] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:5002/api/jeux")
+      .then((res) => {
+        // console.log(res.data)
+        setCards(res.data);
+      })
+      .catch((err) => console.error(err));
+  }, []);
+
   return (
     <div className="App">
       <NavBar />
       <HeroImage />
-      <MiniCard />
+      <MiniCard cards={cards} />
 
       <div>
         <h1>CONSOLE : </h1>
