@@ -1,5 +1,4 @@
 import React from "react";
-import "./navBar.scss";
 import LogoTitle from "../../assets/wild_gaming_title.png";
 import loupe from "../../assets/Loupe.png";
 

@@ -1,11 +1,11 @@
 import React from "react";
 import ConsoleButton from "./components/ConsoleButton/ConsoleButton";
 import NavBar from "./components/navBar/NavBar";
-import "./components/navBar/navBar.scss";
 import HeroImage from "./components/navBar/HeroImage";
 import Footer from "./components/footer/Footer";
 import "./App.css";
 import MiniCard from "./components/MiniCard/MiniCard";
+import "./index.scss";
 
 function App() {
   return (
