@@ -1,5 +1,3 @@
-import "./miniCard.scss";
-
 function MiniCard() {
   return (
     <div className="container">

@@ -15,7 +15,10 @@
     background-color: #c9c2bd;
     cursor: pointer;
   }
-
+  .imgMiniCard {
+    display: flex;
+    justify-content: center;
+  }
   .img {
     width: 80%;
     border-radius: 5px;
