@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    background-color: #2d2d2d;
+
+    a {
+      margin: 0 6px;
+
+      svg {
+        width: 25px;
+        height: 25px;
+        color: #ff5c01;
+      }
+    }
+  }
+}

@@ -17,7 +17,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL ?? "http://localhost:3000",
+    origin: process.env.FRONTEND_URL ?? "http://localhost:5173",
     optionsSuccessStatus: 200,
   })
 );
@@ -54,6 +54,12 @@ if (fs.existsSync(reactIndexFile)) {
     res.sendFile(reactIndexFile);
   });
 }
+
+const jeux = require("./services/jeux.json");
+
+app.get("/api/jeux", (req, res) => {
+  res.status(200).send(jeux);
+});
 
 // ready to export
 

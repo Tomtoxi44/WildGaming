@@ -1,0 +1,1311 @@
+[
+  {
+    "titre": "A Plague Tale: Innocence",
+    "description": "A Plague Tale: Innocence est un jeu d'action-aventure développé par Asobo Studio et édité par Focus Home Interactive. Il se déroule en France au XIVe siècle, pendant une épidémie de peste noire, et suit les aventures d'Amicia et de son frère Hugo.",
+    "annee_sortie": 2019,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "Asobo Studio",
+    "editeur": "Focus Home Interactive",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/a-plague-tale-innocence.jpg",
+    "id": 1
+  },
+  {
+    "titre": "A Way Out",
+    "description": "A Way Out est un jeu d'action-aventure développé par Hazelight Studios et édité par Electronic Arts. Il propose une expérience de jeu en coopération, où deux joueurs incarnent deux personnages qui tentent de s'évader de prison et de se venger de leur ancien patron.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Hazelight Studios",
+    "editeur": "Electronic Arts",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/a-way-out.jpg",
+    "id": 2
+  },
+  {
+    "titre": "Abzû",
+    "description": "Abzû est un jeu d'aventure sous-marin développé par Giant Squid Studios et édité par 505 Games. Les joueurs plongent dans les profondeurs de l'océan pour explorer les environnements sous-marins magnifiques et découvrir les mystères cachés dans les profondeurs de l'océan.",
+    "annee_sortie": 2016,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "Giant Squid Studios",
+    "editeur": "505 Games",
+    "genre": ["Aventure", "Exploration sous-marine"],
+    "jacket_url": "http://localhost:5002/abzu-jaquette.jpg",
+    "id": 3
+  },
+  {
+    "titre": "Ace Combat 7: Skies Unknown",
+    "description": "Ace Combat 7: Skies Unknown est un jeu de simulation de vol développé et édité par Bandai Namco. Les joueurs pilotent différents avions de chasse pour effectuer des missions aériennes dans un monde fictif où plusieurs pays s'affrontent dans une guerre pour le contrôle des cieux.",
+    "annee_sortie": 2019,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Bandai Namco Studios",
+    "editeur": "Bandai Namco Entertainment",
+    "genre": ["Simulation de vol", "Action"],
+    "jacket_url": "http://localhost:5002/ace-combat-7-skies-unkn.jpg",
+    "id": 4
+  },
+  {
+    "titre": "ARK: Survival Evolved",
+    "description": "ARK: Survival Evolved est un jeu de survie et d'aventure développé par Studio Wildcard. Les joueurs doivent survivre dans un monde peuplé de dinosaures et d'autres créatures préhistoriques tout en cherchant des ressources pour construire des outils, des armes et des abris.",
+    "annee_sortie": 2015,
+    "plateforme": [
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "developpeur": "Studio Wildcard",
+    "editeur": "Studio Wildcard",
+    "genre": ["Survie", "Aventure", "Action"],
+    "jacket_url": "http://localhost:5002/ark-survival-evolved.jpg",
+    "id": 5
+  },
+  {
+    "titre": "Assassin's Creed Odyssey",
+    "description": "Assassin's Creed Odyssey est un jeu d'action-aventure développé par Ubisoft Québec. Les joueurs incarnent un mercenaire grec qui explore la Grèce antique pendant la guerre du Péloponnèse et doivent naviguer entre les différents camps pour découvrir les secrets de leur propre passé.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "Ubisoft Québec",
+    "editeur": "Ubisoft",
+    "genre": ["Action-aventure", "RPG"],
+    "jacket_url": "http://localhost:5002/assassin-s-creed-odyssey.jpg",
+    "id": 6
+  },
+  {
+    "titre": "Assassin's Creed Valhalla",
+    "description": "Assassin's Creed Valhalla est un jeu d'action-aventure développé et édité par Ubisoft. Il se déroule en Angleterre au IXe siècle, alors que les Vikings envahissent le pays.",
+    "annee_sortie": 2020,
+    "plateforme": [
+      "PlayStation 5",
+      "PlayStation 4",
+      "Xbox Series X/S",
+      "Xbox One",
+      "PC",
+      "Stadia"
+    ],
+    "developpeur": "Ubisoft Montreal",
+    "editeur": "Ubisoft",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/assassin-s-creed-valhalla.jpg",
+    "id": 7
+  },
+  {
+    "titre": "Batman: Arkham Knight",
+    "description": "Batman: Arkham Knight est un jeu vidéo d'action-aventure développé par Rocksteady Studios et édité par Warner Bros. Interactive Entertainment. Les joueurs incarnent le célèbre super-héros Batman et luttent contre les criminels de Gotham City, dont le mystérieux Scarecrow.",
+    "annee_sortie": 2015,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Rocksteady Studios",
+    "editeur": "Warner Bros. Interactive Entertainment",
+    "genre": ["Action-aventure"],
+    "jacket_url": "http://localhost:5002/batman-arkham-knight.jpg",
+    "id": 8
+  },
+  {
+    "titre": "BioShock Infinite",
+    "description": "BioShock Infinite est un jeu de tir à la première personne développé par Irrational Games et édité par 2K Games. Les joueurs incarnent Booker DeWitt, un ancien détective qui doit sauver Elizabeth, une jeune femme mystérieuse, de la ville flottante de Columbia, qui cache de nombreux secrets.",
+    "annee_sortie": 2013,
+    "plateforme": ["PlayStation 3", "Xbox 360", "PC"],
+    "developpeur": "Irrational Games",
+    "editeur": "2K Games",
+    "genre": ["FPS", "Action"],
+    "jacket_url": "http://localhost:5002/bioshock-infinite-jaquett.jpg",
+    "id": 9
+  },
+  {
+    "titre": "Call of Duty: Modern Warfare",
+    "description": "Call of Duty: Modern Warfare est un jeu de tir à la première personne développé par Infinity Ward et édité par Activision. Les joueurs participent à des missions militaires secrètes dans divers pays du monde et doivent faire face à des menaces terroristes.",
+    "annee_sortie": 2019,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Infinity Ward",
+    "editeur": "Activision",
+    "genre": ["FPS", "Action"],
+    "jacket_url": "http://localhost:5002/call-of-duty-modern-war.jpg",
+    "id": 10
+  },
+  {
+    "titre": "Celeste",
+    "description": "Celeste est un jeu de plates-formes développé par Maddy Makes Games et édité par Matt Makes Games. Les joueurs incarnent Madeline, une jeune femme qui grimpe une montagne appelée Celeste. Le jeu est connu pour sa difficulté élevée et son histoire touchante sur la lutte contre la dépression et l'anxiété.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "Maddy Makes Games",
+    "editeur": "Matt Makes Games",
+    "genre": ["Plate-formes"],
+    "jacket_url": "http://localhost:5002/Celeste.jpg",
+    "id": 11
+  },
+  {
+    "titre": "Control",
+    "description": "Control est un jeu d'action-aventure développé par Remedy Entertainment et édité par 505 Games. Le joueur incarne Jesse Faden, une jeune femme dotée de pouvoirs surnaturels qui doit explorer un bâtiment gouvernemental mystérieux.",
+    "annee_sortie": 2019,
+    "plateforme": [
+      "PlayStation 5",
+      "PlayStation 4",
+      "Xbox Series X/S",
+      "Xbox One",
+      "PC"
+    ],
+    "developpeur": "Remedy Entertainment",
+    "editeur": "505 Games",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/control.jpg",
+    "id": 12
+  },
+  {
+    "titre": "Cuphead",
+    "description": "Cuphead est un jeu de plates-formes avec des éléments de shoot 'em up, développé et édité par StudioMDHR. Les joueurs incarnent Cuphead et Mugman, deux personnages qui ont perdu un pari avec le diable et doivent rembourser leur dette en collectant des âmes pour le diable.",
+    "annee_sortie": 2017,
+    "plateforme": ["Xbox One", "PC", "Nintendo Switch", "PlayStation 4"],
+    "developpeur": "StudioMDHR",
+    "editeur": "StudioMDHR",
+    "genre": ["Plate-formes", "Shoot 'em up"],
+    "jacket_url": "http://localhost:5002/cuphead.jpg",
+    "id": 13
+  },
+  {
+    "titre": "Dark Souls III",
+    "description": "Dark Souls III est un jeu d'action-RPG développé par FromSoftware et édité par Bandai Namco. Les joueurs incarnent un personnage qui explore un monde sombre et dangereux rempli de pièges et de monstres. Le jeu est connu pour sa difficulté élevée et son atmosphère lugubre.",
+    "annee_sortie": 2016,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "FromSoftware",
+    "editeur": "Bandai Namco",
+    "genre": ["Action-RPG"],
+    "jacket_url": "http://localhost:5002/dark-souls-3.jpg",
+    "id": 14
+  },
+  {
+    "titre": "Days Gone",
+    "description": "Days Gone est un jeu d'action-aventure développé par SIE Bend Studio et édité par Sony Interactive Entertainment. Les joueurs incarnent Deacon St. John, un motard qui explore un monde post-apocalyptique rempli de zombies. Le jeu se concentre sur l'histoire de Deacon et sa recherche de son épouse disparue.",
+    "annee_sortie": 2019,
+    "plateforme": ["PlayStation 4"],
+    "developpeur": "SIE Bend Studio",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Action-aventure"],
+    "jacket_url": "http://localhost:5002/days-gone.jpg",
+    "id": 15
+  },
+  {
+    "titre": "Death Stranding",
+    "description": "Death Stranding est un jeu d'action-aventure développé par Kojima Productions et édité par Sony Interactive Entertainment. Les joueurs incarnent Sam Bridges, un coursier qui doit livrer des colis dans un monde post-apocalyptique rempli de créatures surnaturelles. Le jeu se concentre sur l'histoire de Sam et son voyage pour reconnecter une Amérique fragmentée.",
+    "annee_sortie": 2019,
+    "plateforme": ["PlayStation 4", "PC"],
+    "developpeur": "Kojima Productions",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Action-aventure"],
+    "jacket_url": "http://localhost:5002/death-stranding.jpg",
+    "id": 16
+  },
+  {
+    "titre": "Demon's Souls",
+    "description": "Demon's Souls est un jeu de rôle d'action développé par FromSoftware et édité par Sony Interactive Entertainment. Il se déroule dans un monde fantastique où le joueur incarne un aventurier qui doit explorer des donjons dangereux et vaincre des monstres pour sauver le royaume de Boletaria.",
+    "annee_sortie": 2020,
+    "plateforme": ["PlayStation 5"],
+    "developpeur": "FromSoftware",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Action", "RPG"],
+    "jacket_url": "http://localhost:5002/demon-s-souls.jpg",
+    "id": 17
+  },
+  {
+    "titre": "Destiny 2",
+    "description": "Destiny 2 est un jeu de tir à la première personne en ligne massivement multijoueur développé par Bungie et édité par Activision. Il propose un monde de science-fiction ouvert, où les joueurs peuvent explorer des planètes, effectuer des missions et affronter des ennemis.",
+    "annee_sortie": 2017,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Bungie",
+    "editeur": "Activision",
+    "genre": ["FPS", "MMO"],
+    "jacket_url": "http://localhost:5002/destiny-2.jpg",
+    "id": 18
+  },
+  {
+    "titre": "Detroit: Become Human",
+    "description": "Detroit: Become Human est un jeu d'aventure développé par Quantic Dream et édité par Sony Interactive Entertainment. Il se déroule dans un futur proche où les androïdes sont devenus une part importante de la société, et suit l'histoire de trois androïdes qui deviennent conscients de leur existence et de leur libre-arbitre.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "PC"],
+    "developpeur": "Quantic Dream",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Aventure"],
+    "jacket_url": "http://localhost:5002/detroit-become-human.jpg",
+    "id": 19
+  },
+  {
+    "titre": "Diablo III",
+    "description": "Diablo III est un jeu de rôle d'action développé et édité par Blizzard Entertainment. Il se déroule dans un monde fantastique où le joueur incarne un héros qui doit vaincre des démons et des monstres pour sauver le monde de Sanctuaire.",
+    "annee_sortie": 2012,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "Blizzard Entertainment",
+    "editeur": "Blizzard Entertainment",
+    "genre": ["Action", "RPG"],
+    "jacket_url": "http://localhost:5002/diablo-iii.jpg",
+    "id": 20
+  },
+  {
+    "titre": "Doom Eternal",
+    "description": "Doom Eternal est un jeu de tir à la première personne développé par id Software et édité par Bethesda Softworks. Il met en scène le Doom Slayer, un guerrier solitaire qui doit affronter des démons dans des environnements infernaux.",
+    "annee_sortie": 2020,
+    "plateforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch",
+      "PC"
+    ],
+    "developpeur": "id Software",
+    "editeur": "Bethesda Softworks",
+    "genre": ["FPS"],
+    "jacket_url": "http://localhost:5002/doom-eternal.jpg",
+    "id": 21
+  },
+  {
+    "titre": "Dragon Age: Inquisition",
+    "description": "Dragon Age: Inquisition est un jeu de rôle développé par BioWare et édité par Electronic Arts. Il se déroule dans un monde de fantasy où le joueur incarne le chef de l'Inquisition, une organisation chargée de sauver le monde de la destruction.",
+    "annee_sortie": 2014,
+    "plateforme": [
+      "PlayStation 4",
+      "Xbox One",
+      "PlayStation 3",
+      "Xbox 360",
+      "PC"
+    ],
+    "developpeur": "BioWare",
+    "editeur": "Electronic Arts",
+    "genre": ["RPG"],
+    "jacket_url": "http://localhost:5002/dragon-age-inquisition.jpg",
+    "id": 22
+  },
+  {
+    "titre": "Dragon Quest XI",
+    "description": "Dragon Quest XI est un jeu de rôle développé et édité par Square Enix. Le joueur incarne un héros qui doit sauver le monde d'un mal ancien en voyageant à travers différentes régions et en affrontant des monstres.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Nintendo Switch", "PC"],
+    "developpeur": "Square Enix",
+    "editeur": "Square Enix",
+    "genre": ["RPG"],
+    "jacket_url": "http://localhost:5002/dragon-quest-xi.jpg",
+    "id": 23
+  },
+  {
+    "titre": "Dreams",
+    "description": "Dreams est un jeu de création développé par Media Molecule et édité par Sony Interactive Entertainment. Il permet aux joueurs de créer et de partager leurs propres jeux, niveaux et musiques.",
+    "annee_sortie": 2020,
+    "plateforme": ["PlayStation 4"],
+    "developpeur": "Media Molecule",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Création"],
+    "jacket_url": "http://localhost:5002/dreams.jpg",
+    "id": 24
+  },
+  {
+    "titre": "Fallout 4",
+    "description": "Fallout 4 est un jeu de rôle et de tir à la première personne développé par Bethesda Game Studios et édité par Bethesda Softworks. Il se déroule dans un monde post-apocalyptique où le joueur doit survivre et combattre des ennemis, tout en recherchant son fils disparu.",
+    "annee_sortie": 2015,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Bethesda Game Studios",
+    "editeur": "Bethesda Softworks",
+    "genre": ["RPG", "FPS"],
+    "jacket_url": "http://localhost:5002/fallout-4.jpg",
+    "id": 25
+  },
+  {
+    "titre": "Far Cry 5",
+    "description": "Far Cry 5 est un jeu de tir à la première personne développé et édité par Ubisoft. Il se déroule dans un comté fictif de l'État du Montana, aux États-Unis, où le joueur doit combattre un culte apocalyptique.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Ubisoft Montréal",
+    "editeur": "Ubisoft",
+    "genre": ["FPS", "Open world"],
+    "jacket_url": "http://localhost:5002/far-cry-5.jpg",
+    "id": 26
+  },
+  {
+    "titre": "Final Fantasy VII Remake",
+    "description": "Final Fantasy VII Remake est un jeu de rôle développé et édité par Square Enix. Il est basé sur le jeu vidéo original Final Fantasy VII sorti en 1997, mais avec des graphismes et une jouabilité améliorés.",
+    "annee_sortie": 2020,
+    "plateforme": ["PlayStation 4"],
+    "developpeur": "Square Enix",
+    "editeur": "Square Enix",
+    "genre": ["RPG"],
+    "jacket_url": "http://localhost:5002/final-fantasy-vii-remake.jpg",
+    "id": 27
+  },
+  {
+    "titre": "Firewatch",
+    "description": "Firewatch est un jeu d'aventure développé par Campo Santo et édité par Panic Inc. Il se déroule dans le parc national de Yellowstone, où le joueur incarne un garde forestier qui doit enquêter sur des événements étranges.",
+    "annee_sortie": 2016,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "Campo Santo",
+    "editeur": "Panic Inc.",
+    "genre": ["Aventure", "Narratif"],
+    "jacket_url": "http://localhost:5002/firewatch.jpg",
+    "id": 28
+  },
+  {
+    "titre": "Forza Horizon 4",
+    "description": "Forza Horizon 4 est un jeu de course développé par Playground Games et édité par Xbox Game Studios. Le jeu se déroule dans un monde ouvert fictif inspiré de la Grande-Bretagne, où les joueurs peuvent participer à des courses et explorer l'environnement.",
+    "annee_sortie": 2018,
+    "plateforme": ["Xbox One", "PC"],
+    "developpeur": "Playground Games",
+    "editeur": "Xbox Game Studios",
+    "genre": ["Course", "Monde ouvert"],
+    "jacket_url": "http://localhost:5002/forza-horizon-4.jpg",
+    "id": 29
+  },
+  {
+    "titre": "Ghost of Tsushima",
+    "description": "Ghost of Tsushima est un jeu d'action-aventure développé par Sucker Punch Productions et édité par Sony Interactive Entertainment. Il se déroule dans le Japon médiéval, où le joueur incarne un samouraï qui doit protéger son île des envahisseurs mongols.",
+    "annee_sortie": 2020,
+    "plateforme": ["PlayStation 4", "PlayStation 5"],
+    "developpeur": "Sucker Punch Productions",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Action-aventure", "Monde ouvert"],
+    "jacket_url": "http://localhost:5002/ghost-of-tsushima.jpg",
+    "id": 30
+  },
+  {
+    "titre": "God of War",
+    "description": "God of War est un jeu d'action-aventure développé par Santa Monica Studio et édité par Sony Interactive Entertainment. Il s'agit du huitième épisode de la série God of War, dans lequel le joueur incarne Kratos, un guerrier spartiate qui doit protéger son fils Atreus et affronter les dieux nordiques.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4"],
+    "developpeur": "Santa Monica Studio",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Action-aventure"],
+    "jacket_url": "http://localhost:5002/god-of-war.jpg",
+    "id": 31
+  },
+  {
+    "titre": "Grand Theft Auto V",
+    "description": "Grand Theft Auto V est un jeu vidéo d'action-aventure en monde ouvert développé par Rockstar North et édité par Rockstar Games. Il est sorti en septembre 2013 sur PlayStation 3 et Xbox 360, en novembre 2014 sur PlayStation 4 et Xbox One, et en avril 2015 sur Microsoft Windows.",
+    "annee_sortie": 2013,
+    "plateforme": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PlayStation 4",
+      "Xbox One",
+      "Microsoft Windows"
+    ],
+    "developpeur": "Rockstar North",
+    "editeur": "Rockstar Games",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/gta-5.jpg",
+    "id": 32
+  },
+  {
+    "titre": "Hades",
+    "description": "Hades est un jeu vidéo de type rogue-like développé et édité par Supergiant Games. Le jeu est sorti en septembre 2020 sur Microsoft Windows et Nintendo Switch.",
+    "annee_sortie": 2020,
+    "plateforme": ["Microsoft Windows", "Nintendo Switch"],
+    "developpeur": "Supergiant Games",
+    "editeur": "Supergiant Games",
+    "genre": ["Rogue-like"],
+    "jacket_url": "http://localhost:5002/hades.jpg",
+    "id": 33
+  },
+  {
+    "titre": "Halo 5: Guardians",
+    "description": "Halo 5: Guardians est un jeu vidéo de tir à la première personne développé par 343 Industries et édité par Microsoft Studios. Il est sorti en octobre 2015 sur Xbox One.",
+    "annee_sortie": 2015,
+    "plateforme": ["Xbox One"],
+    "developpeur": "343 Industries",
+    "editeur": "Microsoft Studios",
+    "genre": ["FPS"],
+    "jacket_url": "http://localhost:5002/halo-5-guardians.jpg",
+    "id": 34
+  },
+  {
+    "titre": "Hellblade: Senua's Sacrifice",
+    "description": "Hellblade: Senua's Sacrifice est un jeu vidéo d'action-aventure et de hack and slash développé et édité par Ninja Theory.",
+    "annee_sortie": 2017,
+    "plateforme": [
+      "PlayStation 4, Xbox One, Nintendo Switch, Microsoft Windows"
+    ],
+    "developpeur": "Ninja Theory",
+    "editeur": "Ninja Theory",
+    "genre": ["Action-aventure, Hack and slash"],
+    "jacket_url": "http://localhost:5002/hellblade-senua-s-sacri.jpg",
+    "id": 35
+  },
+  {
+    "titre": "Horizon Zero Dawn",
+    "description": "Horizon Zero Dawn est un jeu de rôle et d'action développé par Guerrilla Games et édité par Sony Interactive Entertainment.",
+    "annee_sortie": 2017,
+    "plateforme": ["PlayStation 4, Microsoft Windows"],
+    "developpeur": "Guerrilla Games",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Action-RPG"],
+    "jacket_url": "http://localhost:5002/horizon-zero-dawn.jpg",
+    "id": 36
+  },
+  {
+    "titre": "Inside",
+    "description": "Inside est un jeu vidéo de plates-formes et d'énigmes développé et édité par Playdead.",
+    "annee_sortie": 2016,
+    "plateforme": [
+      "PlayStation 4, Xbox One, Nintendo Switch, Microsoft Windows"
+    ],
+    "developpeur": "Playdead",
+    "editeur": "Playdead",
+    "genre": ["Plate-forme, Puzzle-platformer"],
+    "jacket_url": "http://localhost:5002/inside.jpg",
+    "id": 37
+  },
+  {
+    "titre": "Journey",
+    "description": "Journey est un jeu vidéo d'aventure développé par Thatgamecompany et édité par Sony Computer Entertainment.",
+    "annee_sortie": 2012,
+    "plateforme": ["PlayStation 4, PlayStation 3, Microsoft Windows, iOS"],
+    "developpeur": "Thatgamecompany",
+    "editeur": "Sony Computer Entertainment",
+    "genre": ["Aventure"],
+    "jacket_url": "http://localhost:5002/journey.jpg",
+    "id": 38
+  },
+  {
+    "titre": "Kentucky Route Zero",
+    "description": "Kentucky Route Zero est un jeu vidéo d'aventure graphique développé et édité par Cardboard Computer.",
+    "annee_sortie": 2013,
+    "plateforme": [
+      "Microsoft Windows, macOS, Linux, Nintendo Switch, PlayStation 4, Xbox One, iOS"
+    ],
+    "developpeur": "Cardboard Computer",
+    "editeur": "Cardboard Computer",
+    "genre": ["Aventure graphique"],
+    "jacket_url": "http://localhost:5002/kentucky.jpg",
+    "id": 39
+  },
+  {
+    "titre": "Kerbal Space Program",
+    "description": "Kerbal Space Program est un simulateur spatial qui permet aux joueurs de construire et de gérer leur propre programme spatial.",
+    "annee_sortie": 2015,
+    "plateforme": ["PC", "PlayStation 4", "Xbox One"],
+    "developpeur": "Squad",
+    "editeur": "Private Division",
+    "genre": ["Simulation", "Espace"],
+    "jacket_url": "http://localhost:5002/kerbal-space-program.webp",
+    "id": 40
+  },
+  {
+    "titre": "Life is Strange",
+    "description": "Life is Strange est un jeu d'aventure épisodique dans lequel les joueurs incarnent une étudiante qui découvre qu'elle a le pouvoir de remonter le temps.",
+    "annee_sortie": 2015,
+    "plateforme": ["PC", "PlayStation 4", "Xbox One"],
+    "developpeur": "Dontnod Entertainment",
+    "editeur": "Square Enix",
+    "genre": ["Aventure", "Narratif"],
+    "jacket_url": "http://localhost:5002/life-is-strange.jpg",
+    "id": 41
+  },
+  {
+    "titre": "Limbo",
+    "description": "Limbo est un jeu de plateforme et de réflexion dans lequel les joueurs incarnent un jeune garçon qui doit traverser un monde étrange et hostile pour retrouver sa sœur.",
+    "annee_sortie": 2010,
+    "plateforme": [
+      "PC",
+      "PlayStation 3",
+      "Xbox 360",
+      "PlayStation Vita",
+      "iOS",
+      "Android",
+      "Nintendo Switch"
+    ],
+    "developpeur": "Playdead",
+    "editeur": "Playdead",
+    "genre": ["Plateforme", "Réflexion"],
+    "jacket_url": "http://localhost:5002/limbo.jpg",
+    "id": 42
+  },
+  {
+    "titre": "Little Nightmares",
+    "description": "Little Nightmares est un jeu vidéo d'aventure et de réflexion développé par Tarsier Studios et édité par Bandai Namco Entertainment.",
+    "annee_sortie": 2017,
+    "plateforme": ["PC, PlayStation 4, Xbox One, Nintendo Switch"],
+    "developpeur": "Tarsier Studios",
+    "editeur": "Bandai Namco Entertainment",
+    "genre": ["Aventure, réflexion"],
+    "jacket_url": "http://localhost:5002/little-nightmares-jaquett.jpg",
+    "id": 43
+  },
+  {
+    "titre": "Mafia III",
+    "description": "Mafia III est un jeu vidéo d'action-aventure développé par Hangar 13 et édité par 2K Games.",
+    "annee_sortie": 2016,
+    "plateforme": ["PC, PlayStation 4, Xbox One"],
+    "developpeur": "Hangar 13",
+    "editeur": "2K Games",
+    "genre": ["Action-aventure"],
+    "jacket_url": "http://localhost:5002/mafia-iii.jpg",
+    "id": 44
+  },
+  {
+    "titre": "Mario Kart 8 Deluxe",
+    "description": "Mario Kart 8 Deluxe est un jeu vidéo de course développé et édité par Nintendo.",
+    "annee_sortie": 2017,
+    "plateforme": ["Nintendo Switch"],
+    "developpeur": "Nintendo EAD",
+    "editeur": "Nintendo",
+    "genre": ["Course"],
+    "jacket_url": "http://localhost:5002/mario-kart-8-deluxe.jpg",
+    "id": 45
+  },
+  {
+    "titre": "Marvel's Spider-Man",
+    "description": "Marvel's Spider-Man est un jeu vidéo d'action-aventure développé par Insomniac Games et édité par Sony Interactive Entertainment.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4, PlayStation 5"],
+    "developpeur": "Insomniac Games",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Action-aventure"],
+    "jacket_url": "http://localhost:5002/spider-man.jpg",
+    "id": 46
+  },
+  {
+    "titre": "Mass Effect: Andromeda",
+    "description": "Mass Effect: Andromeda est un jeu vidéo de rôle et d'action développé par BioWare et édité par Electronic Arts. Il s'agit du quatrième opus de la série Mass Effect.",
+    "annee_sortie": 2017,
+    "plateforme": ["PlayStation 4, Xbox One, PC"],
+    "developpeur": "BioWare",
+    "editeur": "Electronic Arts",
+    "genre": ["Action-RPG"],
+    "jacket_url": "http://localhost:5002/mass-effect-andromeda.jpg",
+    "id": 47
+  },
+  {
+    "titre": "Metal Gear Solid V: The Phantom Pain",
+    "description": "Metal Gear Solid V: The Phantom Pain est un jeu vidéo d'action-infiltration développé par Kojima Productions et édité par Konami. C'est le cinquième opus de la série Metal Gear Solid.",
+    "annee_sortie": 2015,
+    "plateforme": ["PlayStation 4, Xbox One, PC"],
+    "developpeur": "Kojima Productions",
+    "editeur": "Konami",
+    "genre": ["Action-infiltration"],
+    "jacket_url": "http://localhost:5002/metal-gear-solid-5.jpg",
+    "id": 48
+  },
+  {
+    "titre": "Metro Exodus",
+    "description": "Metro Exodus est un jeu vidéo de tir à la première personne post-apocalyptique développé par 4A Games et édité par Deep Silver. C'est le troisième opus de la série Metro.",
+    "annee_sortie": 2019,
+    "plateforme": ["PlayStation 4, Xbox One, PC"],
+    "developpeur": "4A Games",
+    "editeur": "Deep Silver",
+    "genre": ["Tir à la première personne"],
+    "jacket_url": "http://localhost:5002/metro-exodus.jpg",
+    "id": 49
+  },
+  {
+    "titre": "Minecraft",
+    "description": "Minecraft est un jeu vidéo de type  « bac à sable » (construction complètement libre) développé par le Suédois Markus Persson, alias Notch, puis par le studio de développement Mojang. Le jeu plonge le joueur dans un monde créé dynamiquement, composé de blocs (terre, roche, minerais, arbres, etc.) et généré en quasi-infini. Le joueur peut y déplacer son personnage et y construire ce qu'il veut, en solo ou en multijoueur.",
+    "annee_sortie": 2011,
+    "plateforme": [
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "iOS",
+      "Android"
+    ],
+    "developpeur": "Mojang",
+    "editeur": "Mojang",
+    "genre": ["Survie", "Sandbox"],
+    "jacket_url": "http://localhost:5002/minecraft.jpg",
+    "id": 50
+  },
+  {
+    "titre": "Monster Hunter: World",
+    "description": "Monster Hunter: World est un jeu vidéo d'action-RPG développé et édité par Capcom. Le joueur y incarne un chasseur chargé de traquer et tuer des monstres dans un environnement ouvert. Le jeu propose des combats épiques et la possibilité de créer de nouvelles armes et armures en utilisant des matériaux obtenus lors des combats.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Capcom",
+    "editeur": "Capcom",
+    "genre": ["Action-RPG"],
+    "jacket_url": "http://localhost:5002/monster-hunter-world.jpg",
+    "id": 51
+  },
+  {
+    "titre": "Mortal Kombat 11",
+    "description": "Mortal Kombat 11 est un jeu de combat développé par NetherRealm Studios et édité par Warner Bros. Interactive Entertainment. Le jeu propose des combats en 1 contre 1 avec des personnages issus de l'univers Mortal Kombat, ainsi que des graphismes améliorés et des mouvements spéciaux encore plus spectaculaires.",
+    "annee_sortie": 2019,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "NetherRealm Studios",
+    "editeur": "Warner Bros. Interactive Entertainment",
+    "genre": ["Jeu de combat"],
+    "jacket_url": "http://localhost:5002/mortal-kombat-11.jpg",
+    "id": 52
+  },
+  {
+    "titre": "NieR: Automata",
+    "description": "NieR: Automata est un jeu vidéo d'action-RPG en monde ouvert développé par PlatinumGames et édité par Square Enix. Le jeu se déroule dans un monde post-apocalyptique envahi par des formes de vie mécaniques et suit les combats de la dernière escouade de l'humanité, l'unité YoRHa, contre ces ennemis dans une guerre prolongée.",
+    "annee_sortie": 2017,
+    "plateforme": ["PlayStation 4", "Microsoft Windows", "Xbox One"],
+    "developpeur": "PlatinumGames",
+    "editeur": "Square Enix",
+    "genre": ["Action-RPG", "Monde ouvert"],
+    "jacket_url": "http://localhost:5002/nier-automata.jpg",
+    "id": 53
+  },
+  {
+    "titre": "No Man's Sky",
+    "description": "No Man's Sky est un jeu vidéo de science-fiction en monde ouvert développé et édité par le studio Hello Games. Les joueurs explorent des planètes générées de manière procédurale, avec la possibilité de découvrir de nouvelles espèces de plantes et d'animaux, de miner des ressources, de construire des bases et de voyager vers d'autres systèmes solaires.",
+    "annee_sortie": 2016,
+    "plateforme": ["PlayStation 4", "Microsoft Windows", "Xbox One"],
+    "developpeur": "Hello Games",
+    "editeur": "Hello Games",
+    "genre": ["Exploration", "Survie"],
+    "jacket_url": "http://localhost:5002/no-man-s-sky.jpg",
+    "id": 54
+  },
+  {
+    "titre": "Ori and the Will of the Wisps",
+    "description": "Ori and the Will of the Wisps est un jeu vidéo de plateforme et d'aventure développé par Moon Studios et édité par Xbox Game Studios. Le joueur incarne Ori, une créature de la forêt, qui doit explorer un monde mystérieux rempli de dangers pour sauver son ami emprisonné et découvrir la vérité sur le destin de sa famille.",
+    "annee_sortie": 2020,
+    "plateforme": ["Xbox One", "Microsoft Windows", "Nintendo Switch"],
+    "developpeur": "Moon Studios",
+    "editeur": "Xbox Game Studios",
+    "genre": ["Plateforme", "Aventure"],
+    "jacket_url": "http://localhost:5002/ori-and-the-will.jpg",
+    "id": 55
+  },
+  {
+    "titre": "Outer Wilds",
+    "description": "Outer Wilds est un jeu d'aventure dans lequel le joueur incarne un explorateur spatial qui doit découvrir les secrets d'un système solaire en boucle temporelle.",
+    "annee_sortie": 2019,
+    "plateforme": ["PC", "PlayStation 4", "Xbox One"],
+    "developpeur": "Mobius Digital",
+    "editeur": "Annapurna Interactive",
+    "genre": ["Aventure", "Exploration"],
+    "jacket_url": "http://localhost:5002/OuterWilds.webp",
+    "id": 56
+  },
+  {
+    "titre": "Overwatch",
+    "description": "Overwatch est un jeu de tir multijoueur en ligne dans lequel les joueurs choisissent parmi une variété de héros dotés de compétences uniques pour combattre sur des cartes différentes.",
+    "annee_sortie": 2016,
+    "plateforme": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+    "developpeur": "Blizzard Entertainment",
+    "editeur": "Blizzard Entertainment",
+    "genre": ["Tir à la première personne", "Multijoueur en ligne"],
+    "jacket_url": "http://localhost:5002/overwatch.jpg",
+    "id": 57
+  },
+  {
+    "titre": "Persona 5",
+    "description": "Persona 5 est un jeu de rôle dans lequel le joueur incarne un lycéen qui se transforme en voleur masqué pour combattre des ennemis dans un monde fantastique surnaturel.",
+    "annee_sortie": 2016,
+    "plateforme": ["PlayStation 4", "PlayStation 3"],
+    "developpeur": "Atlus",
+    "editeur": "Atlus",
+    "genre": ["Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/persona-5.jpg",
+    "id": 58
+  },
+  {
+    "titre": "Portal 2",
+    "description": "Portal 2 est un jeu vidéo de réflexion en vue à la première personne développé et édité par Valve Corporation. Le jeu est la suite directe de Portal (2007).",
+    "annee_sortie": 2011,
+    "plateforme": [
+      "Microsoft Windows",
+      "MacOS",
+      "Linux",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "developpeur": "Valve Corporation",
+    "editeur": "Valve Corporation",
+    "genre": ["Puzzle-platformer", "Réflexion"],
+    "jacket_url": "http://localhost:5002/portal-2.jpg",
+    "id": 59
+  },
+  {
+    "titre": "Pokémon Rouge et Bleu",
+    "description": "Jeu de rôle où le joueur incarne un dresseur de Pokémon et doit capturer et entraîner des créatures pour devenir le meilleur dresseur de la région de Kanto.",
+    "annee_sortie": 1998,
+    "plateforme": ["Game Boy"],
+    "developpeur": "Game Freak",
+    "editeur": "Nintendo",
+    "genre": ["Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/pokemon-version-bleue.jpg",
+    "id": 60
+  },
+  {
+    "titre": "Pokémon Or et Argent",
+    "description": "Jeu de rôle où le joueur incarne un dresseur de Pokémon et doit capturer et entraîner des créatures pour devenir le meilleur dresseur de la région de Johto.",
+    "annee_sortie": 2000,
+    "plateforme": ["Game Boy Color"],
+    "developpeur": "Game Freak",
+    "editeur": "Nintendo",
+    "genre": ["Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/pokémon_Argent.png",
+    "id": 61
+  },
+  {
+    "titre": "Pokémon Rubis et Saphir",
+    "description": "Jeu de rôle où le joueur incarne un dresseur de Pokémon et doit capturer et entraîner des créatures pour devenir le meilleur dresseur de la région de Hoenn.",
+    "annee_sortie": 2002,
+    "plateforme": ["Game Boy Advance"],
+    "developpeur": "Game Freak",
+    "editeur": "Nintendo",
+    "genre": ["Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/pokmon-saphi.jpg",
+    "id": 62
+  },
+  {
+    "titre": "Pokémon Rouge Feu et Vert Feuille",
+    "description": "Remake des jeux Pokémon Rouge et Bleu avec des graphismes améliorés et des fonctionnalités supplémentaires.",
+    "annee_sortie": 2004,
+    "plateforme": ["Game Boy Advance"],
+    "developpeur": "Game Freak",
+    "editeur": "Nintendo",
+    "genre": ["Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/pokmon-ver-feui.jpg",
+    "id": 63
+  },
+  {
+    "titre": "Pokémon Emeraude",
+    "description": "Version améliorée de Pokémon Rubis et Saphir avec des fonctionnalités supplémentaires.",
+    "annee_sortie": 2004,
+    "plateforme": ["Game Boy Advance"],
+    "developpeur": "Game Freak",
+    "editeur": "Nintendo",
+    "genre": ["Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/pokmon-emera.jpg",
+    "id": 64
+  },
+  {
+    "titre": "Pokémon Diamant et Perle",
+    "description": "Pokémon Diamant et Perle sont les quatrièmes opus de la franchise Pokémon développée par Game Freak et édité par Nintendo. Ils sont sortis sur Nintendo DS en 2006 au Japon et en 2007 dans le reste du monde.",
+    "annee_sortie": 2006,
+    "plateforme": ["Nintendo DS"],
+    "developpeur": "Game Freak",
+    "editeur": "Nintendo",
+    "genre": "RPG",
+    "jacket_url": "http://localhost:5002/pokmon-diama.jpg",
+    "id": 65
+  },
+  {
+    "titre": "Pokémon Noir et Blanc",
+    "description": "Pokémon Noir et Blanc sont deux opus de la série Pokémon. Ils sont sortis en septembre 2010 au Japon, puis en mars 2011 en Europe.",
+    "annee_sortie": 2010,
+    "plateforme": ["Nintendo DS"],
+    "developpeur": ["Game Freak"],
+    "editeur": "Nintendo",
+    "genre": ["RPG"],
+    "jacket_url": "http://localhost:5002/pokmon-blanche.jpg",
+    "id": 66
+  },
+  {
+    "titre": "Pokémon Noir 2 et Blanc 2",
+    "description": "Pokémon Noir 2 et Blanc 2 sont deux opus de la série Pokémon. Ils sont sortis en juin 2012 au Japon, puis en octobre 2012 en Europe.",
+    "annee_sortie": 2012,
+    "plateforme": ["Nintendo DS"],
+    "developpeur": "Game Freak",
+    "editeur": "Nintendo",
+    "genre": ["RPG"],
+    "jacket_url": "http://localhost:5002/pokemon-black-2.jpg",
+    "id": 67
+  },
+  {
+    "titre": "Pokémon Conquest",
+    "description": "Pokémon Conquest est un jeu de stratégie au tour par tour, mélangeant les univers de la série des jeux vidéo Pokémon et de la série des jeux vidéo Nobunaga's Ambition. Le jeu est sorti en mars 2012 au Japon, puis en juin 2012 en Amérique du Nord et en juillet 2012 en Europe.",
+    "annee_sortie": 2012,
+    "plateforme": ["Nintendo DS"],
+    "developpeur": "Koei Tecmo",
+    "editeur": "Nintendo",
+    "genre": ["Stratégie"],
+    "jacket_url": "http://localhost:5002/ds_pokemon_conquest.jpg",
+    "id": 68
+  },
+  {
+    "titre": "Pokémon Platine",
+    "description": "Pokémon Platine est un jeu de rôle disponible sur DS. Il s'agit d'une version améliorée de Pokémon Diamant et Perle. Vous débutez l'aventure avec votre Pokémon de départ et devez ensuite partir à la conquête des huit arènes de la région de Sinnoh. Les combats au tour par tour sont toujours de mise, et vous pouvez cette fois-ci échanger des créatures avec d'autres joueurs du monde entier grâce à la connexion Wi-Fi.",
+    "annee_sortie": 2009,
+    "plateforme": ["Nintendo DS"],
+    "developpeur": "Game Freak",
+    "editeur": "Nintendo",
+    "genre": ["Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/pokmon-plati.jpg",
+    "id": 69
+  },
+  {
+    "titre": "Prey",
+    "description": "Prey est un jeu vidéo de tir à la première personne développé par Arkane Studios et édité par Bethesda Softworks. Il est sorti le 5 mai 2017 sur PlayStation 4, Xbox One et Windows.",
+    "annee_sortie": 2017,
+    "plateforme": ["Microsoft Windows", "PlayStation 4", "Xbox One"],
+    "developpeur": "Arkane Studios",
+    "editeur": "Bethesda Softworks",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/prey.jpg",
+    "id": 70
+  },
+  {
+    "titre": "Red Dead Redemption 2",
+    "description": "Red Dead Redemption 2 est un jeu vidéo d'action-aventure et de western multiplateforme, développé par Rockstar Studios et édité par Rockstar Games. Il est sorti le 26 octobre 2018 sur PlayStation 4 et Xbox One, et le 5 novembre 2019 sur Windows.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Xbox One", "Microsoft Windows"],
+    "developpeur": "Rockstar Studios",
+    "editeur": "Rockstar Games",
+    "genre": ["Action-aventure", "Monde ouvert"],
+    "jacket_url": "http://localhost:5002/rdr2.jpg",
+    "id": 71
+  },
+  {
+    "titre": "Resident Evil 2",
+    "description": "Resident Evil 2 est un jeu vidéo de tir à la troisième personne de type survival horror développé et édité par Capcom, sorti le 25 janvier 2019 sur Microsoft Windows, PlayStation 4 et Xbox One. C'est un remake de Resident Evil 2 sorti en 1998.",
+    "annee_sortie": 2019,
+    "plateforme": ["Microsoft Windows", "PlayStation 4", "Xbox One"],
+    "developpeur": "Capcom",
+    "editeur": "Capcom",
+    "genre": ["Survival horror", "Tir à la troisième personne"],
+    "jacket_url": "http://localhost:5002/resident-evil-2.jpg",
+    "id": 72
+  },
+  {
+    "titre": "Return of the Obra Dinn",
+    "description": "Return of the Obra Dinn est un jeu vidéo d'aventure et de réflexion développé et édité par Lucas Pope. Le joueur incarne un enquêteur chargé d'élucider les mystères entourant la disparition de l'équipage du navire Obra Dinn en 1802. Le jeu utilise une esthétique en noir et blanc rappelant les graphismes des jeux vidéo des années 80.",
+    "annee_sortie": 2018,
+    "plateforme": ["Microsoft Windows", "macOS"],
+    "developpeur": "Lucas Pope",
+    "editeur": "3909 LLC",
+    "genre": ["Aventure", "Réflexion"],
+    "jacket_url": "http://localhost:5002/return-of-the-obra-dinn.jpg",
+    "id": 73
+  },
+  {
+    "titre": "Rocket League",
+    "description": "Rocket League est un jeu vidéo mêlant course et football, développé et édité par Psyonix. Les joueurs contrôlent des voitures propulsées par des fusées et doivent marquer des buts en envoyant un ballon dans les buts adverses. Le jeu est disponible sur de nombreuses plateformes, dont Microsoft Windows, PlayStation 4, Xbox One et Nintendo Switch.",
+    "annee_sortie": 2015,
+    "plateforme": [
+      "Microsoft Windows",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "developpeur": "Psyonix",
+    "editeur": "Psyonix",
+    "genre": ["Course", "Sport"],
+    "jacket_url": "http://localhost:5002/rocket-league.jpg",
+    "id": 74
+  },
+  {
+    "titre": "Sekiro: Shadows Die Twice",
+    "description": "Sekiro: Shadows Die Twice est un jeu vidéo d'action-aventure développé par FromSoftware et édité par Activision. Le jeu se déroule dans le Japon féodal et suit le périple du samouraï loup solitaire surnommé le \"Loup\". Le joueur doit se battre contre des ennemis difficiles et utiliser des mécaniques d'escrime et de furtivité pour progresser dans le jeu.",
+    "annee_sortie": 2019,
+    "plateforme": ["Microsoft Windows", "PlayStation 4", "Xbox One"],
+    "developpeur": "FromSoftware",
+    "editeur": "Activision",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/sekiro-shadows-die-twic.jpg",
+    "id": 75
+  },
+  {
+    "titre": "Shadow of the Colossus",
+    "description": "Shadow of the Colossus est un jeu vidéo d'action-aventure développé par Team Ico et édité par Sony Computer Entertainment. Le joueur incarne un jeune guerrier nommé Wander qui doit vaincre 16 colosses géants afin de sauver une jeune fille nommée Mono.",
+    "annee_sortie": 2005,
+    "plateforme": ["PlayStation 2", "PlayStation 3", "PlayStation 4"],
+    "developpeur": "Team Ico",
+    "editeur": "Sony Computer Entertainment",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/shadow-of-the-colossus.jpg",
+    "id": 76
+  },
+  {
+    "titre": "Sonic Mania",
+    "description": "Sonic Mania est un jeu de plates-formes en 2D publié par Sega. Le jeu met en vedette Sonic the Hedgehog, Knuckles the Echidna et Miles 'Tails' Prower alors qu'ils tentent de stopper le Dr Eggman dans ses plans maléfiques.",
+    "annee_sortie": 2017,
+    "plateforme": ["PC", "PlayStation 4", "Nintendo Switch", "Xbox One"],
+    "developpeur": "Christian Whitehead, Headcannon, PagodaWest Games",
+    "editeur": "Sega",
+    "genre": ["Plate-forme"],
+    "jacket_url": "http://localhost:5002/sonic-mania.jpg",
+    "id": 77
+  },
+  {
+    "titre": "South Park: The Stick of Truth",
+    "description": "South Park: The Stick of Truth est un jeu de rôle basé sur la série télévisée américaine South Park. Le joueur prend le contrôle du personnage du joueur, un nouveau garçon dans la ville de South Park, alors qu'il rejoint les personnages de la série pour un jeu de rôle fantastique.",
+    "annee_sortie": 2014,
+    "plateforme": ["PC", "PlayStation 3", "Xbox 360"],
+    "developpeur": "Obsidian Entertainment",
+    "editeur": "Ubisoft",
+    "genre": ["Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/south-park-le-baton.jpg",
+    "id": 78
+  },
+  {
+    "titre": "Stardew Valley",
+    "description": "Stardew Valley est un jeu de simulation de vie dans lequel le joueur hérite d'une ferme délabrée et doit la restaurer et la cultiver. Le joueur peut également interagir avec les autres habitants de la ville et se lier d'amitié ou même se marier avec certains d'entre eux.",
+    "annee_sortie": 2016,
+    "plateforme": [
+      "PC",
+      "PlayStation 4",
+      "Nintendo Switch",
+      "Xbox One",
+      "iOS",
+      "Android"
+    ],
+    "developpeur": "ConcernedApe",
+    "editeur": "Chucklefish Games",
+    "genre": ["Simulation de vie", "Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/stardew-valley.jpg",
+    "id": 79
+  },
+  {
+    "titre": "Star Wars Jedi: Fallen Order",
+    "description": "Star Wars Jedi: Fallen Order est un jeu d'action-aventure à la troisième personne qui se déroule dans l'univers de Star Wars.",
+    "annee_sortie": 2019,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Respawn Entertainment",
+    "editeur": "Electronic Arts",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/star-wars-jedi-fallen.jpg",
+    "id": 80
+  },
+  {
+    "titre": "Super Mario Odyssey",
+    "description": "Super Mario Odyssey est un jeu de plateforme dans lequel le joueur contrôle Mario alors qu'il voyage à travers différents royaumes pour sauver la princesse Peach des griffes de Bowser.",
+    "annee_sortie": 2017,
+    "plateforme": ["Nintendo Switch"],
+    "developpeur": "Nintendo EPD",
+    "editeur": "Nintendo",
+    "genre": ["Plateforme"],
+    "jacket_url": "http://localhost:5002/super-mario-odyssey.jpg",
+    "id": 81
+  },
+  {
+    "titre": "Super Smash Bros. Ultimate",
+    "description": "Super Smash Bros. Ultimate est un jeu de combat dans lequel les joueurs contrôlent des personnages issus de diverses franchises de jeux vidéo et s'affrontent sur des arènes.",
+    "annee_sortie": 2018,
+    "plateforme": ["Nintendo Switch"],
+    "developpeur": "Bandai Namco Studios, Sora Ltd.",
+    "editeur": "Nintendo",
+    "genre": ["Combat"],
+    "jacket_url": "http://localhost:5002/super-smash-bros-ultimat.jpg",
+    "id": 82
+  },
+  {
+    "titre": "The Elder Scrolls V: Skyrim",
+    "description": "The Elder Scrolls V: Skyrim est un jeu de rôle développé par Bethesda Game Studios et édité par Bethesda Softworks. Il se déroule dans un monde ouvert fantastique inspiré de la mythologie nordique.",
+    "annee_sortie": 2011,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "Bethesda Game Studios",
+    "editeur": "Bethesda Softworks",
+    "genre": ["RPG"],
+    "jacket_url": "http://localhost:5002/the-elder-scrolls-v.jpg",
+    "id": 83
+  },
+  {
+    "titre": "The Legend of Zelda: Breath of the Wild",
+    "description": "The Legend of Zelda: Breath of the Wild est un jeu d'action-aventure développé et édité par Nintendo. Il se déroule dans un monde ouvert post-apocalyptique où le joueur incarne Link, un héros chargé de sauver le royaume d'Hyrule.",
+    "annee_sortie": 2017,
+    "plateforme": ["Nintendo Switch", "Wii U"],
+    "developpeur": "Nintendo EPD",
+    "editeur": "Nintendo",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/the-legend-of-zelda-bre.jpg",
+    "id": 84
+  },
+  {
+    "titre": "The Last of Us Part II",
+    "description": "The Last of Us Part II est un jeu d'action-aventure dans lequel les joueurs incarnent Ellie, une survivante dans un monde post-apocalyptique infesté de zombies.",
+    "annee_sortie": 2020,
+    "plateforme": ["PlayStation 4", "PlayStation 5"],
+    "developpeur": "Naughty Dog",
+    "editeur": "Sony Interactive Entertainment",
+    "genre": ["Action", "Aventure"],
+    "jacket_url": "http://localhost:5002/the-last-of-us-2.jpg",
+    "id": 85
+  },
+  {
+    "titre": "The Sims 4",
+    "description": "The Sims 4 est un jeu de simulation de vie développé par Maxis et édité par Electronic Arts. Le joueur crée et gère une famille virtuelle et leur maison, en satisfaisant leurs besoins et en accomplissant des objectifs de vie.",
+    "annee_sortie": 2014,
+    "plateforme": ["Microsoft Windows", "macOS", "PlayStation 4", "Xbox One"],
+    "developpeur": "Maxis",
+    "editeur": "Electronic Arts",
+    "genre": ["Simulation de vie"],
+    "jacket_url": "http://localhost:5002/les-sims-4.jpg",
+    "id": 86
+  },
+  {
+    "titre": "The Vanishing of Ethan Carter",
+    "description": "The Vanishing of Ethan Carter est un jeu d'aventure à la première personne développé par The Astronauts. Le joueur incarne Paul Prospero, un détective surnaturel qui enquête sur la disparition d'un garçon nommé Ethan Carter.",
+    "annee_sortie": 2014,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "The Astronauts",
+    "editeur": "The Astronauts",
+    "genre": ["Aventure", "Mystère"],
+    "jacket_url": "http://localhost:5002/the-vanishing-of-ethan.jpg",
+    "id": 87
+  },
+  {
+    "titre": "The Walking Dead: The Final Season",
+    "description": "The Walking Dead: The Final Season is an episodic adventure game developed by Telltale Games and later Skybound Games, and the fourth and final main game in The Walking Dead video game series, based on the comic book series of the same name. ",
+    "annee_sortie": 2018,
+    "plateforme": [
+      "Microsoft Windows",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "developpeur": "Telltale Games, Skybound Games",
+    "editeur": "Skybound Games",
+    "genre": ["Graphic adventure", "Interactive drama"],
+    "jacket_url": "http://localhost:5002/The_Walking_Dead_The_Final_Season_cover.jpg",
+    "id": 88
+  },
+  {
+    "titre": "The Witcher 3: Wild Hunt",
+    "description": "The Witcher 3: Wild Hunt est un jeu de rôle en monde ouvert développé par CD Projekt RED. Il est sorti en 2015 sur PlayStation 4, Xbox One et PC. Le jeu met en scène le chasseur de monstres Geralt de Riv qui doit explorer le monde ouvert, accomplir des quêtes et affronter des ennemis dans des combats dynamiques.",
+    "annee_sortie": 2015,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "CD Projekt RED",
+    "editeur": "CD Projekt",
+    "genre": ["Action-RPG", "Monde ouvert"],
+    "jacket_url": "http://localhost:5002/the-witcher-3-wild-hunt.jpg",
+    "id": 89
+  },
+  {
+    "titre": "The Witness",
+    "description": "The Witness is a 3D puzzle video game developed and published by Jonathan Blow. The game takes place on an uninhabited island, and the player character is the only person on the island.",
+    "annee_sortie": 2016,
+    "plateforme": [
+      "Microsoft Windows",
+      "PlayStation 4",
+      "Xbox One",
+      "iOS",
+      "Nvidia Shield"
+    ],
+    "developpeur": "Jonathan Blow",
+    "editeur": "Jonathan Blow",
+    "genre": ["Puzzle", "Adventure"],
+    "jacket_url": "http://localhost:5002/the-witness.jpg",
+    "id": 90
+  },
+  {
+    "titre": "Titanfall 2",
+    "description": "Titanfall 2 est un jeu de tir à la première personne développé par Respawn Entertainment. Il est sorti en 2016 sur PlayStation 4, Xbox One et PC. Le jeu met en scène des combats futuristes avec des pilotes et des Titans, des robots de combat géants.",
+    "annee_sortie": 2016,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Respawn Entertainment",
+    "editeur": "Electronic Arts",
+    "genre": ["FPS", "Multijoueur"],
+    "jacket_url": "http://localhost:5002/titanfall-2.jpg",
+    "id": 91
+  },
+  {
+    "titre": "Tom Clancy's Rainbow Six Siege",
+    "description": "Tom Clancy's Rainbow Six Siege est un jeu de tir tactique en équipe développé par Ubisoft Montréal. Il est sorti en 2015 sur PlayStation 4, Xbox One et PC. Le jeu met en scène des opérations de sauvetage et des affrontements entre des équipes de cinq joueurs, avec une grande importance accordée à la stratégie et à la coordination.",
+    "annee_sortie": 2015,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Ubisoft Montréal",
+    "editeur": "Ubisoft",
+    "genre": ["FPS", "Tactique"],
+    "jacket_url": "http://localhost:5002/tom-clancy-s-rainbow-six.jpg",
+    "id": 92
+  },
+  {
+    "titre": "Uncharted 4: A Thief's End",
+    "description": "Uncharted 4: A Thief's End est un jeu vidéo d'action-aventure développé par Naughty Dog et édité par Sony Computer Entertainment. Il est sorti le 10 mai 2016 sur PlayStation 4.",
+    "annee_sortie": 2016,
+    "plateforme": ["PlayStation 4"],
+    "developpeur": "Naughty Dog",
+    "editeur": "Sony Computer Entertainment",
+    "genre": ["Action-aventure"],
+    "jacket_url": "http://localhost:5002/uncharted-4.jpg",
+    "id": 93
+  },
+  {
+    "titre": "Undertale",
+    "description": "Undertale est un jeu vidéo de rôle indépendant développé par Toby Fox. Il est sorti sur Microsoft Windows en septembre 2015.",
+    "annee_sortie": 2015,
+    "plateforme": ["Microsoft Windows"],
+    "developpeur": "Toby Fox",
+    "editeur": "Toby Fox",
+    "genre": ["RPG"],
+    "jacket_url": "http://localhost:5002/undertale.webp",
+    "id": 94
+  },
+  {
+    "titre": "Until Dawn",
+    "description": "Until Dawn est un jeu vidéo de type survival horror développé par Supermassive Games et édité par Sony Computer Entertainment. Le jeu se déroule dans une station de ski isolée, où huit amis sont pris au piège par une tempête de neige, alors qu'ils tentent de découvrir la vérité sur la disparition de deux autres amis un an plus tôt. Les choix et les actions du joueur ont des conséquences sur l'histoire et le sort des personnages.",
+    "annee_sortie": 2015,
+    "plateforme": ["PlayStation 4"],
+    "developpeur": "Supermassive Games",
+    "editeur": "Sony Computer Entertainment",
+    "genre": ["Survival horror", "Interactive drama"],
+    "jacket_url": "http://localhost:5002/until-dawn.jpg",
+    "id": 95
+  },
+  {
+    "titre": "Valkyria Chronicles 4",
+    "description": "Valkyria Chronicles 4 est un jeu de rôle tactique développé et édité par Sega. Le jeu se déroule durant la Seconde Guerre europanne et suit les membres de l'Escadron E dans leur combat contre l'Empire.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Nintendo Switch", "Xbox One", "PC"],
+    "developpeur": "Sega",
+    "editeur": "Sega",
+    "genre": ["Tactical RPG"],
+    "jacket_url": "http://localhost:5002/valkyria-chronicles-4.jpg",
+    "id": 96
+  },
+  {
+    "titre": "Vampyr",
+    "description": "Vampyr est un jeu de rôle/action développé par Dontnod Entertainment. Le jeu se déroule dans un Londres du début du XXe siècle, alors que la ville est touchée par une épidémie de grippe espagnole. Le joueur incarne Jonathan Reid, un médecin qui est devenu vampire.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
+    "developpeur": "Dontnod Entertainment",
+    "editeur": "Focus Home Interactive",
+    "genre": ["Action-RPG"],
+    "jacket_url": "http://localhost:5002/vampyr.jpg",
+    "id": 97
+  },
+  {
+    "titre": "Wolfenstein II: The New Colossus",
+    "description": "Wolfenstein II: The New Colossus is an action-adventure first-person shooter video game developed by MachineGames and published by Bethesda Softworks. The game is the eighth main entry in the Wolfenstein series and the sequel to 2014's Wolfenstein: The New Order.",
+    "annee_sortie": 2017,
+    "plateforme": [
+      "Microsoft Windows",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "developpeur": "MachineGames",
+    "editeur": "Bethesda Softworks",
+    "genre": ["First-person shooter", "Action-adventure"],
+    "jacket_url": "http://localhost:5002/wolfenstein-2.jpg",
+    "id": 98
+  },
+  {
+    "titre": "XCOM 2",
+    "description": "XCOM 2 est un jeu de stratégie au tour par tour développé par Firaxis Games. Il est la suite directe de XCOM: Enemy Unknown, le jeu de stratégie acclamé par la critique. Dans XCOM 2, les joueurs dirigent une organisation secrète qui tente de repousser une invasion extraterrestre.",
+    "annee_sortie": 2016,
+    "plateforme": ["PC", "PlayStation 4", "Xbox One"],
+    "developpeur": "Firaxis Games",
+    "editeur": "2K Games",
+    "genre": ["Stratégie au tour par tour", "Tactique"],
+    "jacket_url": "http://localhost:5002/xcom-2.jpg",
+    "id": 99
+  },
+  {
+    "titre": "Xenoblade Chronicles 2",
+    "description": "Xenoblade Chronicles 2 est un jeu de rôle développé par Monolith Soft et publié par Nintendo pour la Nintendo Switch. C'est la suite de Xenoblade Chronicles, un RPG acclamé par la critique qui est sorti sur la Wii. Dans Xenoblade Chronicles 2, les joueurs suivent l'histoire de Rex, un jeune homme qui rencontre Pyra, une mystérieuse lame avec laquelle il part à la recherche du monde légendaire d'Elysium.",
+    "annee_sortie": 2017,
+    "plateforme": ["Nintendo Switch"],
+    "developpeur": "Monolith Soft",
+    "editeur": "Nintendo",
+    "genre": ["Jeu de rôle"],
+    "jacket_url": "http://localhost:5002/xenoblade-chronicles-2.jpg",
+    "id": 100
+  },
+  {
+    "titre": "Yakuza 0",
+    "description": "Yakuza 0 est un jeu d'action-aventure développé et édité par Sega. Il s'agit du sixième épisode de la série Yakuza, mais il se déroule avant les événements du premier jeu. Dans Yakuza 0, les joueurs suivent l'histoire de Kazuma Kiryu et Goro Majima, deux personnages emblématiques de la série, alors qu'ils tentent de se frayer un chemin dans le monde criminel de Tokyo.",
+    "annee_sortie": 2015,
+    "plateforme": ["PlayStation 4", "Microsoft Windows"],
+    "developpeur": "Sega",
+    "editeur": "Sega",
+    "genre": ["Action-aventure"],
+    "jacket_url": "http://localhost:5002/yakuza-zero.jpg",
+    "id": 101
+  },
+  {
+    "titre": "Yakuza Kiwami 2",
+    "description": "Yakuza Kiwami 2 is a remake of Yakuza 2, originally released on the PlayStation 2, with improved graphics and new gameplay features.",
+    "annee_sortie": 2017,
+    "plateforme": ["PlayStation 4"],
+    "developpeur": "Sega",
+    "editeur": "Sega",
+    "genre": ["Action", "Adventure"],
+    "jacket_url": "http://localhost:5002/yakuza-kiwami-2.jpg",
+    "id": 102
+  },
+  {
+    "titre": "Yooka-Laylee",
+    "description": "Yooka-Laylee is a platform game where players control a chameleon and a bat on a quest to retrieve stolen pagies from an evil corporation.",
+    "annee_sortie": 2017,
+    "plateforme": ["PlayStation 4", "Xbox One", "Nintendo Switch", "PC"],
+    "developpeur": "Playtonic Games",
+    "editeur": "Team17",
+    "genre": ["Platformer"],
+    "jacket_url": "http://localhost:5002/yooka-laylee.jpg",
+    "id": 103
+  },
+  {
+    "titre": "Zelda II: The Adventure of Link",
+    "description": "Zelda II: The Adventure of Link is the second installment in the Legend of Zelda series, featuring side-scrolling action and RPG elements.",
+    "annee_sortie": 1987,
+    "plateforme": ["NES"],
+    "developpeur": "Nintendo",
+    "editeur": "Nintendo",
+    "genre": ["Action", "Adventure", "Role-Playing"],
+    "jacket_url": "http://localhost:5002/zelda-ii-the-adventure-of-link-famicom.png",
+    "id": 104
+  },
+  {
+    "titre": "Zero Escape: The Nonary Games",
+    "description": "Zero Escape: The Nonary Games is a compilation of two visual novel games, Nine Hours, Nine Persons, Nine Doors and Virtue's Last Reward. Both games revolve around nine people who have been kidnapped by an unknown person, and forced to play a deadly game to escape. The game features escape room puzzles and branching narrative paths that affect the outcome of the story.",
+    "annee_sortie": 2017,
+    "plateforme": ["PlayStation 4", "PlayStation Vita", "Microsoft Windows"],
+    "developpeur": "Spike Chunsoft",
+    "editeur": "Aksys Games",
+    "genre": ["Visual novel", "Escape room"],
+    "jacket_url": "http://localhost:5002/zero-Escape-The-Nonary-Games.png",
+    "id": 105
+  },
+  {
+    "titre": "Zone of the Enders: The 2nd Runner - MARS",
+    "description": "Zone of the Enders: The 2nd Runner - MARS is a remastered version of the 2003 game, Zone of the Enders: The 2nd Runner. The game is set in the future, where giant mechs called Orbital Frames are used for military purposes. The player controls a character named Dingo, who discovers a powerful Orbital Frame named Jehuty. The game features fast-paced combat and mecha battles.",
+    "annee_sortie": 2018,
+    "plateforme": ["PlayStation 4", "Microsoft Windows"],
+    "developpeur": "Konami",
+    "editeur": "Konami",
+    "genre": ["Action", "Mecha"],
+    "jacket_url": "http://localhost:5002/Zone.jpg",
+    "id": 106
+  },
+  {
+    "titre": "2064: Read Only Memories",
+    "description": "2064: Read Only Memories is a cyberpunk adventure game developed by MidBoss. Set in the year 2064 in Neo-San Francisco, players take on the role of a journalist who must help a sapient robot solve the mystery of their creator's disappearance.",
+    "annee_sortie": 2015,
+    "plateforme": [
+      "PC, PlayStation 4, PlayStation Vita, Xbox One, Nintendo Switch, iOS, Android"
+    ],
+    "developpeur": "MidBoss",
+    "editeur": "MidBoss",
+    "genre": ["Adventure, Point-and-click"],
+    "jacket_url": "http://localhost:5002/EGS_2064ReadOnlyMemories.jpg",
+    "id": 107
+  },
+  {
+    "titre": "911 Operator",
+    "description": "911 Operator is a strategy simulation game developed by Jutsu Games. Players take on the role of a 911 emergency operator and must manage incoming emergency calls and dispatch emergency services in real time.",
+    "annee_sortie": 2017,
+    "plateforme": [
+      "PC, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android"
+    ],
+    "developpeur": "Jutsu Games",
+    "editeur": "PlayWay",
+    "genre": ["Strategy, Simulation"],
+    "jacket_url": "http://localhost:5002/911-operator.jpg",
+    "id": 108
+  },
+  {
+    "titre": "80 Days",
+    "description": "80 Days is an interactive fiction game developed by Inkle Studios. Based on the Jules Verne novel Around the World in Eighty Days, players take on the role of Passepartout, the valet of the English gentleman Phileas Fogg, and must travel around the world in 80 days while making decisions that affect the story.",
+    "annee_sortie": 2014,
+    "plateforme": ["PC, iOS, Android, Nintendo Switch"],
+    "developpeur": "Inkle Studios",
+    "editeur": "Inkle Studios",
+    "genre": ["Interactive Fiction, Adventure"],
+    "jacket_url": "http://localhost:5002/80-days.jpg",
+    "id": 109
+  },
+  {
+    "titre": "Wilder game",
+    "annee_sortie": 2023,
+    "plateforme": ["PC"],
+    "developpeur": "MAVCS",
+    "editeur": "MAVCS",
+    "description": "Résumé : Le meilleur jeu de l'année pour tester votre culture cinématographique. Ne passez pas à côté.",
+
+    "genre": ["Quizz"],
+    "jacket_url": "http://localhost:5002/wilder-game.png",
+    "id": 110
+  }
+]
