@@ -1295,5 +1295,17 @@
     "genre": ["Interactive Fiction, Adventure"],
     "jacket_url": "http://localhost:5000/80-days.jpg",
     "id": 109
+  },
+  {
+    "titre": "Wilder game",
+    "annee_sortie": 2023,
+    "plateforme": ["PC"],
+    "developpeur": "MAVCS",
+    "editeur": "MAVCS",
+    "description": "Résumé : Le meilleur jeu de l'année pour tester votre culture cinématographique. Ne passez pas à côté.",
+
+    "genre": ["Quizz"],
+    "jacket_url": "http://localhost:5000/wilder-game",
+    "id": 110
   }
 ]
