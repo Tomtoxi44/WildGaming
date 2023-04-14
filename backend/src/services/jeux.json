@@ -7,7 +7,7 @@
     "developpeur": "Asobo Studio",
     "editeur": "Focus Home Interactive",
     "genre": ["Action", "Aventure"],
-    "url_jacket": "http://localhost:5000/a-plague-tale-innocence.jpg",
+    "jacket_url": "http://localhost:5002/a-plague-tale-innocence.jpg",
     "id": 1
   },
   {
@@ -18,7 +18,7 @@
     "developpeur": "Hazelight Studios",
     "editeur": "Electronic Arts",
     "genre": ["Action", "Aventure"],
-    "url_jacket": "http://localhost:5000/a-way-out.jpg",
+    "jacket_url": "http://localhost:5002/a-way-out.jpg",
     "id": 2
   },
   {
@@ -29,7 +29,7 @@
     "developpeur": "Giant Squid Studios",
     "editeur": "505 Games",
     "genre": ["Aventure", "Exploration sous-marine"],
-    "jacket_url": "http://localhost:5000/abzu-jaquette.jpg",
+    "jacket_url": "http://localhost:5002/abzu-jaquette.jpg",
     "id": 3
   },
   {
@@ -40,7 +40,7 @@
     "developpeur": "Bandai Namco Studios",
     "editeur": "Bandai Namco Entertainment",
     "genre": ["Simulation de vol", "Action"],
-    "jacket_url": "http://localhost:5000/ace-combat-7-skies-unkn.jpg",
+    "jacket_url": "http://localhost:5002/ace-combat-7-skies-unkn.jpg",
     "id": 4
   },
   {
@@ -58,7 +58,7 @@
     "developpeur": "Studio Wildcard",
     "editeur": "Studio Wildcard",
     "genre": ["Survie", "Aventure", "Action"],
-    "jacket_url": "http://localhost:5000/ark-survival-evolved.jpg",
+    "jacket_url": "http://localhost:5002/ark-survival-evolved.jpg",
     "id": 5
   },
   {
@@ -69,7 +69,7 @@
     "developpeur": "Ubisoft Québec",
     "editeur": "Ubisoft",
     "genre": ["Action-aventure", "RPG"],
-    "jacket_url": "http://localhost:5000/assassin-s-creed-odyssey.jpg",
+    "jacket_url": "http://localhost:5002/assassin-s-creed-odyssey.jpg",
     "id": 6
   },
   {
@@ -87,7 +87,7 @@
     "developpeur": "Ubisoft Montreal",
     "editeur": "Ubisoft",
     "genre": ["Action", "Aventure"],
-    "url_jacket": "http://localhost:5000/assassin-s-creed-valhalla.jpg",
+    "jacket_url": "http://localhost:5002/assassin-s-creed-valhalla.jpg",
     "id": 7
   },
   {
@@ -98,7 +98,7 @@
     "developpeur": "Rocksteady Studios",
     "editeur": "Warner Bros. Interactive Entertainment",
     "genre": ["Action-aventure"],
-    "jacket_url": "http://localhost:5000/batman-arkham-knight.jpg",
+    "jacket_url": "http://localhost:5002/batman-arkham-knight.jpg",
     "id": 8
   },
   {
@@ -109,7 +109,7 @@
     "developpeur": "Irrational Games",
     "editeur": "2K Games",
     "genre": ["FPS", "Action"],
-    "jacket_url": "http://localhost:5000/bioshock-infinite-jaquett.jpg",
+    "jacket_url": "http://localhost:5002/bioshock-infinite-jaquett.jpg",
     "id": 9
   },
   {
@@ -120,7 +120,7 @@
     "developpeur": "Infinity Ward",
     "editeur": "Activision",
     "genre": ["FPS", "Action"],
-    "jacket_url": "http://localhost:5000/call-of-duty-modern-war.jpg",
+    "jacket_url": "http://localhost:5002/call-of-duty-modern-war.jpg",
     "id": 10
   },
   {
@@ -131,7 +131,7 @@
     "developpeur": "Maddy Makes Games",
     "editeur": "Matt Makes Games",
     "genre": ["Plate-formes"],
-    "jacket_url": "http://localhost:5000/Celeste.jpg",
+    "jacket_url": "http://localhost:5002/Celeste.jpg",
     "id": 11
   },
   {
@@ -148,7 +148,7 @@
     "developpeur": "Remedy Entertainment",
     "editeur": "505 Games",
     "genre": ["Action", "Aventure"],
-    "url_jacket": "http://localhost:5000/control.jpg",
+    "jacket_url": "http://localhost:5002/control.jpg",
     "id": 12
   },
   {
@@ -159,7 +159,7 @@
     "developpeur": "StudioMDHR",
     "editeur": "StudioMDHR",
     "genre": ["Plate-formes", "Shoot 'em up"],
-    "jacket_url": "http://localhost:5000/cuphead.jpg",
+    "jacket_url": "http://localhost:5002/cuphead.jpg",
     "id": 13
   },
   {
@@ -170,7 +170,7 @@
     "developpeur": "FromSoftware",
     "editeur": "Bandai Namco",
     "genre": ["Action-RPG"],
-    "jacket_url": "http://localhost:5000/dark-souls-3.jpg",
+    "jacket_url": "http://localhost:5002/dark-souls-3.jpg",
     "id": 14
   },
   {
@@ -181,7 +181,7 @@
     "developpeur": "SIE Bend Studio",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action-aventure"],
-    "jacket_url": "http://localhost:5000/days-gone.jpg",
+    "jacket_url": "http://localhost:5002/days-gone.jpg",
     "id": 15
   },
   {
@@ -192,7 +192,7 @@
     "developpeur": "Kojima Productions",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action-aventure"],
-    "jacket_url": "http://localhost:5000/death-stranding.jpg",
+    "jacket_url": "http://localhost:5002/death-stranding.jpg",
     "id": 16
   },
   {
@@ -203,7 +203,7 @@
     "developpeur": "FromSoftware",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action", "RPG"],
-    "url_jacket": "http://localhost:5000/demon-s-souls.jpg",
+    "jacket_url": "http://localhost:5002/demon-s-souls.jpg",
     "id": 17
   },
   {
@@ -214,7 +214,7 @@
     "developpeur": "Bungie",
     "editeur": "Activision",
     "genre": ["FPS", "MMO"],
-    "url_jacket": "http://localhost:5000/destiny-2.jpg",
+    "jacket_url": "http://localhost:5002/destiny-2.jpg",
     "id": 18
   },
   {
@@ -225,7 +225,7 @@
     "developpeur": "Quantic Dream",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Aventure"],
-    "url_jacket": "http://localhost:5000/detroit-become-human.jpg",
+    "jacket_url": "http://localhost:5002/detroit-become-human.jpg",
     "id": 19
   },
   {
@@ -236,7 +236,7 @@
     "developpeur": "Blizzard Entertainment",
     "editeur": "Blizzard Entertainment",
     "genre": ["Action", "RPG"],
-    "url_jacket": "http://localhost:5000/diablo-iii.jpg",
+    "jacket_url": "http://localhost:5002/diablo-iii.jpg",
     "id": 20
   },
   {
@@ -254,7 +254,7 @@
     "developpeur": "id Software",
     "editeur": "Bethesda Softworks",
     "genre": ["FPS"],
-    "url_jacket": "http://localhost:5000/doom-eternal.jpg",
+    "jacket_url": "http://localhost:5002/doom-eternal.jpg",
     "id": 21
   },
   {
@@ -271,7 +271,7 @@
     "developpeur": "BioWare",
     "editeur": "Electronic Arts",
     "genre": ["RPG"],
-    "url_jacket": "http://localhost:5000/dragon-age-inquisition.jpg",
+    "jacket_url": "http://localhost:5002/dragon-age-inquisition.jpg",
     "id": 22
   },
   {
@@ -282,7 +282,7 @@
     "developpeur": "Square Enix",
     "editeur": "Square Enix",
     "genre": ["RPG"],
-    "url_jacket": "http://localhost:5000/dragon-quest-xi.jpg",
+    "jacket_url": "http://localhost:5002/dragon-quest-xi.jpg",
     "id": 23
   },
   {
@@ -293,7 +293,7 @@
     "developpeur": "Media Molecule",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Création"],
-    "url_jacket": "http://localhost:5000/dreams.jpg",
+    "jacket_url": "http://localhost:5002/dreams.jpg",
     "id": 24
   },
   {
@@ -304,7 +304,7 @@
     "developpeur": "Bethesda Game Studios",
     "editeur": "Bethesda Softworks",
     "genre": ["RPG", "FPS"],
-    "url_jacket": "http://localhost:5000/fallout-4.jpg",
+    "jacket_url": "http://localhost:5002/fallout-4.jpg",
     "id": 25
   },
   {
@@ -315,7 +315,7 @@
     "developpeur": "Ubisoft Montréal",
     "editeur": "Ubisoft",
     "genre": ["FPS", "Open world"],
-    "url_jacket": "http://localhost:5000/far-cry-5.jpg",
+    "jacket_url": "http://localhost:5002/far-cry-5.jpg",
     "id": 26
   },
   {
@@ -326,7 +326,7 @@
     "developpeur": "Square Enix",
     "editeur": "Square Enix",
     "genre": ["RPG"],
-    "url_jacket": "http://localhost:5000/final-fantasy-vii-remake.jpg",
+    "jacket_url": "http://localhost:5002/final-fantasy-vii-remake.jpg",
     "id": 27
   },
   {
@@ -337,7 +337,7 @@
     "developpeur": "Campo Santo",
     "editeur": "Panic Inc.",
     "genre": ["Aventure", "Narratif"],
-    "url_jacket": "http://localhost:5000/firewatch.jpg",
+    "jacket_url": "http://localhost:5002/firewatch.jpg",
     "id": 28
   },
   {
@@ -348,7 +348,7 @@
     "developpeur": "Playground Games",
     "editeur": "Xbox Game Studios",
     "genre": ["Course", "Monde ouvert"],
-    "url_jacket": "http://localhost:5000/forza-horizon-4.jpg",
+    "jacket_url": "http://localhost:5002/forza-horizon-4.jpg",
     "id": 29
   },
   {
@@ -359,7 +359,7 @@
     "developpeur": "Sucker Punch Productions",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action-aventure", "Monde ouvert"],
-    "url_jacket": "http://localhost:5000/ghost-of-tsushima.jpg",
+    "jacket_url": "http://localhost:5002/ghost-of-tsushima.jpg",
     "id": 30
   },
   {
@@ -370,7 +370,7 @@
     "developpeur": "Santa Monica Studio",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action-aventure"],
-    "url_jacket": "http://localhost:5000/god-of-war.jpg",
+    "jacket_url": "http://localhost:5002/god-of-war.jpg",
     "id": 31
   },
   {
@@ -387,7 +387,7 @@
     "developpeur": "Rockstar North",
     "editeur": "Rockstar Games",
     "genre": ["Action", "Aventure"],
-    "url_jaquette": "http://localhost:5000/gta-5.jpg",
+    "jacket_url": "http://localhost:5002/gta-5.jpg",
     "id": 32
   },
   {
@@ -398,7 +398,7 @@
     "developpeur": "Supergiant Games",
     "editeur": "Supergiant Games",
     "genre": ["Rogue-like"],
-    "url_jaquette": "http://localhost:5000/hades.jpg",
+    "jacket_url": "http://localhost:5002/hades.jpg",
     "id": 33
   },
   {
@@ -409,7 +409,7 @@
     "developpeur": "343 Industries",
     "editeur": "Microsoft Studios",
     "genre": ["FPS"],
-    "url_jaquette": "http://localhost:5000/halo-5-guardians.jpg",
+    "jacket_url": "http://localhost:5002/halo-5-guardians.jpg",
     "id": 34
   },
   {
@@ -422,7 +422,7 @@
     "developpeur": "Ninja Theory",
     "editeur": "Ninja Theory",
     "genre": ["Action-aventure, Hack and slash"],
-    "url_jacket": "http://localhost:5000/hellblade-senua-s-sacri.jpg",
+    "jacket_url": "http://localhost:5002/hellblade-senua-s-sacri.jpg",
     "id": 35
   },
   {
@@ -433,7 +433,7 @@
     "developpeur": "Guerrilla Games",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action-RPG"],
-    "url_jacket": "http://localhost:5000/horizon-zero-dawn.jpg",
+    "jacket_url": "http://localhost:5002/horizon-zero-dawn.jpg",
     "id": 36
   },
   {
@@ -446,7 +446,7 @@
     "developpeur": "Playdead",
     "editeur": "Playdead",
     "genre": ["Plate-forme, Puzzle-platformer"],
-    "url_jacket": "http://localhost:5000/inside.jpg",
+    "jacket_url": "http://localhost:5002/inside.jpg",
     "id": 37
   },
   {
@@ -457,7 +457,7 @@
     "developpeur": "Thatgamecompany",
     "editeur": "Sony Computer Entertainment",
     "genre": ["Aventure"],
-    "url_jacket": "http://localhost:5000/journey.jpg",
+    "jacket_url": "http://localhost:5002/journey.jpg",
     "id": 38
   },
   {
@@ -470,7 +470,7 @@
     "developpeur": "Cardboard Computer",
     "editeur": "Cardboard Computer",
     "genre": ["Aventure graphique"],
-    "url_jacket": "http://localhost:5000/kentucky.jpg",
+    "jacket_url": "http://localhost:5002/kentucky.jpg",
     "id": 39
   },
   {
@@ -481,7 +481,7 @@
     "developpeur": "Squad",
     "editeur": "Private Division",
     "genre": ["Simulation", "Espace"],
-    "url_jacket": "http://localhost:5000/kerbal-space-program.webp",
+    "jacket_url": "http://localhost:5002/kerbal-space-program.webp",
     "id": 40
   },
   {
@@ -492,7 +492,7 @@
     "developpeur": "Dontnod Entertainment",
     "editeur": "Square Enix",
     "genre": ["Aventure", "Narratif"],
-    "url_jacket": "http://localhost:5000/life-is-strange.jpg",
+    "jacket_url": "http://localhost:5002/life-is-strange.jpg",
     "id": 41
   },
   {
@@ -511,7 +511,7 @@
     "developpeur": "Playdead",
     "editeur": "Playdead",
     "genre": ["Plateforme", "Réflexion"],
-    "url_jacket": "http://localhost:5000/limbo.jpg",
+    "jacket_url": "http://localhost:5002/limbo.jpg",
     "id": 42
   },
   {
@@ -522,7 +522,7 @@
     "developpeur": "Tarsier Studios",
     "editeur": "Bandai Namco Entertainment",
     "genre": ["Aventure, réflexion"],
-    "url_jacket": "http://localhost:5000/little-nightmares-jaquett.jpg",
+    "jacket_url": "http://localhost:5002/little-nightmares-jaquett.jpg",
     "id": 43
   },
   {
@@ -533,7 +533,7 @@
     "developpeur": "Hangar 13",
     "editeur": "2K Games",
     "genre": ["Action-aventure"],
-    "url_jacket": "http://localhost:5000/mafia-iii.jpg",
+    "jacket_url": "http://localhost:5002/mafia-iii.jpg",
     "id": 44
   },
   {
@@ -544,7 +544,7 @@
     "developpeur": "Nintendo EAD",
     "editeur": "Nintendo",
     "genre": ["Course"],
-    "url_jacket": "http://localhost:5000/mario-kart-8-deluxe.jpg",
+    "jacket_url": "http://localhost:5002/mario-kart-8-deluxe.jpg",
     "id": 45
   },
   {
@@ -555,7 +555,7 @@
     "developpeur": "Insomniac Games",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action-aventure"],
-    "url_jacket": "http://localhost:5000/spider-man.jpg",
+    "jacket_url": "http://localhost:5002/spider-man.jpg",
     "id": 46
   },
   {
@@ -566,7 +566,7 @@
     "developpeur": "BioWare",
     "editeur": "Electronic Arts",
     "genre": ["Action-RPG"],
-    "jacket_url": "http://localhost:5000/mass-effect-andromeda.jpg",
+    "jacket_url": "http://localhost:5002/mass-effect-andromeda.jpg",
     "id": 47
   },
   {
@@ -577,7 +577,7 @@
     "developpeur": "Kojima Productions",
     "editeur": "Konami",
     "genre": ["Action-infiltration"],
-    "jacket_url": "http://localhost:5000/metal-gear-solid-5.jpg",
+    "jacket_url": "http://localhost:5002/metal-gear-solid-5.jpg",
     "id": 48
   },
   {
@@ -588,7 +588,7 @@
     "developpeur": "4A Games",
     "editeur": "Deep Silver",
     "genre": ["Tir à la première personne"],
-    "jacket_url": "http://localhost:5000/metro-exodus.jpg",
+    "jacket_url": "http://localhost:5002/metro-exodus.jpg",
     "id": 49
   },
   {
@@ -606,7 +606,7 @@
     "developpeur": "Mojang",
     "editeur": "Mojang",
     "genre": ["Survie", "Sandbox"],
-    "jacket_url": "http://localhost:5000/minecraft.jpg",
+    "jacket_url": "http://localhost:5002/minecraft.jpg",
     "id": 50
   },
   {
@@ -617,7 +617,7 @@
     "developpeur": "Capcom",
     "editeur": "Capcom",
     "genre": ["Action-RPG"],
-    "jacket_url": "http://localhost:5000/monster-hunter-world.jpg",
+    "jacket_url": "http://localhost:5002/monster-hunter-world.jpg",
     "id": 51
   },
   {
@@ -628,7 +628,7 @@
     "developpeur": "NetherRealm Studios",
     "editeur": "Warner Bros. Interactive Entertainment",
     "genre": ["Jeu de combat"],
-    "jacket_url": "http://localhost:5000/mortal-kombat-11.jpg",
+    "jacket_url": "http://localhost:5002/mortal-kombat-11.jpg",
     "id": 52
   },
   {
@@ -639,7 +639,7 @@
     "developpeur": "PlatinumGames",
     "editeur": "Square Enix",
     "genre": ["Action-RPG", "Monde ouvert"],
-    "jacket_url": "http://localhost:5000/nier-automata.jpg",
+    "jacket_url": "http://localhost:5002/nier-automata.jpg",
     "id": 53
   },
   {
@@ -650,7 +650,7 @@
     "developpeur": "Hello Games",
     "editeur": "Hello Games",
     "genre": ["Exploration", "Survie"],
-    "jacket_url": "http://localhost:5000/no-man-s-sky.jpg",
+    "jacket_url": "http://localhost:5002/no-man-s-sky.jpg",
     "id": 54
   },
   {
@@ -661,7 +661,7 @@
     "developpeur": "Moon Studios",
     "editeur": "Xbox Game Studios",
     "genre": ["Plateforme", "Aventure"],
-    "jacket_url": "http://localhost:5000/ori-and-the-will.jpg",
+    "jacket_url": "http://localhost:5002/ori-and-the-will.jpg",
     "id": 55
   },
   {
@@ -672,7 +672,7 @@
     "developpeur": "Mobius Digital",
     "editeur": "Annapurna Interactive",
     "genre": ["Aventure", "Exploration"],
-    "jacket_url": "http://localhost:5000/OuterWilds.webp",
+    "jacket_url": "http://localhost:5002/OuterWilds.webp",
     "id": 56
   },
   {
@@ -683,7 +683,7 @@
     "developpeur": "Blizzard Entertainment",
     "editeur": "Blizzard Entertainment",
     "genre": ["Tir à la première personne", "Multijoueur en ligne"],
-    "jacket_url": "http://localhost:5000/overwatch.jpg",
+    "jacket_url": "http://localhost:5002/overwatch.jpg",
     "id": 57
   },
   {
@@ -694,7 +694,7 @@
     "developpeur": "Atlus",
     "editeur": "Atlus",
     "genre": ["Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/persona-5.jpg",
+    "jacket_url": "http://localhost:5002/persona-5.jpg",
     "id": 58
   },
   {
@@ -711,7 +711,7 @@
     "developpeur": "Valve Corporation",
     "editeur": "Valve Corporation",
     "genre": ["Puzzle-platformer", "Réflexion"],
-    "jacket_url": "http://localhost:5000/portal-2.jpg",
+    "jacket_url": "http://localhost:5002/portal-2.jpg",
     "id": 59
   },
   {
@@ -722,7 +722,7 @@
     "developpeur": "Game Freak",
     "editeur": "Nintendo",
     "genre": ["Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/pokemon-version-bleue.jpg",
+    "jacket_url": "http://localhost:5002/pokemon-version-bleue.jpg",
     "id": 60
   },
   {
@@ -733,7 +733,7 @@
     "developpeur": "Game Freak",
     "editeur": "Nintendo",
     "genre": ["Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/pokémon_Argent.png",
+    "jacket_url": "http://localhost:5002/pokémon_Argent.png",
     "id": 61
   },
   {
@@ -744,7 +744,7 @@
     "developpeur": "Game Freak",
     "editeur": "Nintendo",
     "genre": ["Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/pokmon-saphi.jpg",
+    "jacket_url": "http://localhost:5002/pokmon-saphi.jpg",
     "id": 62
   },
   {
@@ -755,7 +755,7 @@
     "developpeur": "Game Freak",
     "editeur": "Nintendo",
     "genre": ["Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/pokmon-ver-feui.jpg",
+    "jacket_url": "http://localhost:5002/pokmon-ver-feui.jpg",
     "id": 63
   },
   {
@@ -766,7 +766,7 @@
     "developpeur": "Game Freak",
     "editeur": "Nintendo",
     "genre": ["Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/pokmon-emera.jpg",
+    "jacket_url": "http://localhost:5002/pokmon-emera.jpg",
     "id": 64
   },
   {
@@ -777,7 +777,7 @@
     "developpeur": "Game Freak",
     "editeur": "Nintendo",
     "genre": "RPG",
-    "jacket_url": "http://localhost:5000/pokmon-diama.jpg",
+    "jacket_url": "http://localhost:5002/pokmon-diama.jpg",
     "id": 65
   },
   {
@@ -788,7 +788,7 @@
     "developpeur": ["Game Freak"],
     "editeur": "Nintendo",
     "genre": ["RPG"],
-    "jacket_url": "http://localhost:5000/pokmon-blanche.jpg",
+    "jacket_url": "http://localhost:5002/pokmon-blanche.jpg",
     "id": 66
   },
   {
@@ -799,7 +799,7 @@
     "developpeur": "Game Freak",
     "editeur": "Nintendo",
     "genre": ["RPG"],
-    "jacket_url": "http://localhost:5000/pokemon-black-2.jpg",
+    "jacket_url": "http://localhost:5002/pokemon-black-2.jpg",
     "id": 67
   },
   {
@@ -810,7 +810,7 @@
     "developpeur": "Koei Tecmo",
     "editeur": "Nintendo",
     "genre": ["Stratégie"],
-    "jacket_url": "http://localhost:5000/ds_pokemon_conquest.jpg",
+    "jacket_url": "http://localhost:5002/ds_pokemon_conquest.jpg",
     "id": 68
   },
   {
@@ -821,7 +821,7 @@
     "developpeur": "Game Freak",
     "editeur": "Nintendo",
     "genre": ["Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/pokmon-plati.jpg",
+    "jacket_url": "http://localhost:5002/pokmon-plati.jpg",
     "id": 69
   },
   {
@@ -832,7 +832,7 @@
     "developpeur": "Arkane Studios",
     "editeur": "Bethesda Softworks",
     "genre": ["Action", "Aventure"],
-    "jacket_url": "http://localhost:5000/prey.jpg",
+    "jacket_url": "http://localhost:5002/prey.jpg",
     "id": 70
   },
   {
@@ -843,7 +843,7 @@
     "developpeur": "Rockstar Studios",
     "editeur": "Rockstar Games",
     "genre": ["Action-aventure", "Monde ouvert"],
-    "jacket_url": "http://localhost:5000/rdr2.jpg",
+    "jacket_url": "http://localhost:5002/rdr2.jpg",
     "id": 71
   },
   {
@@ -854,7 +854,7 @@
     "developpeur": "Capcom",
     "editeur": "Capcom",
     "genre": ["Survival horror", "Tir à la troisième personne"],
-    "jacket_url": "http://localhost:5000/resident-evil-2.jpg",
+    "jacket_url": "http://localhost:5002/resident-evil-2.jpg",
     "id": 72
   },
   {
@@ -865,7 +865,7 @@
     "developpeur": "Lucas Pope",
     "editeur": "3909 LLC",
     "genre": ["Aventure", "Réflexion"],
-    "jacket_url": "http://localhost:5000/return-of-the-obra-dinn.jpg",
+    "jacket_url": "http://localhost:5002/return-of-the-obra-dinn.jpg",
     "id": 73
   },
   {
@@ -881,7 +881,7 @@
     "developpeur": "Psyonix",
     "editeur": "Psyonix",
     "genre": ["Course", "Sport"],
-    "jacket_url": "http://localhost:5000/rocket-league.jpg",
+    "jacket_url": "http://localhost:5002/rocket-league.jpg",
     "id": 74
   },
   {
@@ -892,7 +892,7 @@
     "developpeur": "FromSoftware",
     "editeur": "Activision",
     "genre": ["Action", "Aventure"],
-    "jacket_url": "http://localhost:5000/sekiro-shadows-die-twic.jpg",
+    "jacket_url": "http://localhost:5002/sekiro-shadows-die-twic.jpg",
     "id": 75
   },
   {
@@ -903,7 +903,7 @@
     "developpeur": "Team Ico",
     "editeur": "Sony Computer Entertainment",
     "genre": ["Action", "Aventure"],
-    "jacket_url": "http://localhost:5000/shadow-of-the-colossus.jpg",
+    "jacket_url": "http://localhost:5002/shadow-of-the-colossus.jpg",
     "id": 76
   },
   {
@@ -914,7 +914,7 @@
     "developpeur": "Christian Whitehead, Headcannon, PagodaWest Games",
     "editeur": "Sega",
     "genre": ["Plate-forme"],
-    "jacket_url": "http://localhost:5000/sonic-mania.jpg",
+    "jacket_url": "http://localhost:5002/sonic-mania.jpg",
     "id": 77
   },
   {
@@ -925,7 +925,7 @@
     "developpeur": "Obsidian Entertainment",
     "editeur": "Ubisoft",
     "genre": ["Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/south-park-le-baton.jpg",
+    "jacket_url": "http://localhost:5002/south-park-le-baton.jpg",
     "id": 78
   },
   {
@@ -943,7 +943,7 @@
     "developpeur": "ConcernedApe",
     "editeur": "Chucklefish Games",
     "genre": ["Simulation de vie", "Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/stardew-valley.jpg",
+    "jacket_url": "http://localhost:5002/stardew-valley.jpg",
     "id": 79
   },
   {
@@ -954,7 +954,7 @@
     "developpeur": "Respawn Entertainment",
     "editeur": "Electronic Arts",
     "genre": ["Action", "Aventure"],
-    "jacket_url": "http://localhost:5000/star-wars-jedi-fallen.jpg",
+    "jacket_url": "http://localhost:5002/star-wars-jedi-fallen.jpg",
     "id": 80
   },
   {
@@ -965,7 +965,7 @@
     "developpeur": "Nintendo EPD",
     "editeur": "Nintendo",
     "genre": ["Plateforme"],
-    "jacket_url": "http://localhost:5000/super-mario-odyssey.jpg",
+    "jacket_url": "http://localhost:5002/super-mario-odyssey.jpg",
     "id": 81
   },
   {
@@ -976,7 +976,7 @@
     "developpeur": "Bandai Namco Studios, Sora Ltd.",
     "editeur": "Nintendo",
     "genre": ["Combat"],
-    "jacket_url": "http://localhost:5000/super-smash-bros-ultimat.jpg",
+    "jacket_url": "http://localhost:5002/super-smash-bros-ultimat.jpg",
     "id": 82
   },
   {
@@ -987,7 +987,7 @@
     "developpeur": "Bethesda Game Studios",
     "editeur": "Bethesda Softworks",
     "genre": ["RPG"],
-    "url_jacket": "http://localhost:5000/the-elder-scrolls-v.jpg",
+    "jacket_url": "http://localhost:5002/the-elder-scrolls-v.jpg",
     "id": 83
   },
   {
@@ -998,7 +998,7 @@
     "developpeur": "Nintendo EPD",
     "editeur": "Nintendo",
     "genre": ["Action", "Aventure"],
-    "url_jacket": "http://localhost:5000/the-legend-of-zelda-bre.jpg",
+    "jacket_url": "http://localhost:5002/the-legend-of-zelda-bre.jpg",
     "id": 84
   },
   {
@@ -1009,7 +1009,7 @@
     "developpeur": "Naughty Dog",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action", "Aventure"],
-    "url_jacket": "http://localhost:5000/the-last-of-us-2.jpg",
+    "jacket_url": "http://localhost:5002/the-last-of-us-2.jpg",
     "id": 85
   },
   {
@@ -1020,7 +1020,7 @@
     "developpeur": "Maxis",
     "editeur": "Electronic Arts",
     "genre": ["Simulation de vie"],
-    "jacket_url": "http://localhost:5000/les-sims-4.jpg",
+    "jacket_url": "http://localhost:5002/les-sims-4.jpg",
     "id": 86
   },
   {
@@ -1031,7 +1031,7 @@
     "developpeur": "The Astronauts",
     "editeur": "The Astronauts",
     "genre": ["Aventure", "Mystère"],
-    "jacket_url": "http://localhost:5000/the-vanishing-of-ethan.jpg",
+    "jacket_url": "http://localhost:5002/the-vanishing-of-ethan.jpg",
     "id": 87
   },
   {
@@ -1047,7 +1047,7 @@
     "developpeur": "Telltale Games, Skybound Games",
     "editeur": "Skybound Games",
     "genre": ["Graphic adventure", "Interactive drama"],
-    "jacket_url": "http://localhost:5000/The_Walking_Dead_The_Final_Season_cover.jpg",
+    "jacket_url": "http://localhost:5002/The_Walking_Dead_The_Final_Season_cover.jpg",
     "id": 88
   },
   {
@@ -1058,7 +1058,7 @@
     "developpeur": "CD Projekt RED",
     "editeur": "CD Projekt",
     "genre": ["Action-RPG", "Monde ouvert"],
-    "jacket_url": "http://localhost:5000/the-witcher-3-wild-hunt.jpg",
+    "jacket_url": "http://localhost:5002/the-witcher-3-wild-hunt.jpg",
     "id": 89
   },
   {
@@ -1075,7 +1075,7 @@
     "developpeur": "Jonathan Blow",
     "editeur": "Jonathan Blow",
     "genre": ["Puzzle", "Adventure"],
-    "jacket_url": "http://localhost:5000/the-witness.jpg",
+    "jacket_url": "http://localhost:5002/the-witness.jpg",
     "id": 90
   },
   {
@@ -1086,7 +1086,7 @@
     "developpeur": "Respawn Entertainment",
     "editeur": "Electronic Arts",
     "genre": ["FPS", "Multijoueur"],
-    "jacket_url": "http://localhost:5000/titanfall-2.jpg",
+    "jacket_url": "http://localhost:5002/titanfall-2.jpg",
     "id": 91
   },
   {
@@ -1097,7 +1097,7 @@
     "developpeur": "Ubisoft Montréal",
     "editeur": "Ubisoft",
     "genre": ["FPS", "Tactique"],
-    "jacket_url": "http://localhost:5000/tom-clancy-s-rainbow-six.jpg",
+    "jacket_url": "http://localhost:5002/tom-clancy-s-rainbow-six.jpg",
     "id": 92
   },
   {
@@ -1108,7 +1108,7 @@
     "developpeur": "Naughty Dog",
     "editeur": "Sony Computer Entertainment",
     "genre": ["Action-aventure"],
-    "jacket_url": "http://localhost:5000/uncharted-4.jpg",
+    "jacket_url": "http://localhost:5002/uncharted-4.jpg",
     "id": 93
   },
   {
@@ -1119,7 +1119,7 @@
     "developpeur": "Toby Fox",
     "editeur": "Toby Fox",
     "genre": ["RPG"],
-    "jacket_url": "http://localhost:5000/undertale.webp",
+    "jacket_url": "http://localhost:5002/undertale.webp",
     "id": 94
   },
   {
@@ -1130,7 +1130,7 @@
     "developpeur": "Supermassive Games",
     "editeur": "Sony Computer Entertainment",
     "genre": ["Survival horror", "Interactive drama"],
-    "jacket_url": "http://localhost:5000/until-dawn.jpg",
+    "jacket_url": "http://localhost:5002/until-dawn.jpg",
     "id": 95
   },
   {
@@ -1141,7 +1141,7 @@
     "developpeur": "Sega",
     "editeur": "Sega",
     "genre": ["Tactical RPG"],
-    "jacket_url": "http://localhost:5000/valkyria-chronicles-4.jpg",
+    "jacket_url": "http://localhost:5002/valkyria-chronicles-4.jpg",
     "id": 96
   },
   {
@@ -1152,7 +1152,7 @@
     "developpeur": "Dontnod Entertainment",
     "editeur": "Focus Home Interactive",
     "genre": ["Action-RPG"],
-    "jacket_url": "http://localhost:5000/vampyr.jpg",
+    "jacket_url": "http://localhost:5002/vampyr.jpg",
     "id": 97
   },
   {
@@ -1168,7 +1168,7 @@
     "developpeur": "MachineGames",
     "editeur": "Bethesda Softworks",
     "genre": ["First-person shooter", "Action-adventure"],
-    "jacket_url": "http://localhost:5000/wolfenstein-2.jpg",
+    "jacket_url": "http://localhost:5002/wolfenstein-2.jpg",
     "id": 98
   },
   {
@@ -1179,7 +1179,7 @@
     "developpeur": "Firaxis Games",
     "editeur": "2K Games",
     "genre": ["Stratégie au tour par tour", "Tactique"],
-    "jacket_url": "http://localhost:5000/xcom-2.jpg",
+    "jacket_url": "http://localhost:5002/xcom-2.jpg",
     "id": 99
   },
   {
@@ -1190,7 +1190,7 @@
     "developpeur": "Monolith Soft",
     "editeur": "Nintendo",
     "genre": ["Jeu de rôle"],
-    "jacket_url": "http://localhost:5000/xenoblade-chronicles-2.jpg",
+    "jacket_url": "http://localhost:5002/xenoblade-chronicles-2.jpg",
     "id": 100
   },
   {
@@ -1201,7 +1201,7 @@
     "developpeur": "Sega",
     "editeur": "Sega",
     "genre": ["Action-aventure"],
-    "jacket_url": "http://localhost:5000/yakuza-zero.jpg",
+    "jacket_url": "http://localhost:5002/yakuza-zero.jpg",
     "id": 101
   },
   {
@@ -1212,7 +1212,7 @@
     "developpeur": "Sega",
     "editeur": "Sega",
     "genre": ["Action", "Adventure"],
-    "jacket_url": "http://localhost:5000/yakuza-kiwami-2.jpg",
+    "jacket_url": "http://localhost:5002/yakuza-kiwami-2.jpg",
     "id": 102
   },
   {
@@ -1223,7 +1223,7 @@
     "developpeur": "Playtonic Games",
     "editeur": "Team17",
     "genre": ["Platformer"],
-    "jacket_url": "http://localhost:5000/yooka-laylee.jpg",
+    "jacket_url": "http://localhost:5002/yooka-laylee.jpg",
     "id": 103
   },
   {
@@ -1234,7 +1234,7 @@
     "developpeur": "Nintendo",
     "editeur": "Nintendo",
     "genre": ["Action", "Adventure", "Role-Playing"],
-    "jacket_url": "http://localhost:5000/zelda-ii-the-adventure-of-link-famicom.png",
+    "jacket_url": "http://localhost:5002/zelda-ii-the-adventure-of-link-famicom.png",
     "id": 104
   },
   {
@@ -1245,7 +1245,7 @@
     "developpeur": "Spike Chunsoft",
     "editeur": "Aksys Games",
     "genre": ["Visual novel", "Escape room"],
-    "jacket_url": "http://localhost:5000/zero-Escape-The-Nonary-Games.png",
+    "jacket_url": "http://localhost:5002/zero-Escape-The-Nonary-Games.png",
     "id": 105
   },
   {
@@ -1256,7 +1256,7 @@
     "developpeur": "Konami",
     "editeur": "Konami",
     "genre": ["Action", "Mecha"],
-    "jacket_url": "http://localhost:5000/Zone.jpg",
+    "jacket_url": "http://localhost:5002/Zone.jpg",
     "id": 106
   },
   {
@@ -1269,7 +1269,7 @@
     "developpeur": "MidBoss",
     "editeur": "MidBoss",
     "genre": ["Adventure, Point-and-click"],
-    "jacket_url": "http://localhost:5000/EGS_2064ReadOnlyMemories.jpg",
+    "jacket_url": "http://localhost:5002/EGS_2064ReadOnlyMemories.jpg",
     "id": 107
   },
   {
@@ -1282,7 +1282,7 @@
     "developpeur": "Jutsu Games",
     "editeur": "PlayWay",
     "genre": ["Strategy, Simulation"],
-    "jacket_url": "http://localhost:5000/911-operator.jpg",
+    "jacket_url": "http://localhost:5002/911-operator.jpg",
     "id": 108
   },
   {
@@ -1293,7 +1293,7 @@
     "developpeur": "Inkle Studios",
     "editeur": "Inkle Studios",
     "genre": ["Interactive Fiction, Adventure"],
-    "jacket_url": "http://localhost:5000/80-days.jpg",
+    "jacket_url": "http://localhost:5002/80-days.jpg",
     "id": 109
   },
   {
@@ -1305,7 +1305,7 @@
     "description": "Résumé : Le meilleur jeu de l'année pour tester votre culture cinématographique. Ne passez pas à côté.",
 
     "genre": ["Quizz"],
-    "jacket_url": "http://localhost:5000/wilder-game",
+    "jacket_url": "http://localhost:5002/wilder-game.png",
     "id": 110
   }
 ]
