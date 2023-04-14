@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 import PropTypes from "prop-types";
 import "./ConsoleButton.css";
 
-function ConsoleButton({ nom, classe }) {
-  function handleClick() {
-    console.info(nom);
-  }
+function ConsoleButton({ nom, classe, plateforme }) {
+  const [jeux, setJeux] = useState([]);
+
+  const handleClick = async () => {
+    try {
+      const response = await axios.get("http://localhost:5002/api/jeux", {
+        params: {
+          plateforme,
+        },
+      });
+      setJeux(response.data);
+    } catch (err) {
+      console.error(err);
+    }
+  };
 
   const style = {
     color: "white",
@@ -18,20 +30,26 @@ function ConsoleButton({ nom, classe }) {
   };
 
   return (
-    <button
-      type="button"
-      className={classe}
-      style={style}
-      onClick={handleClick}
-    >
-      {nom}
-    </button>
+    <div>
+      <button
+        type="button"
+        className={classe}
+        style={style}
+        onClick={handleClick}
+      >
+        {nom}
+      </button>
+      {jeux.map((jeu) => (
+        <div key={jeu.id}>{jeu.titre}</div>
+      ))}
+    </div>
   );
 }
 
 ConsoleButton.propTypes = {
   nom: PropTypes.string.isRequired,
   classe: PropTypes.string.isRequired,
+  plateforme: PropTypes.string.isRequired,
 };
 
 export default ConsoleButton;

@@ -20,7 +20,7 @@ function App() {
       <div>
         <ConsoleButton nom="PlayStation 4" classe="bouton-ps4" />
       </div>
-      <ConsoleButton nom="PlayStation 5" classe="bouton-ps5" />
+      <ConsoleButton nom="PlayStation 5" classe="bouton-ps5" plateforme="" />
       <ConsoleButton nom="Xbox" classe="bouton-xbox" />
       <ConsoleButton nom="PC" classe="bouton-pc" />
       <ConsoleButton nom="Switch" classe="bouton-switch" />
