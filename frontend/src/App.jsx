@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ConsoleButton from "./components/ConsoleButton/ConsoleButton";
 import NavBar from "./components/navBar/NavBar";
-import HeroImage from "./components/navBar/HeroImage";
 import Footer from "./components/footer/Footer";
 import "./App.css";
 import MiniCard from "./components/MiniCard/MiniCard";
@@ -24,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <HeroImage />
+
       <MiniCard cards={cards} />
 
       <div>
