@@ -1,42 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-.cardsContainer {
+.container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e2dbd7;
+  height: 18rem;
+  width: 12rem;
+  border-radius: 10px;
+  box-shadow: -4px 4px 10px #00000069;
 
-  .container {
+  &:hover {
+    background-color: #c9c2bd;
+    cursor: pointer;
+    opacity: 60%;
+  }
+  .imgMiniCard {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #e2dbd7;
-    height: 300px;
-    width: 190px;
-    border-radius: 10px;
-    box-shadow: -4px 4px 10px #00000069;
-
-    &:hover {
-      background-color: #c9c2bd;
-      cursor: pointer;
-      opacity: 60%;
-    }
-    .imgMiniCard {
-      display: flex;
-      justify-content: center;
-    }
-    .img {
-      width: 80%;
-      border-radius: 5px;
-      box-shadow: 4px 4px 4px #00000069;
-    }
-    .name {
-      text-align: center;
-      font-family: Roboto, sans-serif;
-      font-size: 1.1em;
-      font-weight: 400;
-      width: 80%;
-    }
+    justify-content: center;
+    max-height: 70%;
+  }
+  .img {
+    width: auto;
+    max-width: 90%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #00000069;
+  }
+  .name {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    width: 80%;
   }
 }
