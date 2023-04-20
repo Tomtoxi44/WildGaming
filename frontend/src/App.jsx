@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./index.scss";
-import ConsoleButton from "./components/ConsoleButton/ConsoleButton";
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
-import "./App.css";
 import MiniCard from "./components/MiniCard/MiniCard";
+import CardDescription from "./components/CardDescription/CardDescription";
+import "./App.css";
+import "./index.scss";
 import CarouselComponent from "./components/CarouselComponent";
+
 
 function App() {
   const data = [
@@ -52,13 +53,14 @@ function App() {
       .catch((err) => console.error(err));
   }, []);
 
+  const [description, setDescription] = useState(undefined);
+
   return (
     <div className="App">
 
-      <div>
-        <NavBar />
-        <HeroImage />
-        <CarouselComponent data={data} />
+      <NavBar />
+      <HeroImage /> 
+      <CarouselComponent data={data} />
       </div>
       <div style={{ textAlign: "center" }}>
         <div
@@ -67,32 +69,14 @@ function App() {
           }}
         />
       </div>
-
-      <div>
-        <MiniCard cards={cards} />
-        <div>
-          <h1>CONSOLE : </h1>
-        </div>
-        <div>
-          <ConsoleButton nom="PlayStation 4" classe="bouton-ps4" />
-        </div>
-
-        <ConsoleButton nom="PlayStation 5" classe="bouton-ps5" plateforme="" />
-        <ConsoleButton nom="Xbox" classe="bouton-xbox" />
-        <ConsoleButton nom="PC" classe="bouton-pc" />
-        <ConsoleButton nom="Switch" classe="bouton-switch" />
-        <ConsoleButton nom="Game boy" classe="bouton-Game-boy" />
-        <h2>GENRE :</h2>
-
-        <div>
-          <ConsoleButton nom="Aventure" classe="bouton-aventure" />
-          <ConsoleButton nom="Action" classe="bouton-action" />
-          <ConsoleButton nom="RPG" classe="bouton-RPG" />
-          <ConsoleButton nom="FPS" classe="bouton-FPS" />
-          <ConsoleButton nom="Sport" classe="bouton-sport" />
-        </div>
-        <Footer />
-      </div>
+      <MiniCard cards={cards} key={cards.id} setDescription={setDescription} />
+      {description && (
+        <CardDescription
+          description={description}
+          setDescription={setDescription}
+        />
+      )}
+      <Footer />
     </div>
   );
 }
