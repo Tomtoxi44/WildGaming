@@ -6,6 +6,9 @@
   flex-wrap: wrap;
   gap: 20px;
 
+  button {
+    border-radius: 10px;
+  }
   .container {
     display: flex;
     flex-direction: column;

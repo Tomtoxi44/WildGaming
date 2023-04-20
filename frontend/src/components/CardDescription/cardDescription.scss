@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.popUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.494);
+  backdrop-filter: blur(10px);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .containerDescription {
+    position: relative;
+    border-radius: 10px;
+    background-color: #e2dbd795;
+    height: 95%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .cross {
+      border-radius: 50px;
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      border: none;
+      font-weight: 500;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    h2 {
+      font-family: Roboto, sans-serif;
+      font-size: 2rem;
+    }
+
+    .titreDescription {
+      text-align: center;
+    }
+
+    .imgDescription {
+      display: flex;
+      justify-content: center;
+      max-height: 40%;
+
+      // height: 250px;
+    }
+
+    img {
+      width: 100%;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 4px 4px 4px #00000069;
+      width: auto;
+    }
+
+    .descriptionGlobal {
+      border-radius: 10px;
+      background-color: #6b6767;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      width: 80%;
+      min-height: 350px;
+      padding: 5%;
+      gap: 15px;
+    }
+
+    .plateformeDescription {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: white;
+      border-radius: 2px black;
+      gap: 10px;
+
+      .btnConsole {
+        border: none;
+        padding: 8px;
+        border-radius: 10px;
+        font-size: 1rem;
+        color: white;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .green {
+        background-color: #198000;
+      }
+
+      .grey {
+        background-color: rgb(77, 76, 76);
+      }
+
+      .red {
+        background-color: #eb0000;
+      }
+
+      .lightgray {
+        background-color: rgb(167, 167, 167);
+      }
+
+      .rosybrown {
+        background-color: rgb(38, 38, 38);
+      }
+
+      .darkslateblue {
+        background-color: darkslateblue;
+      }
+    }
+
+    .anneDescritpion {
+      font-weight: 600;
+    }
+
+    .txtDescritpion {
+    }
+
+    p {
+      font-family: Roboto, sans-serif;
+    }
+  }
+}
