@@ -32,7 +32,9 @@
   },
   "dependencies": {
     "node-sass": "^8.0.0",
+    "react-carousel-minimal": "^1.4.1",
     "react-router-dom": "^6.10.0",
-    "sass": "^1.62.0"
+    "sass": "^1.62.0",
+    "uuid": "^9.0.0"
   }
 }
