@@ -2,46 +2,98 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
-  .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #2d2d2d;
-    width: 100%;
-    height: 15vh;
-    padding: 20px;
-  }
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d2d2d;
+  width: 100%;
+  height: 15vh;
+  padding: 20px;
 
-  .loupe {
+  .loupe img {
     width: 4%;
     position: absolute;
     left: 10px;
+    top: 35px;
     cursor: pointer;
   }
+}
 
-  .logo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    img {
-      width: 40%;
-    }
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  img {
+    width: 40%;
   }
+}
+.hero-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
 
   .hero-image {
     width: 100%;
+    height: auto;
+  }
+
+  .MenuFilters {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background: #444444;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    animation-name: slide;
+    animation-duration: 500ms ease-out;
+  }
+
+}
+
+@media screen and (max-width: 1075px) {
+  .navbar {
+    height: 13vh;
+
+    .logo {
+      img {
+        width: 50%;
+        top: 20px;
+      }
+    }
   }
 }
 
 @media screen and (max-width: 675px) {
   .navbar {
-    height: 5vh;
-  }
+    height: 7vh;
 
-  .logo {
-    img {
-      width: 50%;
+    .loupe img {
+      top: 16px;
     }
+    .logo {
+      img {
+        width: 50%;
+        top: 16px;
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translate(0px, -100%);
+  }
+  to {
+    transform: translate(0px, 0px);
   }
 }
