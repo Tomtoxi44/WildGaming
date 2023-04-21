@@ -56,9 +56,19 @@ if (fs.existsSync(reactIndexFile)) {
 }
 
 const jeux = require("./services/jeux.json");
+const plateformes = require("./services/plateformes.json");
+const genres = require("./services/genres.json");
 
 app.get("/api/jeux", (req, res) => {
   res.status(200).send(jeux);
+});
+
+app.get("/api/plateformes", (req, res) => {
+  res.status(200).send(plateformes);
+});
+
+app.get("/api/genres", (req, res) => {
+  res.status(200).send(genres);
 });
 
 // ready to export
