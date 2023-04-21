@@ -1,28 +1,29 @@
 import PropTypes from "prop-types";
 
-function MiniCard({ cards }) {
+function MiniCard({ card, setDescription }) {
   return (
-    <div className="cardsContainer">
-      {cards.map((card) => {
-        return (
-          <div key={card.id} className="container">
-            <div className="imgMiniCard">
-              <img
-                className="img"
-                src={card.jacket_url}
-                alt={`Jacket de ${card.titre}`}
-              />
-            </div>
-            <div className="name">{card.titre}</div>
-          </div>
-        );
-      })}
-    </div>
+    <button
+      className="container"
+      type="button"
+      onClick={() => {
+        setDescription(card);
+      }}
+    >
+      <div className="imgMiniCard">
+        <img
+          className="img"
+          src={card.jacket_url}
+          alt={`Jacket de ${card.titre}`}
+        />
+      </div>
+      <div className="name">{card.titre}</div>
+    </button>
   );
 }
 
 export default MiniCard;
 
 MiniCard.propTypes = {
-  cards: PropTypes.string.isRequired,
+  setDescription: PropTypes.string.isRequired,
+  card: PropTypes.string.isRequired,
 };
