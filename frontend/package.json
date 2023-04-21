@@ -16,6 +16,7 @@
     "react-select": "^5.7.2"
   },
   "devDependencies": {
+    "@esbuild/linux-x64": "^0.17.17",
     "@vitejs/plugin-react": "^3.0.1",
     "eslint": "^8.32.0",
     "eslint-config-airbnb": "^19.0.4",
