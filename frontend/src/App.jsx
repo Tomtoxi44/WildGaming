@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+
+import CheckboxDeroulantGenre from "./components/filters/CheckboxDeroulantGenre";
+import CheckboxDeroulantPlateforme from "./components/filters/CheckboxDeroulantPlateforme";
+
+
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
 import MiniCard from "./components/MiniCard/MiniCard";
@@ -61,6 +66,7 @@ function App() {
 
   return (
     <div className="App">
+
       <NavBar showMenu={showMenu} setShowMenu={setShowMenu} />
       <HeroImage showMenu={showMenu} setShowMenu={setShowMenu} />
       <CarouselComponent className="caroussel" data={data} />
@@ -68,6 +74,8 @@ function App() {
       <div style={{ textAlign: "center" }}>
         <div style={{ padding: "0 20px" }} />
       </div>
+      <CheckboxDeroulantPlateforme />
+      <CheckboxDeroulantGenre />
       <SearchBar
         cards={cards}
         searchTerm={searchTerm}
@@ -97,6 +105,7 @@ function App() {
           />
         )}
       </section>
+
       <Footer />
     </div>
   );
