@@ -4,7 +4,6 @@ import axios from "axios";
 import CheckboxDeroulantGenre from "./components/filters/CheckboxDeroulantGenre";
 import CheckboxDeroulantPlateforme from "./components/filters/CheckboxDeroulantPlateforme";
 
-
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
 import MiniCard from "./components/MiniCard/MiniCard";
@@ -66,7 +65,6 @@ function App() {
 
   return (
     <div className="App">
-
       <NavBar showMenu={showMenu} setShowMenu={setShowMenu} />
       <HeroImage showMenu={showMenu} setShowMenu={setShowMenu} />
       <CarouselComponent className="caroussel" data={data} />
