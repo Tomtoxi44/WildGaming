@@ -417,11 +417,14 @@
     "description": "Hellblade: Senua's Sacrifice est un jeu vidéo d'action-aventure et de hack and slash développé et édité par Ninja Theory.",
     "annee_sortie": 2017,
     "plateforme": [
-      "PlayStation 4, Xbox One, Nintendo Switch, Microsoft Windows"
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Microsoft Windows"
     ],
     "developpeur": "Ninja Theory",
     "editeur": "Ninja Theory",
-    "genre": ["Action-aventure, Hack and slash"],
+    "genre": ["Action-aventure", "Hack and slash"],
     "jacket_url": "http://localhost:5002/hellblade-senua-s-sacri.jpg",
     "id": 35
   },
@@ -429,7 +432,7 @@
     "titre": "Horizon Zero Dawn",
     "description": "Horizon Zero Dawn est un jeu de rôle et d'action développé par Guerrilla Games et édité par Sony Interactive Entertainment.",
     "annee_sortie": 2017,
-    "plateforme": ["PlayStation 4, Microsoft Windows"],
+    "plateforme": ["PlayStation 4", "Microsoft Windows"],
     "developpeur": "Guerrilla Games",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action-RPG"],
@@ -441,11 +444,14 @@
     "description": "Inside est un jeu vidéo de plates-formes et d'énigmes développé et édité par Playdead.",
     "annee_sortie": 2016,
     "plateforme": [
-      "PlayStation 4, Xbox One, Nintendo Switch, Microsoft Windows"
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Microsoft Windows"
     ],
     "developpeur": "Playdead",
     "editeur": "Playdead",
-    "genre": ["Plate-forme, Puzzle-platformer"],
+    "genre": ["Plate-forme", "Puzzle-platformer"],
     "jacket_url": "http://localhost:5002/inside.jpg",
     "id": 37
   },
@@ -453,7 +459,12 @@
     "titre": "Journey",
     "description": "Journey est un jeu vidéo d'aventure développé par Thatgamecompany et édité par Sony Computer Entertainment.",
     "annee_sortie": 2012,
-    "plateforme": ["PlayStation 4, PlayStation 3, Microsoft Windows, iOS"],
+    "plateforme": [
+      "PlayStation 4",
+      "PlayStation 3",
+      "Microsoft Windows",
+      "iOS"
+    ],
     "developpeur": "Thatgamecompany",
     "editeur": "Sony Computer Entertainment",
     "genre": ["Aventure"],
@@ -465,7 +476,13 @@
     "description": "Kentucky Route Zero est un jeu vidéo d'aventure graphique développé et édité par Cardboard Computer.",
     "annee_sortie": 2013,
     "plateforme": [
-      "Microsoft Windows, macOS, Linux, Nintendo Switch, PlayStation 4, Xbox One, iOS"
+      "Microsoft Windows",
+      "macOS",
+      "Linux",
+      "Nintendo Switch",
+      "PlayStation 4",
+      "Xbox One",
+      "iOS"
     ],
     "developpeur": "Cardboard Computer",
     "editeur": "Cardboard Computer",
@@ -518,10 +535,10 @@
     "titre": "Little Nightmares",
     "description": "Little Nightmares est un jeu vidéo d'aventure et de réflexion développé par Tarsier Studios et édité par Bandai Namco Entertainment.",
     "annee_sortie": 2017,
-    "plateforme": ["PC, PlayStation 4, Xbox One, Nintendo Switch"],
+    "plateforme": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
     "developpeur": "Tarsier Studios",
     "editeur": "Bandai Namco Entertainment",
-    "genre": ["Aventure, réflexion"],
+    "genre": ["Aventure", "réflexion"],
     "jacket_url": "http://localhost:5002/little-nightmares-jaquett.jpg",
     "id": 43
   },
@@ -529,7 +546,7 @@
     "titre": "Mafia III",
     "description": "Mafia III est un jeu vidéo d'action-aventure développé par Hangar 13 et édité par 2K Games.",
     "annee_sortie": 2016,
-    "plateforme": ["PC, PlayStation 4, Xbox One"],
+    "plateforme": ["PC", "PlayStation 4", "Xbox One"],
     "developpeur": "Hangar 13",
     "editeur": "2K Games",
     "genre": ["Action-aventure"],
@@ -551,7 +568,7 @@
     "titre": "Marvel's Spider-Man",
     "description": "Marvel's Spider-Man est un jeu vidéo d'action-aventure développé par Insomniac Games et édité par Sony Interactive Entertainment.",
     "annee_sortie": 2018,
-    "plateforme": ["PlayStation 4, PlayStation 5"],
+    "plateforme": ["PlayStation 4", "PlayStation 5"],
     "developpeur": "Insomniac Games",
     "editeur": "Sony Interactive Entertainment",
     "genre": ["Action-aventure"],
@@ -562,7 +579,7 @@
     "titre": "Mass Effect: Andromeda",
     "description": "Mass Effect: Andromeda est un jeu vidéo de rôle et d'action développé par BioWare et édité par Electronic Arts. Il s'agit du quatrième opus de la série Mass Effect.",
     "annee_sortie": 2017,
-    "plateforme": ["PlayStation 4, Xbox One, PC"],
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
     "developpeur": "BioWare",
     "editeur": "Electronic Arts",
     "genre": ["Action-RPG"],
@@ -573,7 +590,7 @@
     "titre": "Metal Gear Solid V: The Phantom Pain",
     "description": "Metal Gear Solid V: The Phantom Pain est un jeu vidéo d'action-infiltration développé par Kojima Productions et édité par Konami. C'est le cinquième opus de la série Metal Gear Solid.",
     "annee_sortie": 2015,
-    "plateforme": ["PlayStation 4, Xbox One, PC"],
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
     "developpeur": "Kojima Productions",
     "editeur": "Konami",
     "genre": ["Action-infiltration"],
@@ -584,7 +601,7 @@
     "titre": "Metro Exodus",
     "description": "Metro Exodus est un jeu vidéo de tir à la première personne post-apocalyptique développé par 4A Games et édité par Deep Silver. C'est le troisième opus de la série Metro.",
     "annee_sortie": 2019,
-    "plateforme": ["PlayStation 4, Xbox One, PC"],
+    "plateforme": ["PlayStation 4", "Xbox One", "PC"],
     "developpeur": "4A Games",
     "editeur": "Deep Silver",
     "genre": ["Tir à la première personne"],
@@ -776,7 +793,7 @@
     "plateforme": ["Nintendo DS"],
     "developpeur": "Game Freak",
     "editeur": "Nintendo",
-    "genre": "RPG",
+    "genre": ["RPG"],
     "jacket_url": "http://localhost:5002/pokmon-diama.jpg",
     "id": 65
   },
@@ -1264,11 +1281,17 @@
     "description": "2064: Read Only Memories is a cyberpunk adventure game developed by MidBoss. Set in the year 2064 in Neo-San Francisco, players take on the role of a journalist who must help a sapient robot solve the mystery of their creator's disappearance.",
     "annee_sortie": 2015,
     "plateforme": [
-      "PC, PlayStation 4, PlayStation Vita, Xbox One, Nintendo Switch, iOS, Android"
+      "PC",
+      "PlayStation 4",
+      "PlayStation Vita",
+      "Xbox One",
+      "Nintendo Switch",
+      "iOS",
+      "Android"
     ],
     "developpeur": "MidBoss",
     "editeur": "MidBoss",
-    "genre": ["Adventure, Point-and-click"],
+    "genre": ["Adventure", "Point-and-click"],
     "jacket_url": "http://localhost:5002/EGS_2064ReadOnlyMemories.jpg",
     "id": 107
   },
@@ -1277,11 +1300,16 @@
     "description": "911 Operator is a strategy simulation game developed by Jutsu Games. Players take on the role of a 911 emergency operator and must manage incoming emergency calls and dispatch emergency services in real time.",
     "annee_sortie": 2017,
     "plateforme": [
-      "PC, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android"
+      "PC",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "iOS",
+      "Android"
     ],
     "developpeur": "Jutsu Games",
     "editeur": "PlayWay",
-    "genre": ["Strategy, Simulation"],
+    "genre": ["Strategy", "Simulation"],
     "jacket_url": "http://localhost:5002/911-operator.jpg",
     "id": 108
   },
@@ -1289,10 +1317,10 @@
     "titre": "80 Days",
     "description": "80 Days is an interactive fiction game developed by Inkle Studios. Based on the Jules Verne novel Around the World in Eighty Days, players take on the role of Passepartout, the valet of the English gentleman Phileas Fogg, and must travel around the world in 80 days while making decisions that affect the story.",
     "annee_sortie": 2014,
-    "plateforme": ["PC, iOS, Android, Nintendo Switch"],
+    "plateforme": ["PC", "iOS", "Android", "Nintendo Switch"],
     "developpeur": "Inkle Studios",
     "editeur": "Inkle Studios",
-    "genre": ["Interactive Fiction, Adventure"],
+    "genre": ["Interactive Fiction", "Adventure"],
     "jacket_url": "http://localhost:5002/80-days.jpg",
     "id": 109
   },
@@ -1302,7 +1330,7 @@
     "plateforme": ["PC"],
     "developpeur": "MAVCS",
     "editeur": "MAVCS",
-    "description": "Résumé : Le meilleur jeu de l'année pour tester votre culture cinématographique. Ne passez pas à côté.",
+    "description": "Le meilleur jeu de l'année pour tester votre culture cinématographique. Ne passez pas à côté.",
 
     "genre": ["Quizz"],
     "jacket_url": "http://localhost:5002/wilder-game.png",

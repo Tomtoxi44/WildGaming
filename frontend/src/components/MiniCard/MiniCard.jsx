@@ -1,8 +1,14 @@
 import PropTypes from "prop-types";
 
-function MiniCard({ card }) {
+function MiniCard({ card, setDescription }) {
   return (
-    <div className="container">
+    <button
+      className="container"
+      type="button"
+      onClick={() => {
+        setDescription(card);
+      }}
+    >
       <div className="imgMiniCard">
         <img
           className="img"
@@ -11,12 +17,13 @@ function MiniCard({ card }) {
         />
       </div>
       <div className="name">{card.titre}</div>
-    </div>
+    </button>
   );
 }
 
 export default MiniCard;
 
 MiniCard.propTypes = {
+  setDescription: PropTypes.string.isRequired,
   card: PropTypes.string.isRequired,
 };
