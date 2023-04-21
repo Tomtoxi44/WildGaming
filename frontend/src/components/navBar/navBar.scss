@@ -31,9 +31,33 @@
     width: 40%;
   }
 }
-
-.hero-image {
+.hero-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
   width: 100%;
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .MenuFilters {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background: #444444;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    animation-name: slide;
+    animation-duration: 500ms ease-out;
+  }
+
 }
 
 @media screen and (max-width: 1075px) {
@@ -62,5 +86,14 @@
         top: 16px;
       }
     }
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translate(0px, -100%);
+  }
+  to {
+    transform: translate(0px, 0px);
   }
 }

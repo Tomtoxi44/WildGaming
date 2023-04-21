@@ -6,8 +6,9 @@ import MiniCard from "./components/MiniCard/MiniCard";
 import CardDescription from "./components/CardDescription/CardDescription";
 import "./App.css";
 import "./index.scss";
+import SearchBar from "./components/SearchBar/SearchBar";
 import CarouselComponent from "./components/CarouselComponent";
-
+import HeroImage from "./components/navBar/HeroImage";
 
 function App() {
   const data = [
@@ -19,63 +20,83 @@ function App() {
     {
       image:
         "https://www.economie.gouv.fr/files/styles/image_contenu_article_espace/public/files/directions_services/dgccrf/imgs/fiches_pratiques/2019/Jeux-en-ligne.jpg?itok=TNOsY2Xc",
-      caption: "play whith you're friends",
+      caption: "Play whith your friends",
     },
     {
       image:
         "https://img.offers-cdn.net/assets/uploads/offers/fr/16201806/la-selection-jeux-video-large.jpeg",
-      caption: "top selection",
+      caption: "Top selection",
     },
     {
       image:
         "https://f.hellowork.com/blogdumoderateur/2021/05/jeux-video-accenture-1200x628.jpeg",
-      caption: "top PC",
+      caption: "Top PC",
     },
     {
       image: "https://www.afjv.com/2023/02/230213-jeux-video.jpg",
-      caption: "top X-Box",
+      caption: "Top X-Box",
     },
     {
       image:
         "https://comarketing-news.fr/wp-content/uploads/chiffres-jeu-video.jpg",
-      caption: "pokemon World",
+      caption: "Pokemon World",
     },
   ];
   const [cards, setCards] = useState([]);
+
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const [showMenu, setShowMenu] = useState(false);
+
+  const [description, setDescription] = useState(undefined);
 
   useEffect(() => {
     axios
       .get("http://localhost:5002/api/jeux")
       .then((res) => {
-        // console.log(res.data)
         setCards(res.data);
       })
       .catch((err) => console.error(err));
   }, []);
 
-  const [description, setDescription] = useState(undefined);
-
   return (
     <div className="App">
+      <NavBar showMenu={showMenu} setShowMenu={setShowMenu} />
+      <HeroImage showMenu={showMenu} setShowMenu={setShowMenu} />
+      <CarouselComponent className="caroussel" data={data} />
 
-      <NavBar />
-      <HeroImage /> 
-      <CarouselComponent data={data} />
-      </div>
       <div style={{ textAlign: "center" }}>
-        <div
-          style={{
-            padding: "0 20px",
-          }}
-        />
+        <div style={{ padding: "0 20px" }} />
       </div>
-      <MiniCard cards={cards} key={cards.id} setDescription={setDescription} />
-      {description && (
-        <CardDescription
-          description={description}
-          setDescription={setDescription}
-        />
-      )}
+      <SearchBar
+        cards={cards}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+      />
+      <section className="cardsContainer">
+        {cards
+          .filter((card) =>
+            searchTerm
+              ? card.titre.toLowerCase().includes(searchTerm.toLowerCase())
+              : card
+          )
+          .map((card) => {
+            return (
+              <MiniCard
+                cards={cards}
+                card={card}
+                key={card.id}
+                setDescription={setDescription}
+              />
+            );
+          })}
+        {description && (
+          <CardDescription
+            description={description}
+            setDescription={setDescription}
+          />
+        )}
+      </section>
       <Footer />
     </div>
   );

@@ -8,6 +8,7 @@ function CarouselComponent(props) {
   const captionStyle = {
     fontSize: "3rem",
     fontWeight: "bold",
+    fontFamily: "Roboto, sans-serif",
   };
   const slideNumberStyle = {
     fontSize: "10px",
@@ -28,8 +29,10 @@ function CarouselComponent(props) {
         <Carousel
           data={data}
           time={4000}
+          display="flex"
           width="500px"
-          height="500px"
+          height="200px"
+          padding="5px"
           captionStyle={captionStyle}
           radius="10px"
           slideNumber
@@ -41,8 +44,6 @@ function CarouselComponent(props) {
           pauseIconSize="40px"
           slideBackgroundColor="darkgrey"
           slideImageFit="cover"
-          thumbnails
-          thumbnailWidth="50px"
           style={{
             textAlign: "center",
             maxWidth: "500px",
