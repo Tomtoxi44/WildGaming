@@ -48,7 +48,6 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: aliceblue;
     background: #444444;
     width: 100%;
@@ -56,6 +55,7 @@
     opacity: 0.8;
     animation-name: slide;
     animation-duration: 500ms ease-out;
+    padding: 20px;
   }
 }
 
