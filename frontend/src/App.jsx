@@ -10,7 +10,6 @@ import MiniCard from "./components/MiniCard/MiniCard";
 import CardDescription from "./components/CardDescription/CardDescription";
 import "./App.css";
 import "./index.scss";
-import SearchBar from "./components/SearchBar/SearchBar";
 import CarouselComponent from "./components/CarouselComponent";
 import HeroImage from "./components/navBar/HeroImage";
 
@@ -66,7 +65,13 @@ function App() {
   return (
     <div className="App">
       <NavBar showMenu={showMenu} setShowMenu={setShowMenu} />
-      <HeroImage showMenu={showMenu} setShowMenu={setShowMenu} />
+      <HeroImage
+        showMenu={showMenu}
+        setShowMenu={setShowMenu}
+        cards={cards}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+      />
       <CarouselComponent className="caroussel" data={data} />
 
       <div style={{ textAlign: "center" }}>
@@ -74,11 +79,6 @@ function App() {
       </div>
       <CheckboxDeroulantPlateforme />
       <CheckboxDeroulantGenre />
-      <SearchBar
-        cards={cards}
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-      />
       <section className="cardsContainer">
         {cards
           .filter((card) =>
