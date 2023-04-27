@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Select from "react-select";
 import axios from "axios";
+import PropTypes from "prop-types";
+import { MultiSelect } from "primereact/multiselect";
 
-function CheckboxDeroulantGenre() {
-  const [selectedgenres, setSelectedGenres] = useState([]);
+function CheckboxDeroulantGenre({ selectedGenres, setSelectedGenres }) {
   const [genres, setGenres] = useState([]);
 
   useEffect(() => {
@@ -15,23 +15,26 @@ function CheckboxDeroulantGenre() {
       .catch((err) => console.error(err));
   }, []);
 
-  const handleChange = (e) => {
-    setSelectedGenres(e);
-  };
-
   return (
-    <>
-      <h3>Genre</h3>
-      <Select
-        isMulti
+    <div className="">
+      <MultiSelect
+        value={selectedGenres}
+        onChange={(e) => setSelectedGenres(e.value)}
         options={genres.map((genre) => {
-          return { value: genre, label: genre };
+          return { name: genre, code: genre };
         })}
-        value={selectedgenres}
-        onChange={handleChange}
+        optionLabel="name"
+        display="chip"
+        placeholder="Genre"
+        className="w-full md:w-20rem"
       />
-    </>
+    </div>
   );
 }
 
 export default CheckboxDeroulantGenre;
+
+CheckboxDeroulantGenre.propTypes = {
+  selectedGenres: PropTypes.string.isRequired,
+  setSelectedGenres: PropTypes.string.isRequired,
+};

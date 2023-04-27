@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import CheckboxDeroulantGenre from "./components/filters/CheckboxDeroulantGenre";
 import CheckboxDeroulantPlateforme from "./components/filters/CheckboxDeroulantPlateforme";
 
 import NavBar from "./components/navBar/NavBar";
@@ -12,6 +11,12 @@ import "./App.css";
 import "./index.scss";
 import CarouselComponent from "./components/CarouselComponent";
 import HeroImage from "./components/navBar/HeroImage";
+
+// theme
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+// core
+import "primereact/resources/primereact.min.css";
 
 function App() {
   const data = [
@@ -49,6 +54,8 @@ function App() {
 
   const [searchTerm, setSearchTerm] = useState("");
 
+  const [selectedGenres, setSelectedGenres] = useState([]);
+
   const [showMenu, setShowMenu] = useState(false);
 
   const [description, setDescription] = useState(undefined);
@@ -71,6 +78,8 @@ function App() {
         cards={cards}
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
+        selectedGenres={selectedGenres}
+        setSelectedGenres={setSelectedGenres}
       />
       <CarouselComponent className="caroussel" data={data} />
 
@@ -78,7 +87,7 @@ function App() {
         <div style={{ padding: "0 20px" }} />
       </div>
       <CheckboxDeroulantPlateforme />
-      <CheckboxDeroulantGenre />
+
       <section className="cardsContainer">
         {cards
           .filter((card) =>
@@ -86,6 +95,23 @@ function App() {
               ? card.titre.toLowerCase().includes(searchTerm.toLowerCase())
               : card
           )
+          .filter((card) => {
+            if (selectedGenres.length > 0) {
+              let found = false;
+              for (let i = 0; i < card.genre.length; i += 1) {
+                const genre = card.genre[i];
+
+                for (let j = 0; j < selectedGenres.length; j += 1) {
+                  const selectedGenreName = selectedGenres[j].name;
+                  if (genre === selectedGenreName) {
+                    found = true;
+                  }
+                }
+              }
+              return found;
+            }
+            return true;
+          })
           .map((card) => {
             return (
               <MiniCard
