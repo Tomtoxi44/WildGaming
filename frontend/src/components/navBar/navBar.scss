@@ -10,25 +10,26 @@
   align-items: center;
   background: #2d2d2d;
   width: 100%;
-  height: 15vh;
-  padding: 20px;
+  height: 100px;
+  padding: 5px;
+  .logo {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
 
-  .loupe img {
-    width: 4%;
-    position: absolute;
-    left: 10px;
-    top: 35px;
+    img {
+      max-width: 500px;
+    }
+  }
+
+  .Loupe {
+    width: 50px;
     cursor: pointer;
   }
-}
 
-.logo {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-
-  img {
-    width: 40%;
+  button.Loupe {
+    background: none;
+    border: none;
   }
 }
 .hero-container {
@@ -59,32 +60,14 @@
   }
 }
 
-@media screen and (max-width: 1075px) {
-  .navbar {
-    height: 13vh;
-
-    .logo {
-      img {
-        width: 50%;
-        top: 20px;
-      }
-    }
+@media screen and (max-width: 650px) {
+  .logo {
+    // img {
+    //   width: 88%;
+    // }
   }
-}
-
-@media screen and (max-width: 675px) {
-  .navbar {
-    height: 7vh;
-
-    .loupe img {
-      top: 16px;
-    }
-    .logo {
-      img {
-        width: 50%;
-        top: 16px;
-      }
-    }
+  .navbar .Loupe {
+    width: 10%;
   }
 }
 
