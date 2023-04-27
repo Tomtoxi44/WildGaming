@@ -3,7 +3,14 @@ import React from "react";
 import img from "../../assets/heroImg.png";
 import MenuFilter from "./MenuFilter";
 
-function HeroImage({ showMenu, cards, searchTerm, setSearchTerm }) {
+function HeroImage({
+  showMenu,
+  cards,
+  searchTerm,
+  setSearchTerm,
+  selectedGenres,
+  setSelectedGenres,
+}) {
   return (
     <div className="hero-container">
       {showMenu && (
@@ -11,6 +18,8 @@ function HeroImage({ showMenu, cards, searchTerm, setSearchTerm }) {
           cards={cards}
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
+          selectedGenres={selectedGenres}
+          setSelectedGenres={setSelectedGenres}
         />
       )}
       <img src={img} alt="heros" className="hero-image" />
@@ -25,4 +34,6 @@ HeroImage.propTypes = {
   cards: PropTypes.string.isRequired,
   searchTerm: PropTypes.string.isRequired,
   setSearchTerm: PropTypes.string.isRequired,
+  selectedGenres: PropTypes.string.isRequired,
+  setSelectedGenres: PropTypes.string.isRequired,
 };
