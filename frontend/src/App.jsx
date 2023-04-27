@@ -11,6 +11,8 @@ import "./App.css";
 import "./index.scss";
 import CarouselComponent from "./components/CarouselComponent";
 import HeroImage from "./components/navBar/HeroImage";
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.min.css";
 
 // theme
 import "primereact/resources/themes/lara-light-indigo/theme.css";
@@ -64,6 +66,7 @@ function App() {
 
   const [description, setDescription] = useState(undefined);
 
+  const [selectPlateformes, setSelectPlateformes] = useState([]);
   useEffect(() => {
     axios
       .get("http://localhost:5002/api/jeux")
@@ -72,6 +75,8 @@ function App() {
       })
       .catch((err) => console.error(err));
   }, []);
+
+  // console.log(selectPlateformes);
 
   return (
     <div className="App">
@@ -90,8 +95,11 @@ function App() {
       <div style={{ textAlign: "center" }}>
         <div style={{ padding: "0 20px" }} />
       </div>
-      <CheckboxDeroulantPlateforme />
 
+      <CheckboxDeroulantPlateforme
+        selectPlateformes={selectPlateformes}
+        setSelectPlateformes={setSelectPlateformes}
+      />
       <section className="cardsContainer">
         {cards
           .filter((card) =>
@@ -100,6 +108,15 @@ function App() {
               : card
           )
           .filter((card) => {
+            if (selectPlateformes.length === 0) {
+              return true;
+            }
+            return card.plateforme.some((plate) =>
+              selectPlateformes
+                .map((p) => p.toLowerCase())
+                .includes(plate.toLowerCase())
+            );
+          })
             if (selectedGenres.length > 0) {
               let found = false;
               for (let i = 0; i < card.genre.length; i += 1) {
@@ -116,6 +133,7 @@ function App() {
             }
             return true;
           })
+
           .map((card) => {
             return (
               <MiniCard
