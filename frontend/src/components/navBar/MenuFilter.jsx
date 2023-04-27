@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import SearchBar from "../SearchBar/SearchBar";
 import CheckboxDeroulantGenre from "../filters/CheckboxDeroulantGenre";
+import CheckboxDeroulantPlateforme from "../filters/CheckboxDeroulantPlateforme";
 
 function MenuFilter({
   cards,
@@ -8,6 +9,8 @@ function MenuFilter({
   setSearchTerm,
   selectedGenres,
   setSelectedGenres,
+  selectPlateformes,
+  setSelectPlateformes,
 }) {
   return (
     <div className="MenuFilters">
@@ -16,7 +19,10 @@ function MenuFilter({
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
       />
-
+      <CheckboxDeroulantPlateforme
+        selectPlateformes={selectPlateformes}
+        setSelectPlateformes={setSelectPlateformes}
+      />
       <CheckboxDeroulantGenre
         selectedGenres={selectedGenres}
         setSelectedGenres={setSelectedGenres}
@@ -32,4 +38,6 @@ MenuFilter.propTypes = {
   setSearchTerm: PropTypes.string.isRequired,
   selectedGenres: PropTypes.string.isRequired,
   setSelectedGenres: PropTypes.string.isRequired,
+  selectPlateformes: PropTypes.string.isRequired,
+  setSelectPlateformes: PropTypes.string.isRequired,
 };

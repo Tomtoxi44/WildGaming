@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
-import CheckboxDeroulantPlateforme from "./components/filters/CheckboxDeroulantPlateforme";
-
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
 import MiniCard from "./components/MiniCard/MiniCard";
@@ -12,12 +9,6 @@ import "./index.scss";
 import CarouselComponent from "./components/CarouselComponent";
 import HeroImage from "./components/navBar/HeroImage";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
-import "primereact/resources/primereact.min.css";
-
-// theme
-import "primereact/resources/themes/lara-light-indigo/theme.css";
-
-// core
 import "primereact/resources/primereact.min.css";
 
 function App() {
@@ -89,17 +80,14 @@ function App() {
         setSearchTerm={setSearchTerm}
         selectedGenres={selectedGenres}
         setSelectedGenres={setSelectedGenres}
+        selectPlateformes={selectPlateformes}
+        setSelectPlateformes={setSelectPlateformes}
       />
       <CarouselComponent className="caroussel" data={data} />
 
       <div style={{ textAlign: "center" }}>
         <div style={{ padding: "0 20px" }} />
       </div>
-
-      <CheckboxDeroulantPlateforme
-        selectPlateformes={selectPlateformes}
-        setSelectPlateformes={setSelectPlateformes}
-      />
       <section className="cardsContainer">
         {cards
           .filter((card) =>
@@ -117,6 +105,7 @@ function App() {
                 .includes(plate.toLowerCase())
             );
           })
+          .filter((card) => {
             if (selectedGenres.length > 0) {
               let found = false;
               for (let i = 0; i < card.genre.length; i += 1) {
