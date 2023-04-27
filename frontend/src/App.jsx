@@ -13,6 +13,8 @@ import "./index.scss";
 import SearchBar from "./components/SearchBar/SearchBar";
 import CarouselComponent from "./components/CarouselComponent";
 import HeroImage from "./components/navBar/HeroImage";
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.min.css";
 
 function App() {
   const data = [
@@ -54,6 +56,7 @@ function App() {
 
   const [description, setDescription] = useState(undefined);
 
+  const [selectPlateformes, setSelectPlateformes] = useState([]);
   useEffect(() => {
     axios
       .get("http://localhost:5002/api/jeux")
@@ -62,6 +65,8 @@ function App() {
       })
       .catch((err) => console.error(err));
   }, []);
+
+  // console.log(selectPlateformes);
 
   return (
     <div className="App">
@@ -72,7 +77,10 @@ function App() {
       <div style={{ textAlign: "center" }}>
         <div style={{ padding: "0 20px" }} />
       </div>
-      <CheckboxDeroulantPlateforme />
+      <CheckboxDeroulantPlateforme
+        selectPlateformes={selectPlateformes}
+        setSelectPlateformes={setSelectPlateformes}
+      />
       <CheckboxDeroulantGenre />
       <SearchBar
         cards={cards}
@@ -86,6 +94,17 @@ function App() {
               ? card.titre.toLowerCase().includes(searchTerm.toLowerCase())
               : card
           )
+          .filter((card) => {
+            if (selectPlateformes.length === 0) {
+              return true;
+            }
+            return card.plateforme.some((plate) =>
+              selectPlateformes
+                .map((p) => p.toLowerCase())
+                .includes(plate.toLowerCase())
+            );
+          })
+
           .map((card) => {
             return (
               <MiniCard
