@@ -17,23 +17,17 @@ import HeroImage from "./components/navBar/HeroImage";
 function App() {
   const data = [
     {
-      image:
-        "https://www.lafinancepourtous.com/wp-content/thumbnails/uploads/2021/04/jeux_video_460-tt-width-460-height-260-fill-0-crop-0-bgcolor-eeeeee.png",
-      caption: "free play",
+      image: "https://jolstatic.fr/www/captures/1870/1/52821.jpg",
+      caption: "Free To Play",
     },
     {
       image:
-        "https://www.economie.gouv.fr/files/styles/image_contenu_article_espace/public/files/directions_services/dgccrf/imgs/fiches_pratiques/2019/Jeux-en-ligne.jpg?itok=TNOsY2Xc",
-      caption: "Play whith your friends",
+        "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=800",
+      caption: "Play with your friends",
     },
     {
       image:
-        "https://img.offers-cdn.net/assets/uploads/offers/fr/16201806/la-selection-jeux-video-large.jpeg",
-      caption: "Top selection",
-    },
-    {
-      image:
-        "https://f.hellowork.com/blogdumoderateur/2021/05/jeux-video-accenture-1200x628.jpeg",
+        "https://images.pexels.com/photos/4317157/pexels-photo-4317157.jpeg?auto=compress&cs=tinysrgb&w=800",
       caption: "Top PC",
     },
     {
@@ -42,8 +36,18 @@ function App() {
     },
     {
       image:
-        "https://comarketing-news.fr/wp-content/uploads/chiffres-jeu-video.jpg",
-      caption: "Pokemon World",
+        "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=800",
+      caption: "Top Nintendo",
+    },
+    {
+      image:
+        "https://images.pexels.com/photos/4293307/pexels-photo-4293307.jpeg?auto=compress&cs=tinysrgb&w=800",
+      caption: "Top Mobile",
+    },
+    {
+      image:
+        "https://images.pexels.com/photos/459762/pexels-photo-459762.jpeg?auto=compress&cs=tinysrgb&w=800",
+      caption: "Top PlayStation",
     },
   ];
   const [cards, setCards] = useState([]);
