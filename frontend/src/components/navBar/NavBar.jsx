@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import LogoTitle from "../../assets/wild_gaming_title.png";
-import loupe from "../../assets/Loupe.png";
+import loupe from "../../assets/loupe.png";
 
 function NavBar({ showMenu, setShowMenu }) {
   const handleLoupeClick = () => {
@@ -9,12 +9,12 @@ function NavBar({ showMenu, setShowMenu }) {
 
   return (
     <div className="navbar">
-      <button onClick={handleLoupeClick} type="button" className="loupe">
-        <img src={loupe} alt="Loupe-icon" />
-      </button>
       <div className="logo">
         <img src={LogoTitle} alt="logo-site" />
       </div>
+      <button type="button" onClick={handleLoupeClick} className="Loupe">
+        <img className="loupeImg" src={loupe} alt="search button" />
+      </button>
     </div>
   );
 }

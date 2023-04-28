@@ -6,13 +6,17 @@ function CarouselComponent(props) {
   const { data } = props;
 
   const captionStyle = {
-    fontSize: "3rem",
+    fontSize: "3.1rem",
     fontWeight: "bold",
-    fontFamily: "Roboto, sans-serif",
+    fontFamily: "roboto, sans-serif",
+    color: "white",
+    textShadow: "0 0 10px rgba(255, 255, 255, 0.5)",
+    animation: "bounce 2s ease 0s 1 normal none",
   };
   const slideNumberStyle = {
     fontSize: "10px",
     fontWeight: "bold",
+    color: "grey",
   };
 
   return (
@@ -31,7 +35,7 @@ function CarouselComponent(props) {
           time={4000}
           display="flex"
           width="500px"
-          height="200px"
+          height="350px"
           padding="5px"
           captionStyle={captionStyle}
           radius="10px"
@@ -41,7 +45,7 @@ function CarouselComponent(props) {
           automatic
           dots
           pauseIconColor="white"
-          pauseIconSize="40px"
+          pauseIconSize="50px"
           slideBackgroundColor="darkgrey"
           slideImageFit="cover"
           style={{

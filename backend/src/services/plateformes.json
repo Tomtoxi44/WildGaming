@@ -1,26 +1,130 @@
 [
-  "PlayStation 4",
-  "Xbox One",
-  "Nintendo Switch",
-  "PC",
-  "iOS",
-  "Android",
-  "PlayStation 5",
-  "Xbox Series X/S",
-  "Stadia",
-  "PlayStation 3",
-  "Xbox 360",
-  "Microsoft Windows",
-  "macOS",
-  "Linux",
-  "PlayStation Vita",
-  "MacOS",
-  "Game Boy",
-  "Game Boy Color",
-  "Game Boy Advance",
-  "Nintendo DS",
-  "PlayStation 2",
-  "Wii U",
-  "Nvidia Shield",
-  "NES"
+  {
+    "label": "PlayStation",
+    "code": "PS",
+    "items": [
+      {
+        "label": "PlayStation 5",
+        "value": "PlayStation 5"
+      },
+      {
+        "label": "PlayStation 4",
+        "value": "PlayStation 4"
+      },
+      {
+        "label": "PlayStation 3",
+        "value": "PlayStation 3"
+      },
+      {
+        "label": "PlayStation Vita",
+        "value": "PlayStation Vita"
+      },
+      {
+        "label": "PlayStation 2",
+        "value": "PlayStation 2"
+      }
+    ]
+  },
+  {
+    "label": "Xbox",
+    "code": "X",
+    "items": [
+      {
+        "label": "Xbox Series X/S",
+        "value": "Xbox Series X/S"
+      },
+      {
+        "label": "Xbox One",
+        "value": "Xbox One"
+      },
+      {
+        "label": "Xbox 360",
+        "value": "Xbox 360"
+      }
+    ]
+  },
+  {
+    "label": "Nintendo",
+    "code": "N",
+    "items": [
+      {
+        "label": "Nintendo Switch",
+        "value": "Nintendo Switch"
+      },
+      {
+        "label": "Wii U",
+        "value": "Wii U"
+      },
+      {
+        "label": "Nintendo DS",
+        "value": "Nintendo DS"
+      },
+      {
+        "label": "Game Boy Advance",
+        "value": "Game Boy Advance"
+      },
+      {
+        "label": "Game Boy Color",
+        "value": "Game Boy Color"
+      },
+      {
+        "label": "Game Boy",
+        "value": "Game Boy"
+      },
+      {
+        "label": "NES",
+        "value": "NES"
+      }
+    ]
+  },
+  {
+    "label": "PC",
+    "code": "PC",
+    "items": [
+      {
+        "label": "Microsoft Windows",
+        "value": "Microsoft Windows"
+      },
+      {
+        "label": "PC",
+        "value": "PC"
+      },
+      {
+        "label": "Linux",
+        "value": "Linux"
+      },
+      {
+        "label": "MacOS",
+        "value": "MacOS"
+      }
+    ]
+  },
+  {
+    "label": "Telephone",
+    "code": "T",
+    "items": [
+      {
+        "label": "iOS",
+        "value": "iOS"
+      },
+      {
+        "label": "Android",
+        "value": "Android"
+      }
+    ]
+  },
+  {
+    "label": "Autres",
+    "code": "A",
+    "items": [
+      {
+        "label": "Stadia",
+        "value": "Stadia"
+      },
+      {
+        "label": "Nvidia Shield",
+        "value": "Nvidia Shield"
+      }
+    ]
+  }
 ]
