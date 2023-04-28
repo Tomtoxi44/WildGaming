@@ -20,10 +20,13 @@ function MiniCard({ card, setDescription }) {
     </button>
   );
 }
+MiniCard.propTypes = {
+  card: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    jacket_url: PropTypes.string.isRequired,
+    titre: PropTypes.string.isRequired,
+  }).isRequired,
+  setDescription: PropTypes.func.isRequired,
+};
 
 export default MiniCard;
-
-MiniCard.propTypes = {
-  setDescription: PropTypes.string.isRequired,
-  card: PropTypes.string.isRequired,
-};

@@ -3,10 +3,29 @@ import React from "react";
 import img from "../../assets/heroImg.png";
 import MenuFilter from "./MenuFilter";
 
-function HeroImage({ showMenu }) {
+function HeroImage({
+  showMenu,
+  cards,
+  searchTerm,
+  setSearchTerm,
+  selectedGenres,
+  setSelectedGenres,
+  selectPlateformes,
+  setSelectPlateformes,
+}) {
   return (
     <div className="hero-container">
-      {showMenu && <MenuFilter />}
+      {showMenu && (
+        <MenuFilter
+          cards={cards}
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
+          selectedGenres={selectedGenres}
+          setSelectedGenres={setSelectedGenres}
+          selectPlateformes={selectPlateformes}
+          setSelectPlateformes={setSelectPlateformes}
+        />
+      )}
       <img src={img} alt="heros" className="hero-image" />
     </div>
   );
@@ -16,4 +35,11 @@ export default HeroImage;
 
 HeroImage.propTypes = {
   showMenu: PropTypes.string.isRequired,
+  cards: PropTypes.string.isRequired,
+  searchTerm: PropTypes.string.isRequired,
+  setSearchTerm: PropTypes.string.isRequired,
+  selectedGenres: PropTypes.string.isRequired,
+  setSelectedGenres: PropTypes.string.isRequired,
+  selectPlateformes: PropTypes.string.isRequired,
+  setSelectPlateformes: PropTypes.string.isRequired,
 };
