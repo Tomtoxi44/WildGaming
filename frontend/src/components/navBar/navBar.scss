@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -12,26 +6,36 @@
   width: 100%;
   height: 100px;
   padding: 5px;
+  position: relative;
+
   .logo {
     display: flex;
     justify-content: center;
     max-height: 100%;
 
     img {
-      max-width: 500px;
+      width: 80%;
+      max-height: 90px;
+      object-fit: cover;
+      display: block;
     }
   }
 
   .Loupe {
-    width: 50px;
     cursor: pointer;
-  }
-
-  button.Loupe {
     background: none;
     border: none;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    height: 100%;
+
+    .loupeImg {
+      max-height: 60%;
+    }
   }
 }
+
 .hero-container {
   display: flex;
   overflow: hidden;
@@ -60,14 +64,14 @@
   }
 }
 
-@media screen and (max-width: 650px) {
-  .logo {
-    // img {
-    //   width: 88%;
-    // }
+@media screen and (max-width: 770px) {
+  .logo img {
+    padding-left: 5%;
   }
-  .navbar .Loupe {
-    width: 10%;
+
+  .loupeImg {
+    height: 40%;
+    padding-left: 10%;
   }
 }
 
@@ -75,6 +79,7 @@
   from {
     transform: translate(0px, -100%);
   }
+
   to {
     transform: translate(0px, 0px);
   }

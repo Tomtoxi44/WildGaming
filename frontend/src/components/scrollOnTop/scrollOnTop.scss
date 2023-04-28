@@ -1,22 +1,25 @@
 .scroll-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 15px;
   right: 50%;
-  background-color: #494141;
-  color: rgb(255, 255, 255);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  font-size: 20px;
+
+  width: 20px;
+
+  background: transparent;
+  border: none;
   cursor: pointer;
   opacity: 0;
+  rotate: 180deg;
   transition: opacity 0.4s;
+
+  img {
+    width: 50px;
+    transform: translate(-50%);
+    &:hover {
+      width: 60px;
+    }
+  }
 }
 .scroll-to-top.visible {
   opacity: 1;
-}
-p {
-  font-size: 170%;
 }

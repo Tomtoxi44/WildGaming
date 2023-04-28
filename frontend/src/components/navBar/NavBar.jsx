@@ -1,7 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import PropTypes from "prop-types";
 import LogoTitle from "../../assets/wild_gaming_title.png";
+import loupe from "../../assets/loupe.png";
 
 function NavBar({ showMenu, setShowMenu }) {
   const handleLoupeClick = () => {
@@ -14,10 +13,7 @@ function NavBar({ showMenu, setShowMenu }) {
         <img src={LogoTitle} alt="logo-site" />
       </div>
       <button type="button" onClick={handleLoupeClick} className="Loupe">
-        <FontAwesomeIcon
-          icon={faSearch}
-          style={{ color: "orange", fontSize: "20px" }}
-        />
+        <img className="loupeImg" src={loupe} alt="search button" />
       </button>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import fleche from "../../assets/fleche.png";
 
 function ScrollOnTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -23,7 +24,8 @@ function ScrollOnTop() {
       onClick={handleClick}
     >
       <i className="fas fa-arrow-up" aria-hidden="true" />
-      <span className="sr-only">Back to top</span>
+      <img src={fleche} alt="scroll button" />
+      {/* <span className="sr-only">Back to top</span> */}
     </button>
   );
 }
