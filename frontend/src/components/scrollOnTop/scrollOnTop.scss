@@ -1,0 +1,25 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 50%;
+
+  width: 20px;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  rotate: 180deg;
+  transition: opacity 0.4s;
+
+  img {
+    width: 50px;
+    transform: translate(-50%);
+    &:hover {
+      width: 60px;
+    }
+  }
+}
+.scroll-to-top.visible {
+  opacity: 1;
+}

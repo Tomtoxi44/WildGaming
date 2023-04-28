@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+
+
+import ScrollOnTop from "@components/scrollOnTop/scrollOnTop";
+import CheckboxDeroulantGenre from "./components/filters/CheckboxDeroulantGenre";
+import CheckboxDeroulantPlateforme from "./components/filters/CheckboxDeroulantPlateforme";
+
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
 import MiniCard from "./components/MiniCard/MiniCard";
@@ -11,6 +17,9 @@ import HeroImage from "./components/navBar/HeroImage";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 
+function sortGamesByTitle(games) {
+  return games.sort((a, b) => a.titre.localeCompare(b.titre));
+}
 function App() {
   const data = [
     {
@@ -63,7 +72,8 @@ function App() {
     axios
       .get("http://localhost:5002/api/jeux")
       .then((res) => {
-        setCards(res.data);
+        const sortedGames = sortGamesByTitle(res.data); // tri des jeux par titre
+        setCards(sortedGames);
       })
       .catch((err) => console.error(err));
   }, []);
@@ -145,7 +155,7 @@ function App() {
           />
         )}
       </section>
-
+      <ScrollOnTop />
       <Footer />
     </div>
   );

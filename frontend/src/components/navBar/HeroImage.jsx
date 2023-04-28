@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from "react";
-import img from "../../assets/heroImg.png";
 import MenuFilter from "./MenuFilter";
 
 function HeroImage({
@@ -15,6 +14,7 @@ function HeroImage({
 }) {
   return (
     <div className="hero-container">
+
       {showMenu && (
         <MenuFilter
           cards={cards}
@@ -26,7 +26,12 @@ function HeroImage({
           setSelectPlateformes={setSelectPlateformes}
         />
       )}
-      <img src={img} alt="heros" className="hero-image" />
+      <img
+        src="https://i.jeuxactus.com/datas/divers/d/i/divers-jeux-video/xl/divers-jeux-video-artwor-5ec3efe21e0d1.jpg"
+        alt="heros"
+        className="hero-image"
+      />
+
     </div>
   );
 }
