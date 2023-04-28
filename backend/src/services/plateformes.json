@@ -86,6 +86,10 @@
         "value": "Microsoft Windows"
       },
       {
+        "label": "PC",
+        "value": "PC"
+      },
+      {
         "label": "Linux",
         "value": "Linux"
       },

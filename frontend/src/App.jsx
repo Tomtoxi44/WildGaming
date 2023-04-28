@@ -58,6 +58,7 @@ function App() {
   const [description, setDescription] = useState(undefined);
 
   const [selectPlateformes, setSelectPlateformes] = useState([]);
+
   useEffect(() => {
     axios
       .get("http://localhost:5002/api/jeux")
@@ -130,11 +131,15 @@ function App() {
                 card={card}
                 key={card.id}
                 setDescription={setDescription}
+                showMenu={showMenu}
+                setShowMenu={setShowMenu}
               />
             );
           })}
         {description && (
           <CardDescription
+            showMenu={showMenu}
+            setShowMenu={setShowMenu}
             description={description}
             setDescription={setDescription}
           />

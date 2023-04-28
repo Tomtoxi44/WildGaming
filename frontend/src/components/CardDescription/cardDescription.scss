@@ -13,7 +13,9 @@
   bottom: 0;
   left: 0;
   right: 0;
-
+  .containerClose {
+    animation: delete 0.5s ease-in-out;
+  }
   .containerDescription {
     position: relative;
     border-radius: 10px;
@@ -24,6 +26,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+    animation: appear 0.5s ease-in-out;
 
     .cross {
       border-radius: 50px;
@@ -128,11 +132,27 @@
       font-weight: 600;
     }
 
-    .txtDescritpion {
-    }
-
     p {
       font-family: Roboto, sans-serif;
+    }
+
+    @keyframes appear {
+      from {
+        transform: scale(0);
+      }
+
+      to {
+        transform: scale(1);
+      }
+    }
+    @keyframes delete {
+      from {
+        transform: scale(1);
+      }
+
+      to {
+        transform: scale(0);
+      }
     }
   }
 }
