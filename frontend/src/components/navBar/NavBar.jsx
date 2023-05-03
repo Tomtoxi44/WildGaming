@@ -2,9 +2,17 @@ import PropTypes from "prop-types";
 import LogoTitle from "../../assets/wild_gaming_title.png";
 import loupe from "../../assets/loupe.png";
 
-function NavBar({ showMenu, setShowMenu }) {
+function NavBar({ showMenu, setShowMenu, setShowMenuFilter }) {
   const handleLoupeClick = () => {
-    setShowMenu(!showMenu);
+    if (showMenu) {
+      setShowMenu(false);
+      setTimeout(() => {
+        setShowMenuFilter(false);
+      }, 500);
+    } else {
+      setShowMenu(true);
+      setShowMenuFilter(true);
+    }
   };
 
   return (
@@ -24,4 +32,5 @@ export default NavBar;
 NavBar.propTypes = {
   setShowMenu: PropTypes.string.isRequired,
   showMenu: PropTypes.string.isRequired,
+  setShowMenuFilter: PropTypes.string.isRequired,
 };
