@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { MultiSelect } from "primereact/multiselect";
 import axios from "axios";
 import PropTypes from "prop-types";
@@ -6,9 +6,9 @@ import PropTypes from "prop-types";
 function CheckboxDeroulantPlateforme({
   selectPlateformes,
   setSelectPlateformes,
+  plateformes,
+  setPlateformes,
 }) {
-  const [plateformes, setPlateformes] = useState([]);
-
   const groupedItemTemplate = (option) => {
     return (
       <div className="flex align-items-center">
@@ -50,4 +50,6 @@ export default CheckboxDeroulantPlateforme;
 CheckboxDeroulantPlateforme.propTypes = {
   selectPlateformes: PropTypes.string.isRequired,
   setSelectPlateformes: PropTypes.string.isRequired,
+  plateformes: PropTypes.string.isRequired,
+  setPlateformes: PropTypes.string.isRequired,
 };

@@ -11,6 +11,8 @@ function MenuFilter({
   setSelectedGenres,
   selectPlateformes,
   setSelectPlateformes,
+  plateformes,
+  setPlateformes,
 }) {
   return (
     <div className="MenuFilters">
@@ -23,6 +25,8 @@ function MenuFilter({
       <CheckboxDeroulantPlateforme
         selectPlateformes={selectPlateformes}
         setSelectPlateformes={setSelectPlateformes}
+        plateformes={plateformes}
+        setPlateformes={setPlateformes}
       />
       <CheckboxDeroulantGenre
         selectedGenres={selectedGenres}
@@ -41,4 +45,6 @@ MenuFilter.propTypes = {
   setSelectedGenres: PropTypes.string.isRequired,
   selectPlateformes: PropTypes.string.isRequired,
   setSelectPlateformes: PropTypes.string.isRequired,
+  plateformes: PropTypes.string.isRequired,
+  setPlateformes: PropTypes.string.isRequired,
 };

@@ -71,6 +71,8 @@ function App() {
 
   const [selectPlateformes, setSelectPlateformes] = useState([]);
 
+  const [plateformes, setPlateformes] = useState([]);
+
   useEffect(() => {
     axios
       .get("http://localhost:5002/api/jeux")
@@ -96,6 +98,8 @@ function App() {
         setSelectedGenres={setSelectedGenres}
         selectPlateformes={selectPlateformes}
         setSelectPlateformes={setSelectPlateformes}
+        plateformes={plateformes}
+        setPlateformes={setPlateformes}
       />
       <CarouselComponent className="caroussel" data={data} />
 
@@ -155,6 +159,7 @@ function App() {
             setShowMenu={setShowMenu}
             description={description}
             setDescription={setDescription}
+            setSelectPlateformes={setSelectPlateformes}
           />
         )}
         {cards.filter((card) =>

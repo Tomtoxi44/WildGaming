@@ -11,6 +11,8 @@ function HeroImage({
   setSelectedGenres,
   selectPlateformes,
   setSelectPlateformes,
+  plateformes,
+  setPlateformes,
 }) {
   return (
     <div className="hero-container">
@@ -23,6 +25,8 @@ function HeroImage({
           setSelectedGenres={setSelectedGenres}
           selectPlateformes={selectPlateformes}
           setSelectPlateformes={setSelectPlateformes}
+          plateformes={plateformes}
+          setPlateformes={setPlateformes}
         />
       )}
       <img
@@ -45,4 +49,6 @@ HeroImage.propTypes = {
   setSelectedGenres: PropTypes.string.isRequired,
   selectPlateformes: PropTypes.string.isRequired,
   setSelectPlateformes: PropTypes.string.isRequired,
+  plateformes: PropTypes.string.isRequired,
+  setPlateformes: PropTypes.string.isRequired,
 };
