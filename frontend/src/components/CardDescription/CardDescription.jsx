@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 
-function CardDescription({ description, setDescription }) {
+function CardDescription({ description, setDescription, setShowMenu }) {
   const [equivalencePlateformeCouleurs, setEquivalencePlateformeCouleurs] =
     useState([]);
 
@@ -60,6 +60,7 @@ function CardDescription({ description, setDescription }) {
   useEffect(() => {
     generateBackgroundColor();
   }, []);
+
   return (
     <div className="popUp">
       <div className="containerDescription">
@@ -67,7 +68,8 @@ function CardDescription({ description, setDescription }) {
           type="button"
           className="cross"
           onClick={() => {
-            setDescription(undefined);
+            setDescription(false);
+            setShowMenu(false);
           }}
         >
           X
@@ -111,4 +113,5 @@ export default CardDescription;
 CardDescription.propTypes = {
   setDescription: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  setShowMenu: PropTypes.string.isRequired,
 };

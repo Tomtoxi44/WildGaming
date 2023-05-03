@@ -1,12 +1,16 @@
 import PropTypes from "prop-types";
 
-function MiniCard({ card, setDescription }) {
+function MiniCard({ card, setDescription, showMenu, setShowMenu }) {
+  const show = () => {
+    return showMenu ? setShowMenu(!showMenu) : setShowMenu(showMenu);
+  };
   return (
     <button
       className="container"
       type="button"
       onClick={() => {
         setDescription(card);
+        show();
       }}
     >
       <div className="imgMiniCard">
@@ -21,12 +25,16 @@ function MiniCard({ card, setDescription }) {
   );
 }
 MiniCard.propTypes = {
+  setDescription: PropTypes.string.isRequired,
+
+  showMenu: PropTypes.string.isRequired,
+  setShowMenu: PropTypes.string.isRequired,
+
   card: PropTypes.shape({
     id: PropTypes.number.isRequired,
     jacket_url: PropTypes.string.isRequired,
     titre: PropTypes.string.isRequired,
   }).isRequired,
-  setDescription: PropTypes.func.isRequired,
 };
 
 export default MiniCard;

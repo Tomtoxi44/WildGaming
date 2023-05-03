@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+
+import ScrollOnTop from "@components/scrollOnTop/scrollOnTop";
+
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
 import MiniCard from "./components/MiniCard/MiniCard";
@@ -64,9 +67,10 @@ function App() {
 
   const [showMenu, setShowMenu] = useState(false);
 
-  const [description, setDescription] = useState(undefined);
+  const [description, setDescription] = useState(false);
 
   const [selectPlateformes, setSelectPlateformes] = useState([]);
+
   useEffect(() => {
     axios
       .get("http://localhost:5002/api/jeux")
@@ -140,11 +144,15 @@ function App() {
                 card={card}
                 key={card.id}
                 setDescription={setDescription}
+                showMenu={showMenu}
+                setShowMenu={setShowMenu}
               />
             );
           })}
         {description && (
           <CardDescription
+            showMenu={showMenu}
+            setShowMenu={setShowMenu}
             description={description}
             setDescription={setDescription}
           />
@@ -157,6 +165,8 @@ function App() {
           <NoResultMessage SearchTerm={searchTerm} />
         )}
       </section>
+      {!description && <ScrollOnTop />}
+
       <Footer />
     </div>
   );
