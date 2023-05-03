@@ -1,7 +1,12 @@
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 
-function CardDescription({ description, setDescription, setShowMenu }) {
+function CardDescription({
+  description,
+  setDescription,
+  setShowMenu,
+  setSelectPlateformes,
+}) {
   const [equivalencePlateformeCouleurs, setEquivalencePlateformeCouleurs] =
     useState([]);
   const [switchAnimation, setSwitchAnimation] = useState("on");
@@ -12,6 +17,15 @@ function CardDescription({ description, setDescription, setShowMenu }) {
       setDescription(undefined);
     }, 500);
   };
+
+  const handleConsoleBouton = (e) => {
+    setSwitchAnimation("off");
+    setTimeout(() => {
+      setDescription(undefined);
+      setSelectPlateformes([e.target.value]);
+    }, 500);
+  };
+
   function generateBackgroundColor() {
     const tmp = [];
     description.plateforme.forEach((plateforme) => {
@@ -77,7 +91,6 @@ function CardDescription({ description, setDescription, setShowMenu }) {
           type="button"
           className="cross"
           onClick={() => {
-
             setShowMenu(false);
             handleSwitchAnimation();
           }}
@@ -100,6 +113,10 @@ function CardDescription({ description, setDescription, setShowMenu }) {
               description.plateforme.map((e, i) => {
                 return (
                   <button
+                    onClick={(value) => {
+                      handleConsoleBouton(value);
+                    }}
+                    value={e}
                     type="button"
                     className={`btnConsole ${equivalencePlateformeCouleurs[i]}`}
                   >
@@ -124,4 +141,5 @@ CardDescription.propTypes = {
   setDescription: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   setShowMenu: PropTypes.string.isRequired,
+  setSelectPlateformes: PropTypes.string.isRequired,
 };

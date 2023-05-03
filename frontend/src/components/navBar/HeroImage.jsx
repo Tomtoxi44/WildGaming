@@ -12,6 +12,8 @@ function HeroImage({
   setSelectedGenres,
   selectPlateformes,
   setSelectPlateformes,
+  plateformes,
+  setPlateformes,
 }) {
   return (
 
@@ -27,7 +29,12 @@ function HeroImage({
           setSelectedGenres={setSelectedGenres}
           selectPlateformes={selectPlateformes}
           setSelectPlateformes={setSelectPlateformes}
+
+          plateformes={plateformes}
+          setPlateformes={setPlateformes}
+
           showMenu={showMenu}
+
         />
       )}
       <img
@@ -50,5 +57,10 @@ HeroImage.propTypes = {
   setSelectedGenres: PropTypes.string.isRequired,
   selectPlateformes: PropTypes.string.isRequired,
   setSelectPlateformes: PropTypes.string.isRequired,
+
+  plateformes: PropTypes.string.isRequired,
+  setPlateformes: PropTypes.string.isRequired,
+
   showMenuFilter: PropTypes.string.isRequired,
+
 };
