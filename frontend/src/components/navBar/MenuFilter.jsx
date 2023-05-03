@@ -19,6 +19,7 @@ function MenuFilter({
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
       />
+
       <CheckboxDeroulantPlateforme
         selectPlateformes={selectPlateformes}
         setSelectPlateformes={setSelectPlateformes}
