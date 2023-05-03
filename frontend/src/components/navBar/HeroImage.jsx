@@ -4,6 +4,7 @@ import MenuFilter from "./MenuFilter";
 
 function HeroImage({
   showMenu,
+  showMenuFilter,
   cards,
   searchTerm,
   setSearchTerm,
@@ -15,8 +16,11 @@ function HeroImage({
   setPlateformes,
 }) {
   return (
-    <div className="hero-container">
-      {showMenu && (
+
+    <div className={!showMenu ? "hero-container" : "hero-container cut"}>
+      {showMenuFilter && (
+
+ 
         <MenuFilter
           cards={cards}
           searchTerm={searchTerm}
@@ -25,8 +29,12 @@ function HeroImage({
           setSelectedGenres={setSelectedGenres}
           selectPlateformes={selectPlateformes}
           setSelectPlateformes={setSelectPlateformes}
+
           plateformes={plateformes}
           setPlateformes={setPlateformes}
+
+          showMenu={showMenu}
+
         />
       )}
       <img
@@ -49,6 +57,10 @@ HeroImage.propTypes = {
   setSelectedGenres: PropTypes.string.isRequired,
   selectPlateformes: PropTypes.string.isRequired,
   setSelectPlateformes: PropTypes.string.isRequired,
+
   plateformes: PropTypes.string.isRequired,
   setPlateformes: PropTypes.string.isRequired,
+
+  showMenuFilter: PropTypes.string.isRequired,
+
 };

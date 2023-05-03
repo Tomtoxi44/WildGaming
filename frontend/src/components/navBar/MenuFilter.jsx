@@ -11,11 +11,15 @@ function MenuFilter({
   setSelectedGenres,
   selectPlateformes,
   setSelectPlateformes,
+
   plateformes,
   setPlateformes,
+
+  showMenu,
+
 }) {
   return (
-    <div className="MenuFilters">
+    <div className={!showMenu ? "MenuFilters" : "MenuFilters back"}>
       <SearchBar
         cards={cards}
         searchTerm={searchTerm}
@@ -45,6 +49,10 @@ MenuFilter.propTypes = {
   setSelectedGenres: PropTypes.string.isRequired,
   selectPlateformes: PropTypes.string.isRequired,
   setSelectPlateformes: PropTypes.string.isRequired,
+
   plateformes: PropTypes.string.isRequired,
   setPlateformes: PropTypes.string.isRequired,
+
+  showMenu: PropTypes.string.isRequired,
+
 };
