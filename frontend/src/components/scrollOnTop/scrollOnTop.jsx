@@ -3,6 +3,7 @@ import fleche from "../../assets/fleche.png";
 
 function ScrollOnTop() {
   const [isVisible, setIsVisible] = useState(false);
+
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.pageYOffset > 300) {
