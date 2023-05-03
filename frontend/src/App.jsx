@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 import ScrollOnTop from "@components/scrollOnTop/scrollOnTop";
-// import CheckboxDeroulantGenre from "./components/filters/CheckboxDeroulantGenre";
-// import CheckboxDeroulantPlateforme from "./components/filters/CheckboxDeroulantPlateforme";
 
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
