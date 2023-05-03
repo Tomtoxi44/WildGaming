@@ -10,7 +10,7 @@ function CarouselComponent(props) {
     fontWeight: "bold",
     fontFamily: "roboto, sans-serif",
     color: "white",
-    textShadow: "0 0 10px rgba(255, 255, 255, 0.5)",
+    textShadow: "0 0 10px rgba(155, 258, 354, 0.9)",
     animation: "bounce 2s ease 0s 1 normal none",
   };
   const slideNumberStyle = {

@@ -10,12 +10,18 @@ import CarouselComponent from "./components/CarouselComponent";
 import HeroImage from "./components/navBar/HeroImage";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
+import NoResultMessage from "./components/NoResultMessage";
 
 function sortGamesByTitle(games) {
   return games.sort((a, b) => a.titre.localeCompare(b.titre));
 }
 function App() {
   const data = [
+    {
+      image:
+        "https://pic.clubic.com/v1/images/2006598/raw?fit=smartCrop&width=1200&height=675&hash=deb229d5fb73e814488014d365afae2f13370c6e",
+      caption: "TOP 2023",
+    },
     {
       image: "https://jolstatic.fr/www/captures/1870/1/52821.jpg",
       caption: "Free To Play",
@@ -143,8 +149,14 @@ function App() {
             setDescription={setDescription}
           />
         )}
+        {cards.filter((card) =>
+          searchTerm
+            ? !card.titre.toLowerCase().includes(searchTerm.toLowerCase())
+            : false
+        ).length === cards.length && (
+          <NoResultMessage SearchTerm={searchTerm} />
+        )}
       </section>
-
       <Footer />
     </div>
   );
