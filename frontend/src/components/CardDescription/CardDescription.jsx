@@ -77,6 +77,7 @@ function CardDescription({ description, setDescription, setShowMenu }) {
           type="button"
           className="cross"
           onClick={() => {
+
             setShowMenu(false);
             handleSwitchAnimation();
           }}
