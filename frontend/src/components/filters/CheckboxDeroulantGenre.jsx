@@ -16,18 +16,20 @@ function CheckboxDeroulantGenre({ selectedGenres, setSelectedGenres }) {
   }, []);
 
   return (
-    <div className="">
-      <MultiSelect
-        value={selectedGenres}
-        onChange={(e) => setSelectedGenres(e.value)}
-        options={genres.map((genre) => {
-          return { name: genre, code: genre };
-        })}
-        optionLabel="name"
-        display="chip"
-        placeholder="Genre"
-        className="w-full md:w-20rem"
-      />
+    <div className="CheckboxGenre">
+      <div className="CheckboxGenreScrollbar">
+        <MultiSelect
+          value={selectedGenres}
+          onChange={(e) => setSelectedGenres(e.value)}
+          options={genres.map((genre) => {
+            return { name: genre, code: genre };
+          })}
+          optionLabel="name"
+          display="chip"
+          placeholder="Genre"
+          className="w-full md:w-20rem"
+        />
+      </div>
     </div>
   );
 }

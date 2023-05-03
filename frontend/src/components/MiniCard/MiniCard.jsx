@@ -25,9 +25,8 @@ function MiniCard({ card, setDescription, showMenu, setShowMenu }) {
   );
 }
 MiniCard.propTypes = {
-
   setDescription: PropTypes.string.isRequired,
- 
+
   showMenu: PropTypes.string.isRequired,
   setShowMenu: PropTypes.string.isRequired,
 
@@ -36,8 +35,6 @@ MiniCard.propTypes = {
     jacket_url: PropTypes.string.isRequired,
     titre: PropTypes.string.isRequired,
   }).isRequired,
-  
-
 };
 
 export default MiniCard;

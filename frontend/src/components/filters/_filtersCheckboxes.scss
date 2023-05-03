@@ -1,0 +1,23 @@
+.CheckboxGenre {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 10px;
+  width: 60%;
+  .CheckboxGenreScrollbar {
+    overflow: auto;
+  }
+}
+
+.CheckboxPlateforme {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  white-space: nowrap;
+  border-radius: 10px;
+  width: 60%;
+  .CheckboxPlateformeScrollbar {
+    overflow: auto;
+  }
+}
