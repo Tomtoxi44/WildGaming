@@ -67,7 +67,11 @@ function App() {
 
   const [showMenu, setShowMenu] = useState(false);
 
-  const [description, setDescription] = useState(false);
+
+  const [showMenuFilter, setShowMenuFilter] = useState(false);
+
+  const [description, setDescription] = useState(undefined);
+
 
   const [selectPlateformes, setSelectPlateformes] = useState([]);
 
@@ -81,14 +85,19 @@ function App() {
       .catch((err) => console.error(err));
   }, []);
 
-  // console.log(selectPlateformes);
-
   return (
     <div className="App">
-      <NavBar showMenu={showMenu} setShowMenu={setShowMenu} />
+      <NavBar
+        showMenu={showMenu}
+        setShowMenu={setShowMenu}
+        showMenuFilter={showMenuFilter}
+        setShowMenuFilter={setShowMenuFilter}
+      />
       <HeroImage
         showMenu={showMenu}
         setShowMenu={setShowMenu}
+        showMenuFilter={showMenuFilter}
+        setShowMenuFilter={setShowMenuFilter}
         cards={cards}
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}

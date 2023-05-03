@@ -26,12 +26,18 @@
     background: none;
     border: none;
     position: absolute;
-    left: 2%;
-    top: 2%;
+    left: 3%;
+    top: 4%;
     height: 100%;
+
+    &:hover {
+      height: 105%;
+      opacity: 80%;
+    }
 
     .loupeImg {
       max-height: 60%;
+      translate: -50%;
     }
   }
 }
@@ -40,12 +46,15 @@
   display: flex;
   overflow: hidden;
   position: relative;
-  height: 100%;
+  height: calc(100vh - 100px);
   width: 100%;
+  animation: hideFilters 0.5s forwards;
 
   .hero-image {
     width: 100%;
-    height: auto;
+    // transition-duration: 0.5s;
+    // height: auto;
+    object-fit: cover;
   }
 
   .MenuFilters {
@@ -59,11 +68,20 @@
     background: #444444;
     width: 100%;
     height: 100%;
+    animation: opacity 0.5s forwards;
+    // animation: opacity 0.5s;
     opacity: 0.8;
-    animation-name: slide;
-    animation-duration: 500ms ease-out;
     padding: 20px;
   }
+
+  .back {
+    animation: opacityBack 0.5s forwards;
+    // animation: opacity 0.5s;
+  }
+}
+
+.cut {
+  animation: showFilters 0.5s forwards;
 }
 
 @media screen and (max-width: 770px) {
@@ -77,12 +95,38 @@
   }
 }
 
-@keyframes slide {
+@keyframes opacityBack {
   from {
-    transform: translate(0px, -100%);
+    opacity: 0;
   }
-
   to {
-    transform: translate(0px, 0px);
+    opacity: 0.8;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes showFilters {
+  from {
+    height: calc(100vh - 100px);
+  }
+  to {
+    height: 40vh;
+  }
+}
+
+@keyframes hideFilters {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: calc(100vh - 100px);
   }
 }
