@@ -68,7 +68,7 @@ function CardDescription({ description, setDescription, setShowMenu }) {
           type="button"
           className="cross"
           onClick={() => {
-            setDescription(undefined);
+            setDescription(false);
             setShowMenu(false);
           }}
         >

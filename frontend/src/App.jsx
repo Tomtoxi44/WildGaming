@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-
 import ScrollOnTop from "@components/scrollOnTop/scrollOnTop";
-import CheckboxDeroulantGenre from "./components/filters/CheckboxDeroulantGenre";
-import CheckboxDeroulantPlateforme from "./components/filters/CheckboxDeroulantPlateforme";
 
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
@@ -64,7 +61,7 @@ function App() {
 
   const [showMenu, setShowMenu] = useState(false);
 
-  const [description, setDescription] = useState(undefined);
+  const [description, setDescription] = useState(false);
 
   const [selectPlateformes, setSelectPlateformes] = useState([]);
 
@@ -155,7 +152,7 @@ function App() {
           />
         )}
       </section>
-      <ScrollOnTop />
+      {!description && <ScrollOnTop />}
       <Footer />
     </div>
   );

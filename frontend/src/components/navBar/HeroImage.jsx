@@ -14,7 +14,6 @@ function HeroImage({
 }) {
   return (
     <div className="hero-container">
-
       {showMenu && (
         <MenuFilter
           cards={cards}
@@ -31,7 +30,6 @@ function HeroImage({
         alt="heros"
         className="hero-image"
       />
-
     </div>
   );
 }
