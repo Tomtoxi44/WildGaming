@@ -13,9 +13,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  .containerClose {
-    animation: delete 0.5s ease-in-out;
-  }
+
   .containerDescription {
     position: relative;
     border-radius: 10px;
@@ -27,7 +25,13 @@
     align-items: center;
     justify-content: space-around;
 
-    animation: appear 0.5s ease-in-out;
+    &_on {
+      animation: appear 0.5s ease-in-out;
+    }
+
+    &_off {
+      animation: delete 0.5s ease-in-out forwards;
+    }
 
     .cross {
       border-radius: 50px;
@@ -145,12 +149,15 @@
         transform: scale(1);
       }
     }
+
     @keyframes delete {
       from {
+        opacity: 1;
         transform: scale(1);
       }
 
       to {
+        opacity: 0;
         transform: scale(0);
       }
     }

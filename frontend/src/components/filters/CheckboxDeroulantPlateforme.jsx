@@ -26,19 +26,21 @@ function CheckboxDeroulantPlateforme({
   }, []);
 
   return (
-    <div className="card flex justify-content-center">
-      <MultiSelect
-        value={selectPlateformes}
-        options={plateformes}
-        onChange={(e) => setSelectPlateformes(e.value)}
-        optionLabel="label"
-        optionGroupLabel="label"
-        optionGroupChildren="items"
-        optionGroupTemplate={groupedItemTemplate}
-        placeholder="Select Plateformes"
-        display="chip"
-        className="w-full md:w-20rem"
-      />
+    <div className="CheckboxPlateforme">
+      <div className="CheckboxPlateformeScrollbar">
+        <MultiSelect
+          value={selectPlateformes}
+          options={plateformes}
+          onChange={(e) => setSelectPlateformes(e.value)}
+          optionLabel="label"
+          optionGroupLabel="label"
+          optionGroupChildren="items"
+          optionGroupTemplate={groupedItemTemplate}
+          placeholder="Plateforme"
+          display="chip"
+          className="w-full md:w-20rem"
+        />
+      </div>
     </div>
   );
 }

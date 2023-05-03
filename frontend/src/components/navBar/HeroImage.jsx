@@ -14,8 +14,11 @@ function HeroImage({
   setSelectPlateformes,
 }) {
   return (
+
     <div className={!showMenu ? "hero-container" : "hero-container cut"}>
       {showMenuFilter && (
+
+ 
         <MenuFilter
           cards={cards}
           searchTerm={searchTerm}
