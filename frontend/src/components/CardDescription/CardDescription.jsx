@@ -4,7 +4,14 @@ import { useEffect, useState } from "react";
 function CardDescription({ description, setDescription, setShowMenu }) {
   const [equivalencePlateformeCouleurs, setEquivalencePlateformeCouleurs] =
     useState([]);
+  const [switchAnimation, setSwitchAnimation] = useState("on");
 
+  const handleSwitchAnimation = () => {
+    setSwitchAnimation("off");
+    setTimeout(() => {
+      setDescription(undefined);
+    }, 500);
+  };
   function generateBackgroundColor() {
     const tmp = [];
     description.plateforme.forEach((plateforme) => {
@@ -63,13 +70,15 @@ function CardDescription({ description, setDescription, setShowMenu }) {
 
   return (
     <div className="popUp">
-      <div className="containerDescription">
+      <div
+        className={`containerDescription containerDescription_${switchAnimation}`}
+      >
         <button
           type="button"
           className="cross"
           onClick={() => {
-            setDescription(undefined);
             setShowMenu(false);
+            handleSwitchAnimation();
           }}
         >
           X
