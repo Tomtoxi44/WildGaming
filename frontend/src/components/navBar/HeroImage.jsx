@@ -16,11 +16,8 @@ function HeroImage({
   setPlateformes,
 }) {
   return (
-
     <div className={!showMenu ? "hero-container" : "hero-container cut"}>
       {showMenuFilter && (
-
- 
         <MenuFilter
           cards={cards}
           searchTerm={searchTerm}
@@ -29,12 +26,9 @@ function HeroImage({
           setSelectedGenres={setSelectedGenres}
           selectPlateformes={selectPlateformes}
           setSelectPlateformes={setSelectPlateformes}
-
           plateformes={plateformes}
           setPlateformes={setPlateformes}
-
           showMenu={showMenu}
-
         />
       )}
       <img
@@ -62,5 +56,4 @@ HeroImage.propTypes = {
   setPlateformes: PropTypes.string.isRequired,
 
   showMenuFilter: PropTypes.string.isRequired,
-
 };
