@@ -51,9 +51,14 @@
         "label": "Nintendo Switch",
         "value": "Nintendo Switch"
       },
+     
       {
         "label": "Wii U",
         "value": "Wii U"
+      },
+      {
+        "label": "Nintendo 3DS",
+        "value": "Nintendo 3DS"
       },
       {
         "label": "Nintendo DS",
@@ -70,6 +75,14 @@
       {
         "label": "Game Boy",
         "value": "Game Boy"
+      }, 
+      {
+        "label": "GameCube",
+        "value": "GameCube"
+      }, 
+      {
+        "label": "Super Nintendo",
+        "value": "Super Nintendo"
       },
       {
         "label": "NES",
