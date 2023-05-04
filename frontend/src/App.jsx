@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import ScrollOnTop from "@components/scrollOnTop/scrollOnTop";
+import ScrollOnTop from "./components/scrollOnTop/scrollOnTop";
 
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
@@ -67,11 +67,9 @@ function App() {
 
   const [showMenu, setShowMenu] = useState(false);
 
-
   const [showMenuFilter, setShowMenuFilter] = useState(false);
 
   const [description, setDescription] = useState(undefined);
-
 
   const [selectPlateformes, setSelectPlateformes] = useState([]);
 
