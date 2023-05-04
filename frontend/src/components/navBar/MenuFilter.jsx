@@ -16,7 +16,6 @@ function MenuFilter({
   setPlateformes,
 
   showMenu,
-
 }) {
   return (
     <div className={!showMenu ? "MenuFilters" : "MenuFilters back"}>
@@ -54,5 +53,4 @@ MenuFilter.propTypes = {
   setPlateformes: PropTypes.string.isRequired,
 
   showMenu: PropTypes.string.isRequired,
-
 };
