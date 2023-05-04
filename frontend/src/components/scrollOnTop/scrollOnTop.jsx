@@ -26,7 +26,6 @@ function ScrollOnTop() {
     >
       <i className="fas fa-arrow-up" aria-hidden="true" />
       <img src={fleche} alt="scroll button" />
-      {/* <span className="sr-only">Back to top</span> */}
     </button>
   );
 }

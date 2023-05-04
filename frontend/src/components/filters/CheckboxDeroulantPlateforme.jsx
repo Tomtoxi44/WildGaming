@@ -38,8 +38,8 @@ function CheckboxDeroulantPlateforme({
           optionGroupTemplate={groupedItemTemplate}
           placeholder="Plateforme"
           display="chip"
-          className="multiPlateforme"
-          // w-full md:w-20rem
+          className="w-full md:w-20"
+          maxSelectedLabels={3}
         />
       </div>
     </div>
@@ -49,8 +49,8 @@ function CheckboxDeroulantPlateforme({
 export default CheckboxDeroulantPlateforme;
 
 CheckboxDeroulantPlateforme.propTypes = {
-  selectPlateformes: PropTypes.string.isRequired,
-  setSelectPlateformes: PropTypes.string.isRequired,
-  plateformes: PropTypes.string.isRequired,
-  setPlateformes: PropTypes.string.isRequired,
+  selectPlateformes: PropTypes.instanceOf(Array).isRequired,
+  setSelectPlateformes: PropTypes.func.isRequired,
+  plateformes: PropTypes.instanceOf(Array).isRequired,
+  setPlateformes: PropTypes.func.isRequired,
 };

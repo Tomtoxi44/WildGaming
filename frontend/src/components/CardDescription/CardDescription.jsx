@@ -116,6 +116,7 @@ function CardDescription({
                     onClick={(value) => {
                       handleConsoleBouton(value);
                     }}
+                    key={e}
                     value={e}
                     type="button"
                     className={`btnConsole ${equivalencePlateformeCouleurs[i]}`}
@@ -138,8 +139,15 @@ function CardDescription({
 export default CardDescription;
 
 CardDescription.propTypes = {
-  setDescription: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  setShowMenu: PropTypes.string.isRequired,
-  setSelectPlateformes: PropTypes.string.isRequired,
+  setDescription: PropTypes.func.isRequired,
+  description: PropTypes.shape({
+    description: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
+    annee_sortie: PropTypes.number,
+    plateforme: PropTypes.instanceOf(Array),
+    jacket_url: PropTypes.string.isRequired,
+    titre: PropTypes.string.isRequired,
+  }).isRequired,
+  setShowMenu: PropTypes.func.isRequired,
+  setSelectPlateformes: PropTypes.func.isRequired,
 };

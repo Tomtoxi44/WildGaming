@@ -41,16 +41,16 @@ function MenuFilter({
 export default MenuFilter;
 
 MenuFilter.propTypes = {
-  cards: PropTypes.string.isRequired,
+  cards: PropTypes.instanceOf(Array).isRequired,
   searchTerm: PropTypes.string.isRequired,
-  setSearchTerm: PropTypes.string.isRequired,
-  selectedGenres: PropTypes.string.isRequired,
-  setSelectedGenres: PropTypes.string.isRequired,
-  selectPlateformes: PropTypes.string.isRequired,
-  setSelectPlateformes: PropTypes.string.isRequired,
+  setSearchTerm: PropTypes.func.isRequired,
+  selectedGenres: PropTypes.instanceOf(Array).isRequired,
+  setSelectedGenres: PropTypes.func.isRequired,
+  selectPlateformes: PropTypes.instanceOf(Array).isRequired,
+  setSelectPlateformes: PropTypes.func.isRequired,
 
-  plateformes: PropTypes.string.isRequired,
-  setPlateformes: PropTypes.string.isRequired,
+  plateformes: PropTypes.instanceOf(Array).isRequired,
+  setPlateformes: PropTypes.func.isRequired,
 
-  showMenu: PropTypes.string.isRequired,
+  showMenu: PropTypes.bool.isRequired,
 };

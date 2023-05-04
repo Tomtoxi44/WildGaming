@@ -30,7 +30,7 @@ function NavBar({ showMenu, setShowMenu, setShowMenuFilter }) {
 export default NavBar;
 
 NavBar.propTypes = {
-  setShowMenu: PropTypes.string.isRequired,
-  showMenu: PropTypes.string.isRequired,
-  setShowMenuFilter: PropTypes.string.isRequired,
+  setShowMenu: PropTypes.func.isRequired,
+  showMenu: PropTypes.bool.isRequired,
+  setShowMenuFilter: PropTypes.func.isRequired,
 };
