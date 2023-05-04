@@ -8,11 +8,11 @@
   .searchBar {
     border-radius: 10px;
     background: #f2f2f2;
-    width: 60%;
+    width: 70%;
     height: 2.3rem;
     display: flex;
     align-items: center;
-    opacity: 65%;
+    opacity: 90%;
     input {
       border-radius: 10px;
       background-color: transparent;
@@ -22,6 +22,10 @@
       padding-left: 15px;
       font-size: 1.1em;
     }
+    ::placeholder {
+      color: black;
+      opacity: 0.6;
+    }
   }
   .search__results {
     position: absolute;
@@ -30,7 +34,7 @@
     justify-content: center;
     flex-direction: column;
     z-index: 2;
-    width: 58%;
+    width: 68%;
     .search__result {
       cursor: pointer;
       display: flex;
