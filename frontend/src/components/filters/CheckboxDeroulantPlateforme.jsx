@@ -38,7 +38,8 @@ function CheckboxDeroulantPlateforme({
           optionGroupTemplate={groupedItemTemplate}
           placeholder="Plateforme"
           display="chip"
-          className="w-full md:w-20rem"
+          className="multiPlateforme"
+          // w-full md:w-20rem
         />
       </div>
     </div>
