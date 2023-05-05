@@ -29,7 +29,7 @@
   width: 100%;
   max-width: 800px;
   height: auto;
-  height: 300px; /* ajuste la hauteur selon tes besoins */
+  height: 300px;
   object-fit: cover;
   object-position: center;
 }
@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 768px) {
   .carousel img {
-    height: 200px; /* ajuste la hauteur selon tes besoins */
+    height: 200px; 
   }
 }
 
