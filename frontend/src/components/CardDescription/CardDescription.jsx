@@ -1,9 +1,30 @@
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 
-function CardDescription({ description, setDescription, setShowMenu }) {
+function CardDescription({
+  description,
+  setDescription,
+  setShowMenu,
+  setSelectPlateformes,
+}) {
   const [equivalencePlateformeCouleurs, setEquivalencePlateformeCouleurs] =
     useState([]);
+  const [switchAnimation, setSwitchAnimation] = useState("on");
+
+  const handleSwitchAnimation = () => {
+    setSwitchAnimation("off");
+    setTimeout(() => {
+      setDescription(undefined);
+    }, 500);
+  };
+
+  const handleConsoleBouton = (e) => {
+    setSwitchAnimation("off");
+    setTimeout(() => {
+      setDescription(undefined);
+      setSelectPlateformes([e.target.value]);
+    }, 500);
+  };
 
   function generateBackgroundColor() {
     const tmp = [];
@@ -63,13 +84,15 @@ function CardDescription({ description, setDescription, setShowMenu }) {
 
   return (
     <div className="popUp">
-      <div className="containerDescription">
+      <div
+        className={`containerDescription containerDescription_${switchAnimation}`}
+      >
         <button
           type="button"
           className="cross"
           onClick={() => {
-            setDescription(undefined);
             setShowMenu(false);
+            handleSwitchAnimation();
           }}
         >
           X
@@ -90,6 +113,11 @@ function CardDescription({ description, setDescription, setShowMenu }) {
               description.plateforme.map((e, i) => {
                 return (
                   <button
+                    onClick={(value) => {
+                      handleConsoleBouton(value);
+                    }}
+                    key={e}
+                    value={e}
                     type="button"
                     className={`btnConsole ${equivalencePlateformeCouleurs[i]}`}
                   >
@@ -111,7 +139,15 @@ function CardDescription({ description, setDescription, setShowMenu }) {
 export default CardDescription;
 
 CardDescription.propTypes = {
-  setDescription: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  setShowMenu: PropTypes.string.isRequired,
+  setDescription: PropTypes.func.isRequired,
+  description: PropTypes.shape({
+    description: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
+    annee_sortie: PropTypes.number,
+    plateforme: PropTypes.instanceOf(Array),
+    jacket_url: PropTypes.string.isRequired,
+    titre: PropTypes.string.isRequired,
+  }).isRequired,
+  setShowMenu: PropTypes.func.isRequired,
+  setSelectPlateformes: PropTypes.func.isRequired,
 };

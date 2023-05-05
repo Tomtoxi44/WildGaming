@@ -1,0 +1,34 @@
+.CheckboxGenre {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 10px;
+  width: 70%;
+  .CheckboxGenreScrollbar {
+    overflow: auto;
+  }
+}
+
+.CheckboxPlateforme {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  white-space: nowrap;
+  border-radius: 10px;
+  width: 70%;
+
+  .CheckboxPlateformeScrollbar {
+    overflow: auto;
+    
+  }
+}
+
+.p-multiselect-label.p-placeholder{
+  
+  font-weight: bold;
+  font{
+    color: rgba(0, 0, 0, 0.899);
+  }
+}
+

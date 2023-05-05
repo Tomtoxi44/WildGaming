@@ -2,16 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
   height: 38px;
   background-color: #2d2d2d;
 
-  a {
-    margin: 0 6px;
-
-    svg {
-      width: 25px;
-      height: 25px;
-      color: #ff5c01;
+  svg {
+    width: 25px;
+    height: 25px;
+    color: #ff5c01;
+    &:hover {
+      height: 30px;
+      width: 30px;
+      transition: all 0.2s;
     }
   }
 }

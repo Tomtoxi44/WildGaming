@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { MultiSelect } from "primereact/multiselect";
 import axios from "axios";
 import PropTypes from "prop-types";
@@ -6,9 +6,9 @@ import PropTypes from "prop-types";
 function CheckboxDeroulantPlateforme({
   selectPlateformes,
   setSelectPlateformes,
+  plateformes,
+  setPlateformes,
 }) {
-  const [plateformes, setPlateformes] = useState([]);
-
   const groupedItemTemplate = (option) => {
     return (
       <div className="flex align-items-center">
@@ -26,19 +26,22 @@ function CheckboxDeroulantPlateforme({
   }, []);
 
   return (
-    <div className="card flex justify-content-center">
-      <MultiSelect
-        value={selectPlateformes}
-        options={plateformes}
-        onChange={(e) => setSelectPlateformes(e.value)}
-        optionLabel="label"
-        optionGroupLabel="label"
-        optionGroupChildren="items"
-        optionGroupTemplate={groupedItemTemplate}
-        placeholder="Select Plateformes"
-        display="chip"
-        className="w-full md:w-20rem"
-      />
+    <div className="CheckboxPlateforme">
+      <div className="CheckboxPlateformeScrollbar">
+        <MultiSelect
+          value={selectPlateformes}
+          options={plateformes}
+          onChange={(e) => setSelectPlateformes(e.value)}
+          optionLabel="label"
+          optionGroupLabel="label"
+          optionGroupChildren="items"
+          optionGroupTemplate={groupedItemTemplate}
+          placeholder="Plateforme"
+          display="chip"
+          className="w-full md:w-20"
+          maxSelectedLabels={3}
+        />
+      </div>
     </div>
   );
 }
@@ -46,6 +49,8 @@ function CheckboxDeroulantPlateforme({
 export default CheckboxDeroulantPlateforme;
 
 CheckboxDeroulantPlateforme.propTypes = {
-  selectPlateformes: PropTypes.string.isRequired,
-  setSelectPlateformes: PropTypes.string.isRequired,
+  selectPlateformes: PropTypes.instanceOf(Array).isRequired,
+  setSelectPlateformes: PropTypes.func.isRequired,
+  plateformes: PropTypes.instanceOf(Array).isRequired,
+  setPlateformes: PropTypes.func.isRequired,
 };

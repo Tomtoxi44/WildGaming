@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
-
-import ScrollOnTop from "@components/scrollOnTop/scrollOnTop";
-import CheckboxDeroulantGenre from "./components/filters/CheckboxDeroulantGenre";
-import CheckboxDeroulantPlateforme from "./components/filters/CheckboxDeroulantPlateforme";
-
+import ScrollOnTop from "./components/scrollOnTop/scrollOnTop";
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
 import MiniCard from "./components/MiniCard/MiniCard";
@@ -16,12 +11,18 @@ import CarouselComponent from "./components/CarouselComponent";
 import HeroImage from "./components/navBar/HeroImage";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
+import NoResultMessage from "./components/NoResultMessage";
 
 function sortGamesByTitle(games) {
   return games.sort((a, b) => a.titre.localeCompare(b.titre));
 }
 function App() {
   const data = [
+    {
+      image:
+        "https://pic.clubic.com/v1/images/2006598/raw?fit=smartCrop&width=1200&height=675&hash=deb229d5fb73e814488014d365afae2f13370c6e",
+      caption: "TOP 2023",
+    },
     {
       image: "https://jolstatic.fr/www/captures/1870/1/52821.jpg",
       caption: "Free To Play",
@@ -64,9 +65,13 @@ function App() {
 
   const [showMenu, setShowMenu] = useState(false);
 
+  const [showMenuFilter, setShowMenuFilter] = useState(false);
+
   const [description, setDescription] = useState(undefined);
 
   const [selectPlateformes, setSelectPlateformes] = useState([]);
+
+  const [plateformes, setPlateformes] = useState([]);
 
   useEffect(() => {
     axios
@@ -78,14 +83,19 @@ function App() {
       .catch((err) => console.error(err));
   }, []);
 
-  // console.log(selectPlateformes);
-
   return (
     <div className="App">
-      <NavBar showMenu={showMenu} setShowMenu={setShowMenu} />
+      <NavBar
+        showMenu={showMenu}
+        setShowMenu={setShowMenu}
+        showMenuFilter={showMenuFilter}
+        setShowMenuFilter={setShowMenuFilter}
+      />
       <HeroImage
         showMenu={showMenu}
         setShowMenu={setShowMenu}
+        showMenuFilter={showMenuFilter}
+        setShowMenuFilter={setShowMenuFilter}
         cards={cards}
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
@@ -93,6 +103,8 @@ function App() {
         setSelectedGenres={setSelectedGenres}
         selectPlateformes={selectPlateformes}
         setSelectPlateformes={setSelectPlateformes}
+        plateformes={plateformes}
+        setPlateformes={setPlateformes}
       />
       <CarouselComponent className="caroussel" data={data} />
 
@@ -152,10 +164,19 @@ function App() {
             setShowMenu={setShowMenu}
             description={description}
             setDescription={setDescription}
+            setSelectPlateformes={setSelectPlateformes}
           />
         )}
+        {cards.filter((card) =>
+          searchTerm
+            ? !card.titre.toLowerCase().includes(searchTerm.toLowerCase())
+            : false
+        ).length === cards.length && (
+          <NoResultMessage SearchTerm={searchTerm} />
+        )}
       </section>
-      <ScrollOnTop />
+      {!description && <ScrollOnTop />}
+
       <Footer />
     </div>
   );

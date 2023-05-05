@@ -4,6 +4,7 @@ import MenuFilter from "./MenuFilter";
 
 function HeroImage({
   showMenu,
+  showMenuFilter,
   cards,
   searchTerm,
   setSearchTerm,
@@ -11,11 +12,12 @@ function HeroImage({
   setSelectedGenres,
   selectPlateformes,
   setSelectPlateformes,
+  plateformes,
+  setPlateformes,
 }) {
   return (
-    <div className="hero-container">
-
-      {showMenu && (
+    <div className={!showMenu ? "hero-container" : "hero-container cut"}>
+      {showMenuFilter && (
         <MenuFilter
           cards={cards}
           searchTerm={searchTerm}
@@ -24,6 +26,9 @@ function HeroImage({
           setSelectedGenres={setSelectedGenres}
           selectPlateformes={selectPlateformes}
           setSelectPlateformes={setSelectPlateformes}
+          plateformes={plateformes}
+          setPlateformes={setPlateformes}
+          showMenu={showMenu}
         />
       )}
       <img
@@ -31,7 +36,6 @@ function HeroImage({
         alt="heros"
         className="hero-image"
       />
-
     </div>
   );
 }
@@ -39,12 +43,17 @@ function HeroImage({
 export default HeroImage;
 
 HeroImage.propTypes = {
-  showMenu: PropTypes.string.isRequired,
-  cards: PropTypes.string.isRequired,
+  showMenu: PropTypes.bool.isRequired,
+  cards: PropTypes.instanceOf(Array).isRequired,
   searchTerm: PropTypes.string.isRequired,
-  setSearchTerm: PropTypes.string.isRequired,
-  selectedGenres: PropTypes.string.isRequired,
-  setSelectedGenres: PropTypes.string.isRequired,
-  selectPlateformes: PropTypes.string.isRequired,
-  setSelectPlateformes: PropTypes.string.isRequired,
+  setSearchTerm: PropTypes.func.isRequired,
+  selectedGenres: PropTypes.instanceOf(Array).isRequired,
+  setSelectedGenres: PropTypes.func.isRequired,
+  selectPlateformes: PropTypes.instanceOf(Array).isRequired,
+  setSelectPlateformes: PropTypes.func.isRequired,
+
+  plateformes: PropTypes.instanceOf(Array).isRequired,
+  setPlateformes: PropTypes.func.isRequired,
+
+  showMenuFilter: PropTypes.bool.isRequired,
 };

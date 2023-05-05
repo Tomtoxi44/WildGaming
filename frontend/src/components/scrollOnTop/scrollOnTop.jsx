@@ -3,6 +3,7 @@ import fleche from "../../assets/fleche.png";
 
 function ScrollOnTop() {
   const [isVisible, setIsVisible] = useState(false);
+
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.pageYOffset > 300) {
@@ -25,7 +26,6 @@ function ScrollOnTop() {
     >
       <i className="fas fa-arrow-up" aria-hidden="true" />
       <img src={fleche} alt="scroll button" />
-      {/* <span className="sr-only">Back to top</span> */}
     </button>
   );
 }
