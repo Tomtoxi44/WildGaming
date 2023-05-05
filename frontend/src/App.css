@@ -35,6 +35,8 @@
 }
 .no-results {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .no-results p {
@@ -45,6 +47,7 @@
   padding: 4%;
   margin: 10%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
