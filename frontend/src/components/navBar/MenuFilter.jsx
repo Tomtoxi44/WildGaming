@@ -49,8 +49,10 @@ MenuFilter.propTypes = {
   selectPlateformes: PropTypes.instanceOf(Array).isRequired,
   setSelectPlateformes: PropTypes.func.isRequired,
 
+
   plateformes: PropTypes.instanceOf(Array).isRequired,
   setPlateformes: PropTypes.func.isRequired,
 
   showMenu: PropTypes.bool.isRequired,
+
 };
