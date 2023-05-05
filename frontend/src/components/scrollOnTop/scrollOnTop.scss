@@ -2,13 +2,11 @@
   position: fixed;
   bottom: 50px;
   right: 50%;
-
+  display: none;
   width: 20px;
-
   background: transparent;
   border: none;
   cursor: pointer;
-  opacity: 0;
   rotate: 180deg;
   transition: opacity 0.4s;
 
@@ -22,4 +20,5 @@
 }
 .scroll-to-top.visible {
   opacity: 0.85;
+  display: initial;
 }

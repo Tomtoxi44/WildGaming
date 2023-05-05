@@ -18,11 +18,11 @@ function CardDescription({
     }, 500);
   };
 
-  const handleConsoleBouton = (value) => {
+  const handleConsoleBouton = (e) => {
     setSwitchAnimation("off");
     setTimeout(() => {
       setDescription(undefined);
-      setSelectPlateformes([value.target.value]);
+      setSelectPlateformes([e.target.value]);
     }, 500);
   };
 

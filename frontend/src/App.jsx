@@ -67,11 +67,9 @@ function App() {
 
   const [showMenu, setShowMenu] = useState(false);
 
-
   const [showMenuFilter, setShowMenuFilter] = useState(false);
 
   const [description, setDescription] = useState(undefined);
-
 
   const [selectPlateformes, setSelectPlateformes] = useState([]);
 
