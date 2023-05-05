@@ -32,6 +32,7 @@ function SearchBar({ cards, searchTerm, setSearchTerm }) {
               searchTerm &&
               card.titre !== searchTerm && (
                 <button
+                  key={card.id}
                   type="button"
                   onClick={() => {
                     onSearch(card.titre);
@@ -52,6 +53,6 @@ export default SearchBar;
 
 SearchBar.propTypes = {
   searchTerm: PropTypes.string.isRequired,
-  setSearchTerm: PropTypes.string.isRequired,
-  cards: PropTypes.string.isRequired,
+  setSearchTerm: PropTypes.func.isRequired,
+  cards: PropTypes.instanceOf(Array).isRequired,
 };

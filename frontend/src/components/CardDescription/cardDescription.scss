@@ -49,6 +49,7 @@
 
       &:hover {
         transform: scale(1.2);
+        cursor: pointer;
       }
     }
 
@@ -91,7 +92,7 @@
       justify-content: space-around;
       text-align: center;
       max-width: 95%;
-      min-height: 350px;
+      gap: 15px;
       padding: 3%;
     }
 
@@ -114,6 +115,7 @@
         &:hover {
           transform: scale(1.1);
           cursor: pointer;
+          transition: all 0.15s;
         }
         @media screen and (max-width: 770px) {
           font-size: 0.8rem;

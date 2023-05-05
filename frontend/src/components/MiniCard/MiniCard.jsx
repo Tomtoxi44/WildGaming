@@ -25,10 +25,10 @@ function MiniCard({ card, setDescription, showMenu, setShowMenu }) {
   );
 }
 MiniCard.propTypes = {
-  setDescription: PropTypes.string.isRequired,
+  setDescription: PropTypes.func.isRequired,
 
-  showMenu: PropTypes.string.isRequired,
-  setShowMenu: PropTypes.string.isRequired,
+  showMenu: PropTypes.bool.isRequired,
+  setShowMenu: PropTypes.func.isRequired,
 
   card: PropTypes.shape({
     id: PropTypes.number.isRequired,
