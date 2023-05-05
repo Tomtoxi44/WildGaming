@@ -28,6 +28,7 @@ function CheckboxDeroulantGenre({ selectedGenres, setSelectedGenres }) {
           display="chip"
           placeholder="Genre"
           className="w-full md:w-20rem"
+          maxSelectedLabels={3}
         />
       </div>
     </div>
@@ -37,6 +38,6 @@ function CheckboxDeroulantGenre({ selectedGenres, setSelectedGenres }) {
 export default CheckboxDeroulantGenre;
 
 CheckboxDeroulantGenre.propTypes = {
-  selectedGenres: PropTypes.string.isRequired,
-  setSelectedGenres: PropTypes.string.isRequired,
+  selectedGenres: PropTypes.instanceOf(Array).isRequired,
+  setSelectedGenres: PropTypes.func.isRequired,
 };

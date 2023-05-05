@@ -2,23 +2,35 @@
   position: fixed;
   bottom: 50px;
   right: 50%;
-  display: none;
   width: 20px;
   background: transparent;
   border: none;
   cursor: pointer;
   rotate: 180deg;
-  transition: opacity 0.4s;
+  display: none;
+  animation: opacityscroll 0.5s;
 
   img {
     width: 50px;
     transform: translate(-50%);
     &:hover {
       width: 60px;
+      transition: 0.2s;
     }
   }
 }
 .scroll-to-top.visible {
   opacity: 0.85;
   display: initial;
+
+}
+
+@keyframes opacityscroll {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+
 }

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 .popUp {
+  z-index: 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,17 +14,19 @@
   bottom: 0;
   left: 0;
   right: 0;
+  padding: 10px;
 
   .containerDescription {
     position: relative;
     border-radius: 10px;
     background-color: #e2dbd795;
-    height: 95%;
-    width: 80%;
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
 
     &_on {
       animation: appear 0.5s ease-in-out;
@@ -38,19 +41,24 @@
       width: 25px;
       height: 25px;
       position: absolute;
-      right: 20px;
-      top: 20px;
+      right: 3%;
+      top: 3%;
       border: none;
       font-weight: 500;
 
       &:hover {
         transform: scale(1.2);
+        cursor: pointer;
       }
     }
 
     h2 {
       font-family: Roboto, sans-serif;
       font-size: 2rem;
+      font-weight: 500;
+      @media screen and (max-width: 770px) {
+        font-size: 1.5rem;
+      }
     }
 
     .titreDescription {
@@ -60,30 +68,31 @@
     .imgDescription {
       display: flex;
       justify-content: center;
-      max-height: 40%;
-
-      // height: 250px;
+      max-width: 100%;
+      @media screen and (max-width: 770px) {
+        max-width: 50%;
+      }
     }
 
     img {
+      max-width: 350px;
       width: 100%;
+      max-height: 40%;
       text-align: center;
       border-radius: 5px;
       box-shadow: 4px 4px 4px #00000069;
-      width: auto;
     }
 
     .descriptionGlobal {
       border-radius: 10px;
-      background-color: #6b6767;
+      background-color: #6b67678e;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       text-align: center;
-      width: 80%;
-      min-height: 350px;
-      padding: 5%;
+      max-width: 95%;
       gap: 15px;
+      padding: 3%;
     }
 
     .plateformeDescription {
@@ -101,68 +110,79 @@
         border-radius: 10px;
         font-size: 1rem;
         color: white;
+
         &:hover {
-          transform: scale(1.2);
+          transform: scale(1.1);
+          cursor: pointer;
+          transition: all 0.15s;
+        }
+        @media screen and (max-width: 770px) {
+          font-size: 0.8rem;
+          padding: 6px;
         }
       }
-
-      .blue {
-        background-color: blue;
-      }
-
-      .green {
-        background-color: #198000;
-      }
-
-      .grey {
-        background-color: rgb(77, 76, 76);
-      }
-
-      .red {
-        background-color: #eb0000;
-      }
-
-      .lightgray {
-        background-color: rgb(167, 167, 167);
-      }
-
-      .rosybrown {
-        background-color: rgb(38, 38, 38);
-      }
-
-      .darkslateblue {
-        background-color: darkslateblue;
-      }
     }
 
-    .anneDescritpion {
-      font-weight: 600;
+    .blue {
+      background-color: blue;
     }
 
-    p {
-      font-family: Roboto, sans-serif;
+    .green {
+      background-color: #198000;
     }
 
-    @keyframes appear {
-      from {
-        transform: scale(0);
-      }
-
-      to {
-        transform: scale(1);
-      }
+    .grey {
+      background-color: rgb(77, 76, 76);
     }
 
-    @keyframes delete {
-      from {
-        opacity: 1;
-        transform: scale(1);
-      }
-
-      to {
-        opacity: 0;
-        transform: scale(0);
-      }
+    .red {
+      background-color: #eb0000;
     }
+
+    .lightgray {
+      background-color: rgb(167, 167, 167);
+    }
+
+    .rosybrown {
+      background-color: rgb(38, 38, 38);
+    }
+
+    .darkslateblue {
+      background-color: darkslateblue;
+    }
+  }
+}
+
+.anneDescritpion {
+  font-weight: 500;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  @media screen and (max-width: 770px) {
+    font-size: 0.8rem;
+  }
+}
+
+@keyframes appear {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes delete {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0);
   }
 }

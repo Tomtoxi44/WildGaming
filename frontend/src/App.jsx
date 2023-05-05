@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
-import ScrollOnTop from "@components/scrollOnTop/scrollOnTop";
-
+import ScrollOnTop from "./components/scrollOnTop/scrollOnTop";
 import NavBar from "./components/navBar/NavBar";
 import Footer from "./components/footer/Footer";
 import MiniCard from "./components/MiniCard/MiniCard";
